@@ -1,13 +1,13 @@
 #! /usr/bin/python
 
-import ptConst, ptMath, ptTAData
+import ptConst, ptMath, ptTAData, ptStockHolder
+from ptTALibBase import *
 
-class MA:
+# moving average of the stock for param days, e.g., MA5, MA10, etc.
+class MA(TALibBase):
     
     def __init__(self, stockHolder, param):
-        self.stock = stockHolder
-        self.param = param
-        self.taData = ptTAData.TAData()
+        TALibBase.__init__(self, stockHolder, param)
         for i in range(self.stock.Size() - param + 1):
             indexSet = []
             for j in range(i, i + param):
@@ -15,9 +15,7 @@ class MA:
             data = self.stock.GetEntries(indexSet)
             close = ptMath.Math.Average(data, 'Close')
             self.taData.Insert(self.stock.GetEntry(i + param - 1).Date, close)
-    
-    def Print(self):
-        self.taData.Print()
+
     
     
 

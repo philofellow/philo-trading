@@ -6,7 +6,11 @@ import ptConst, ptTime
 
 class StockHolder:
 
+	# [dailyentry1, dailyentry2, ...]
 	stockData = [] 
+	
+	# {date:index}, index starts from 0, date and index increase correspondingly 
+	dateMap = dict() 
 
 	# load stock data from csv
 	def __init__(self, symbol):
@@ -22,20 +26,32 @@ class StockHolder:
 					line[2], line[3], line[4], line[5])
 			if dailyEntry.isValid:
 				self.stockData.append(dailyEntry)
+		# date ascending order
 		self.stockData = sorted(self.stockData, key=lambda entry: entry.Date)
+		
+		index = 0
+		for entry in self.stockData:
+			self.dateMap[entry.Date] = index
+			index += 1
 		
 	def Size(self):
 		return len(self.stockData)
 	
 	def GetEntries(self, indexSet):
 		data = []
-		for id in indexSet:
-			data.append(self.stockData[id])
+		for index in indexSet:
+			data.append(self.stockData[index])
 		return data
 	def GetEntry(self, index):
-		return self.stockData[index]
+		return self.stockData[index]	
 	
-	
+	def GetDateOffset(self, date, offset):
+		index = self.dateMap[date] + offset;
+		if index < 0 or index >= self.Size():
+			return None			
+		else:
+			return self.GetEntry(index).Date
+			
 
 	def Print(self):
 		print 'stock symbol: <' + self.symbol + '>'
