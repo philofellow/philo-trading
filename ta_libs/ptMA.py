@@ -7,6 +7,8 @@ from ptTALibBase import *
 class MA(TALibBase):
     
     def __init__(self, stockHolder, param):
+        ptConst.logging.info('create MA %d with close price for <%s>', 
+                             param, stockHolder.symbol)
         TALibBase.__init__(self, stockHolder, param)
         for i in range(self.stock.Size() - param + 1):
             indexSet = []

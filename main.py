@@ -1,17 +1,13 @@
 #! /usr/bin/python
 
-import sys
-sys.path.append('core')
-sys.path.append('core/trend')
-sys.path.append('utils')
-sys.path.append('ta_libs')
-sys.path.append('strategies')
-
-import ptConst, ptStockHolder, ptDataDownloader, ptTrendMaker
+import ptConst
+import ptStockHolder, ptDataDownloader, ptTrendMaker
 import ptMA, ptStratMA2
 
+ptConst.logging.info('===== Start a new run of PT-Trader =====')
+
 #ptDataDownloader.DownloadStock('spy', '01-aug-12', '10-aug-12')
-#ptDataDownloader.DownloadStock('spy')
+ptDataDownloader.DownloadStock('spy')
 
 sh = ptStockHolder.StockHolder('spy')
 sh.Print()

@@ -9,8 +9,8 @@ class StratMA2(StratBase):
     def __init__(self, taLibs, stockHolder):
         StratBase.__init__(self, taLibs, stockHolder)
         if len(self.taLibs) != 2:
-            print 'StratMA2 must init with two MAs'
-            sys.exit()
+            ptConst.logging.error('StratMA2 must init with two MAs')
+            ptConst.sys.exit()
         self.MA1 = taLibs[0]
         self.MA2 = taLibs[1]
         if not self.Validate():

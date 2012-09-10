@@ -14,7 +14,7 @@ class StockHolder:
 
 	# load stock data from csv
 	def __init__(self, symbol):
-		print 'load <' + symbol + '> into StockHolder'
+		ptConst.logging.info('load <' + symbol + '> into StockHolder')
 		self.symbol = symbol
 		f = open(ptConst.MARKET_DATA_PATH + self.symbol + '.csv', 'r')
 		f.readline() # skip first line

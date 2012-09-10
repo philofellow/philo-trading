@@ -11,13 +11,15 @@ def __DStock(bDate, eDate, symbol):
             'startdate=' + bMon + '+' + bDay + '%2C+' + bYear + '&' \
             'enddate=' + eMon + '+' + eDay + '%2C+' + eYear + '&' \
             'output=csv'
-            
-    print 'download <' + symbol + '> from google: \n' + link
-     
+
+    ptConst.logging.info('download <' + symbol + '> from ' + bDate.DateInNum() 
+             + ' to ' + eDate.DateInNum() + ' from: ' + link)    
+ 
     csv = urllib2.urlopen(link).read()
 
     f = open(ptConst.MARKET_DATA_PATH + symbol + '.csv', 'w')
     f.write(csv)
+    
 
 # download daily price from google and store in a csv file
 def DownloadStock(symbol, beginDate=None, endDate=None):

@@ -8,6 +8,8 @@ class TrendMaker:
 		self.stockHolder = stockHolder
 	
 	def GetTrend(self, startIndex, endIndex, thresh):
+		ptConst.logging.debug('get trend of period %d to %d with thresh %.2f', 
+							startIndex, endIndex, thresh)
 		trend = ptTrend.Trend(startIndex, endIndex, thresh)
 		startOpen = self.stockHolder.GetEntry(startIndex).Open
 		endClose = self.stockHolder.GetEntry(endIndex - 1).Close
