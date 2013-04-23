@@ -2,7 +2,7 @@
 
 # StockHolder stores an array of a stocks daily data
 
-import ptConst, ptTime
+import ptConst, ptTime, ptUtils
 
 class StockHolder:
 
@@ -24,6 +24,7 @@ class StockHolder:
 			line = line.split(',')
 			dailyEntry = DailyEntry(ptTime.Date(line[0]).DateInNum(), line[1], 
 					line[2], line[3], line[4], line[5])
+			#dailyEntry.Print()
 			if dailyEntry.isValid:
 				self.stockData.append(dailyEntry)
 		# date ascending order
@@ -61,6 +62,10 @@ class StockHolder:
 class DailyEntry:
 
 	def __init__(self, Date, Open, High, Low, Close, Volume):
+		for data in [Open, High, Low, Close, Volume]:
+			if not ptUtils.is_number(data):
+				self.isValid = False
+				return
 		self.Date = int(Date)
 		self.Open = float(Open)
 		self.High = float(High)
@@ -86,5 +91,8 @@ class DailyEntry:
 		return True
 
 	def Print(self):
-		print 'Date:', self.Date, 'Open:', self.Open, 'High:', self.High, 'Low:', self.Low, \
-				'Close:', self.Close, 'Volume:', self.Volume 
+		if self.isValid:
+			print 'Date:', self.Date, 'Open:', self.Open, 'High:', self.High, 'Low:', self.Low, \
+					'Close:', self.Close, 'Volume:', self.Volume 
+		else:
+			print 'not valid data'

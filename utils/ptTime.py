@@ -48,7 +48,7 @@ class Date:
 		return self.monMap[mon]
 
 	def __GetYearFormat(self, year):
-		if int(year) < 13:
+		if int(year) < 17:
 			year = '20' + year
 		else:
 			year = '19' + year
