@@ -7,9 +7,9 @@ import ptMA, ptStratMA2
 ptConst.logging.info('===== Start a new run of PT-Trader =====')
 
 #ptDataDownloader.DownloadStock('spy', '01-aug-01', '10-aug-12')
-#ptDataDownloader.DownloadStock('uvxy')
+ptDataDownloader.DownloadStock('INDEXCBOE%3AVIX')
 
-sh = ptStockHolder.StockHolder('spy')
+sh = ptStockHolder.StockHolder('INDEXCBOE%3AVIX')
 sh.Print()
 
 tm = ptTrendMaker.TrendMaker(sh)
