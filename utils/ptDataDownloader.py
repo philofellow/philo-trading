@@ -28,8 +28,3 @@ def DownloadStock(symbol, beginDate=None, endDate=None):
     else:
         __DStock(ptTime.Date(ptConst.DATA_BEGIN_DATE), ptTime.Date(), symbol)   
   
-
-    
-    
-
-
