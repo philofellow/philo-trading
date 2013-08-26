@@ -1,0 +1,1129 @@
+
+
+===== PARAMETERS =====
+stock: SIR
+current stock price: 24.5
+price 24.5, dividend 0.44, decl_date 7/9/2013, ex_date 7/22/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: EXLP
+current stock price: 28.01
+price 28.01, dividend 0.5225, decl_date 7/30/2013, ex_date 8/7/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: GAIN
+current stock price: 7.03
+price 7.03, dividend 0.05, decl_date 7/9/2013, ex_date 9/16/2013
+options are expired at 9/21/2013 which is 1.5 months later
+dividend within date 2013/8 to 2013/9 is 0.05
+===== YIELD TABLE =====
+
+
+===== PARAMETERS =====
+stock: CLMT
+current stock price: 30.01
+price 30.01, dividend 0.685, decl_date 7/22/2013, ex_date 7/31/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: SID
+current stock price: 3.81
+price 3.81, dividend 0.089857, decl_date 8/8/2013, ex_date 8/15/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: LINE
+current stock price: 24.6
+price 24.6, dividend 0.2416, decl_date 8/1/2013, ex_date 8/8/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: BWP
+current stock price: 30.23
+price 30.23, dividend 0.5325, decl_date 7/29/2013, ex_date 8/6/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: KCAP
+current stock price: 8.64
+price 8.64, dividend 0.28, decl_date 6/17/2013, ex_date 7/2/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: SXE
+current stock price: 19.29
+price 19.29, dividend 0.4, decl_date 7/29/2013, ex_date 8/7/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: BKCC
+current stock price: 10.08
+price 10.08, dividend 0.26, decl_date 7/31/2013, ex_date 9/17/2013
+options are expired at 9/21/2013 which is 1.5 months later
+dividend within date 2013/8 to 2013/9 is 0.26
+===== YIELD TABLE =====
+----- c_strike: 12.5 p_strike: 7.5 c_price: 0.0 p_price: 0.05
+exceeds max loss, drop
+----- c_strike: 12.5 p_strike: 10.0 c_price: 0.0 p_price: 0.35
+future price: 5.04, profit: -0.17, term yield: -0.0162991371045annualized yield: -0.123192171344
+future price: 6.048, profit: -0.17, term yield: -0.0162991371045annualized yield: -0.123192171344
+future price: 7.056, profit: -0.17, term yield: -0.0162991371045annualized yield: -0.123192171344
+future price: 8.064, profit: -0.17, term yield: -0.0162991371045annualized yield: -0.123192171344
+future price: 9.072, profit: -0.17, term yield: -0.0162991371045annualized yield: -0.123192171344
+future price: 10.08, profit: -0.09, term yield: -0.00862895493768annualized yield: -0.0669823860294
+future price: 11.088, profit: 0.918, term yield: 0.0880153403643annualized yield: 0.963722650816
+future price: 12.096, profit: 1.926, term yield: 0.184659635666annualized yield: 2.87925858234
+future price: 13.104, profit: 2.33, term yield: 0.223394055609annualized yield: 4.01800312766
+future price: 14.112, profit: 2.33, term yield: 0.223394055609annualized yield: 4.01800312766
+
+
+===== PARAMETERS =====
+stock: FGP
+current stock price: 22.94
+price 22.94, dividend 0.5, decl_date 5/23/2013, ex_date 6/5/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: SPH
+current stock price: 46.08
+price 46.08, dividend 0.875, decl_date 7/24/2013, ex_date 8/2/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: VNR
+current stock price: 27.48
+price 27.48, dividend 0.2075, decl_date 8/20/2013, ex_date 8/29/2013
+options are expired at 9/21/2013 which is 0.5 months later
+dividend within date 2013/8 to 2013/8 is 0.2075
+===== YIELD TABLE =====
+----- c_strike: 27.5 p_strike: 22.5 c_price: 0.35 p_price: 0.05
+exceeds max loss, drop
+----- c_strike: 27.5 p_strike: 25.0 c_price: 0.35 p_price: 0.1
+exceeds max loss, drop
+----- c_strike: 30.0 p_strike: 22.5 c_price: 0.0 p_price: 0.05
+exceeds max loss, drop
+----- c_strike: 30.0 p_strike: 25.0 c_price: 0.0 p_price: 0.1
+exceeds max loss, drop
+----- c_strike: 30.0 p_strike: 27.5 c_price: 0.0 p_price: 0.7
+exceeds max loss, drop
+
+
+===== PARAMETERS =====
+stock: UAN
+current stock price: 18.73
+price 18.73, dividend 0.583, decl_date 7/26/2013, ex_date 8/5/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: SBR
+current stock price: 52.81
+price 52.81, dividend 0.44969, decl_date 8/5/2013, ex_date 8/13/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: NDRO
+current stock price: 15.48
+price 15.48, dividend 0.162363, decl_date 8/20/2013, ex_date 8/28/2013
+options are expired at 9/21/2013 which is 0.5 months later
+dividend within date 2013/8 to 2013/8 is 0.162363
+===== YIELD TABLE =====
+
+
+===== PARAMETERS =====
+stock: SDT
+current stock price: 12.37
+price 12.37, dividend 0.6112, decl_date 7/25/2013, ex_date 8/12/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: BBEP
+current stock price: 17.66
+price 17.66, dividend 0.48, decl_date 7/31/2013, ex_date 8/8/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: BGCP
+current stock price: 5.7
+price 5.7, dividend 0.12, decl_date 7/30/2013, ex_date 8/21/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: GA
+current stock price: 8.12
+price 8.12, dividend 0.23, decl_date 8/16/2013, ex_date 12/10/2013
+options expires earlier than ex_div_date: 1/10/2014
+options expires earlier than ex_div_date: 2/10/2014
+not appropriate options for GA pass the analysis
+
+
+===== PARAMETERS =====
+stock: WMC
+current stock price: 15.71
+price 15.71, dividend 0.9, decl_date 6/20/2013, ex_date 6/27/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: CLNY
+current stock price: 20.19
+price 20.19, dividend 0.35, decl_date 6/4/2013, ex_date 6/26/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: LGCY
+current stock price: 26.77
+price 26.77, dividend 0.58, decl_date 7/22/2013, ex_date 7/30/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: APU
+current stock price: 43.57
+price 43.57, dividend 0.84, decl_date 7/29/2013, ex_date 8/7/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: SFL
+current stock price: 16.45
+price 16.45, dividend 0.39, decl_date 5/30/2013, ex_date 6/19/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: HCLP
+current stock price: 24.44
+price 24.44, dividend 0.475, decl_date 7/17/2013, ex_date 7/30/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: CMO
+current stock price: 11.78
+price 11.78, dividend 0.31, decl_date 6/13/2013, ex_date 6/26/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: BAMM
+current stock price: 2.37
+price 2.37, dividend 0.05, decl_date 3/22/2011, ex_date 4/1/2011
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: MMLP
+current stock price: 45.42
+price 45.42, dividend 0.78, decl_date 7/25/2013, ex_date 8/5/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: NAT
+current stock price: 8.3
+price 8.3, dividend 0.16, decl_date 7/9/2013, ex_date 7/29/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: CRT
+current stock price: 29.1119
+price 29.1119, dividend 0.235695, decl_date 8/20/2013, ex_date 8/28/2013
+not appropriate options for CRT pass the analysis
+
+
+===== PARAMETERS =====
+stock: PNNT
+current stock price: 11.34
+price 11.34, dividend 0.28, decl_date 6/3/2013, ex_date 6/19/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: EEP
+current stock price: 30.53
+price 30.53, dividend 0.5435, decl_date 7/29/2013, ex_date 8/5/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: CHKR
+current stock price: 13.4
+price 13.4, dividend 0.69, decl_date 8/8/2013, ex_date 8/15/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: EROC
+current stock price: 6.37
+price 6.37, dividend 0.22, decl_date 7/24/2013, ex_date 8/5/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: AB
+current stock price: 19.62
+price 19.62, dividend 0.41, decl_date 7/31/2013, ex_date 8/8/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: MGPC
+current stock price: 0.0
+price 0.0, dividend 0.0, decl_date 0/0/0, ex_date 0/0/0
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: CNSL
+current stock price: 17.33
+price 17.33, dividend 0.38738, decl_date 8/5/2013, ex_date 10/10/2013
+options are expired at 10/19/2013 which is 2.5 months later
+dividend within date 2013/8 to 2013/10 is 0.38738
+===== YIELD TABLE =====
+----- c_strike: 17.5 p_strike: 12.5 c_price: 0.2 p_price: 0.2
+exceeds max loss, drop
+----- c_strike: 17.5 p_strike: 5.0 c_price: 0.2 p_price: 0.05
+exceeds max loss, drop
+----- c_strike: 17.5 p_strike: 15.0 c_price: 0.2 p_price: 0.2
+exceeds max loss, drop
+----- c_strike: 20.0 p_strike: 12.5 c_price: 0.0 p_price: 0.2
+exceeds max loss, drop
+----- c_strike: 20.0 p_strike: 17.5 c_price: 0.0 p_price: 1.0
+future price: 8.665, profit: -0.44262, term yield: -0.024147299509annualized yield: -0.110707790448
+future price: 10.398, profit: -0.44262, term yield: -0.024147299509annualized yield: -0.110707790448
+future price: 12.131, profit: -0.44262, term yield: -0.024147299509annualized yield: -0.110707790448
+future price: 13.864, profit: -0.44262, term yield: -0.024147299509annualized yield: -0.110707790448
+future price: 15.597, profit: -0.44262, term yield: -0.024147299509annualized yield: -0.110707790448
+future price: 17.33, profit: -0.44262, term yield: -0.024147299509annualized yield: -0.110707790448
+future price: 19.063, profit: 1.12038, term yield: 0.0611227495908annualized yield: 0.329459165998
+future price: 20.796, profit: 2.05738, term yield: 0.112241134752annualized yield: 0.666306826857
+future price: 22.529, profit: 2.05738, term yield: 0.112241134752annualized yield: 0.666306826857
+future price: 24.262, profit: 2.05738, term yield: 0.112241134752annualized yield: 0.666306826857
+----- c_strike: 20.0 p_strike: 5.0 c_price: 0.0 p_price: 0.05
+exceeds max loss, drop
+----- c_strike: 20.0 p_strike: 15.0 c_price: 0.0 p_price: 0.2
+exceeds max loss, drop
+
+
+===== PARAMETERS =====
+stock: MFA
+current stock price: 7.38
+price 7.38, dividend 0.28, decl_date 8/1/2013, ex_date 8/8/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: PT
+current stock price: 3.82
+price 3.82, dividend 0.422727, decl_date 4/26/2013, ex_date 5/14/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: SDRL
+current stock price: 43.61
+price 43.61, dividend 0.88, decl_date 5/28/2013, ex_date 6/5/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: NLY
+current stock price: 11.42
+price 11.42, dividend 0.4, decl_date 6/19/2013, ex_date 6/27/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: WVT
+current stock price: 0.0
+price 0.0, dividend 0.0, decl_date 0/0/0, ex_date 0/0/0
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: AGNC
+current stock price: 22.82
+price 22.82, dividend 1.05, decl_date 6/18/2013, ex_date 6/26/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: FTR
+current stock price: 4.55
+price 4.55, dividend 0.1, decl_date 7/31/2013, ex_date 9/5/2013
+options are expired at 9/21/2013 which is 1.5 months later
+dividend within date 2013/8 to 2013/9 is 0.1
+===== YIELD TABLE =====
+----- c_strike: 5.0 p_strike: 4.5 c_price: 0.0 p_price: 0.2
+future price: 2.275, profit: -0.15, term yield: -0.0315789473684annualized yield: -0.226404782047
+future price: 2.73, profit: -0.15, term yield: -0.0315789473684annualized yield: -0.226404782047
+future price: 3.185, profit: -0.15, term yield: -0.0315789473684annualized yield: -0.226404782047
+future price: 3.64, profit: -0.15, term yield: -0.0315789473684annualized yield: -0.226404782047
+future price: 4.095, profit: -0.15, term yield: -0.0315789473684annualized yield: -0.226404782047
+future price: 4.55, profit: -0.1, term yield: -0.0210526315789annualized yield: -0.156520083987
+future price: 5.005, profit: 0.35, term yield: 0.0736842105263annualized yield: 0.766088781326
+future price: 5.46, profit: 0.35, term yield: 0.0736842105263annualized yield: 0.766088781326
+future price: 5.915, profit: 0.35, term yield: 0.0736842105263annualized yield: 0.766088781326
+future price: 6.37, profit: 0.35, term yield: 0.0736842105263annualized yield: 0.766088781326
+
+
+===== PARAMETERS =====
+stock: ROYT
+current stock price: 17.66
+price 17.66, dividend 0.15462, decl_date 7/26/2013, ex_date 8/1/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: CSA
+current stock price: 0.0
+price 0.0, dividend 0.0, decl_date 0/0/0, ex_date 0/0/0
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: HLSS
+current stock price: 23.56
+price 23.56, dividend 0.15, decl_date 7/18/2013, ex_date 9/26/2013
+options expires earlier than ex_div_date: 9/26/2013
+options expires earlier than ex_div_date: 10/26/2013
+not appropriate options for HLSS pass the analysis
+
+
+===== PARAMETERS =====
+stock: VGR
+current stock price: 16.47
+price 16.47, dividend 0.4, decl_date 5/31/2013, ex_date 6/12/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: SAN
+current stock price: 7.62
+price 7.62, dividend 0.195915, decl_date 7/2/2013, ex_date 7/10/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: VOD
+current stock price: 29.95
+price 29.95, dividend 1.062635, decl_date 0/0/0, ex_date 6/12/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: AINV
+current stock price: 7.97
+price 7.97, dividend 0.2, decl_date 8/8/2013, ex_date 9/18/2013
+options are expired at 9/21/2013 which is 1.5 months later
+dividend within date 2013/8 to 2013/9 is 0.2
+===== YIELD TABLE =====
+----- c_strike: 8.0 p_strike: 6.0 c_price: 0.1 p_price: 0.05
+exceeds max loss, drop
+----- c_strike: 8.0 p_strike: 7.0 c_price: 0.1 p_price: 0.05
+exceeds max loss, drop
+----- c_strike: 9.0 p_strike: 6.0 c_price: 0.0 p_price: 0.05
+exceeds max loss, drop
+----- c_strike: 9.0 p_strike: 7.0 c_price: 0.0 p_price: 0.05
+exceeds max loss, drop
+----- c_strike: 9.0 p_strike: 8.0 c_price: 0.0 p_price: 0.35
+future price: 3.985, profit: -0.12, term yield: -0.0144230769231annualized yield: -0.109724937043
+future price: 4.782, profit: -0.12, term yield: -0.0144230769231annualized yield: -0.109724937043
+future price: 5.579, profit: -0.12, term yield: -0.0144230769231annualized yield: -0.109724937043
+future price: 6.376, profit: -0.12, term yield: -0.0144230769231annualized yield: -0.109724937043
+future price: 7.173, profit: -0.12, term yield: -0.0144230769231annualized yield: -0.109724937043
+future price: 7.97, profit: -0.12, term yield: -0.0144230769231annualized yield: -0.109724937043
+future price: 8.767, profit: 0.647, term yield: 0.0777644230769annualized yield: 0.820500270273
+future price: 9.564, profit: 0.88, term yield: 0.105769230769annualized yield: 1.23519804253
+future price: 10.361, profit: 0.88, term yield: 0.105769230769annualized yield: 1.23519804253
+future price: 11.158, profit: 0.88, term yield: 0.105769230769annualized yield: 1.23519804253
+----- c_strike: 10.0 p_strike: 6.0 c_price: 0.0 p_price: 0.05
+exceeds max loss, drop
+----- c_strike: 10.0 p_strike: 7.0 c_price: 0.0 p_price: 0.05
+exceeds max loss, drop
+----- c_strike: 10.0 p_strike: 8.0 c_price: 0.0 p_price: 0.35
+future price: 3.985, profit: -0.12, term yield: -0.0144230769231annualized yield: -0.109724937043
+future price: 4.782, profit: -0.12, term yield: -0.0144230769231annualized yield: -0.109724937043
+future price: 5.579, profit: -0.12, term yield: -0.0144230769231annualized yield: -0.109724937043
+future price: 6.376, profit: -0.12, term yield: -0.0144230769231annualized yield: -0.109724937043
+future price: 7.173, profit: -0.12, term yield: -0.0144230769231annualized yield: -0.109724937043
+future price: 7.97, profit: -0.12, term yield: -0.0144230769231annualized yield: -0.109724937043
+future price: 8.767, profit: 0.647, term yield: 0.0777644230769annualized yield: 0.820500270273
+future price: 9.564, profit: 1.444, term yield: 0.173557692308annualized yield: 2.59778788995
+future price: 10.361, profit: 1.88, term yield: 0.225961538462annualized yield: 4.10287304698
+future price: 11.158, profit: 1.88, term yield: 0.225961538462annualized yield: 4.10287304698
+----- c_strike: 10.0 p_strike: 9.0 c_price: 0.0 p_price: 1.3
+future price: 3.985, profit: -0.07, term yield: -0.00755124056095annualized yield: -0.0588372162447
+future price: 4.782, profit: -0.07, term yield: -0.00755124056095annualized yield: -0.0588372162447
+future price: 5.579, profit: -0.07, term yield: -0.00755124056095annualized yield: -0.0588372162447
+future price: 6.376, profit: -0.07, term yield: -0.00755124056095annualized yield: -0.0588372162447
+future price: 7.173, profit: -0.07, term yield: -0.00755124056095annualized yield: -0.0588372162447
+future price: 7.97, profit: -0.07, term yield: -0.00755124056095annualized yield: -0.0588372162447
+future price: 8.767, profit: -0.07, term yield: -0.00755124056095annualized yield: -0.0588372162447
+future price: 9.564, profit: 0.494, term yield: 0.0532901833873annualized yield: 0.514901141389
+future price: 10.361, profit: 0.93, term yield: 0.100323624595annualized yield: 1.14863923046
+future price: 11.158, profit: 0.93, term yield: 0.100323624595annualized yield: 1.14863923046
+
+
+===== PARAMETERS =====
+stock: LRE
+current stock price: 15.07
+price 15.07, dividend 0.485, decl_date 7/19/2013, ex_date 7/26/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: VOC
+current stock price: 15.16
+price 15.16, dividend 0.41, decl_date 7/18/2013, ex_date 7/26/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: ANH
+current stock price: 4.5
+price 4.5, dividend 0.15, decl_date 6/28/2013, ex_date 7/3/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: RNF
+current stock price: 25.76
+price 25.76, dividend 0.85, decl_date 7/24/2013, ex_date 8/5/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: MCHX
+current stock price: 7.13
+price 7.13, dividend 0.14, decl_date 12/7/2012, ex_date 12/14/2012
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: HTS
+current stock price: 18.27
+price 18.27, dividend 0.7, decl_date 6/18/2013, ex_date 6/27/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: IVR
+current stock price: 15.45
+price 15.45, dividend 0.65, decl_date 6/17/2013, ex_date 6/25/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: ALTV
+current stock price: 7.55
+price 7.55, dividend 0.27, decl_date 6/11/2013, ex_date 6/19/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: STRA
+current stock price: 40.86
+price 40.86, dividend 1.0, decl_date 11/7/2012, ex_date 11/21/2012
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: FSC
+current stock price: 10.55
+price 10.55, dividend 0.0958, decl_date 8/5/2013, ex_date 11/13/2013
+options are expired at 11/16/2013 which is 3.5 months later
+dividend within date 2013/8 to 2013/11 is 0.0958
+===== YIELD TABLE =====
+----- c_strike: 12.5 p_strike: 7.5 c_price: 0.0 p_price: 0.15
+exceeds max loss, drop
+----- c_strike: 12.5 p_strike: 10.0 c_price: 0.0 p_price: 0.3
+future price: 5.275, profit: -0.7542, term yield: -0.0695115207373annualized yield: -0.218869798348
+future price: 6.33, profit: -0.7542, term yield: -0.0695115207373annualized yield: -0.218869798348
+future price: 7.385, profit: -0.7542, term yield: -0.0695115207373annualized yield: -0.218869798348
+future price: 8.44, profit: -0.7542, term yield: -0.0695115207373annualized yield: -0.218869798348
+future price: 9.495, profit: -0.7542, term yield: -0.0695115207373annualized yield: -0.218869798348
+future price: 10.55, profit: -0.2042, term yield: -0.0188202764977annualized yield: -0.0630652110913
+future price: 11.605, profit: 0.8508, term yield: 0.0784147465438annualized yield: 0.29541379771
+future price: 12.66, profit: 1.7458, term yield: 0.160903225806annualized yield: 0.667853020914
+future price: 13.715, profit: 1.7458, term yield: 0.160903225806annualized yield: 0.667853020914
+future price: 14.77, profit: 1.7458, term yield: 0.160903225806annualized yield: 0.667853020914
+
+
+===== PARAMETERS =====
+stock: DOM
+current stock price: 5.87
+price 5.87, dividend 0.201383, decl_date 8/19/2013, ex_date 8/27/2013
+options expires earlier than ex_div_date: 10/27/2013
+not appropriate options for DOM pass the analysis
+
+
+===== PARAMETERS =====
+stock: SCCO
+current stock price: 28.61
+price 28.61, dividend 0.12, decl_date 7/18/2013, ex_date 8/5/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: PER
+current stock price: 14.68
+price 14.68, dividend 0.585, decl_date 7/25/2013, ex_date 8/12/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: STON
+current stock price: 23.05
+price 23.05, dividend 0.6, decl_date 7/23/2013, ex_date 8/1/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: TICC
+current stock price: 9.77
+price 9.77, dividend 0.29, decl_date 7/30/2013, ex_date 9/12/2013
+options are expired at 9/21/2013 which is 1.5 months later
+dividend within date 2013/8 to 2013/9 is 0.29
+===== YIELD TABLE =====
+
+
+===== PARAMETERS =====
+stock: UMH
+current stock price: 9.93
+price 9.93, dividend 0.18, decl_date 7/1/2013, ex_date 8/13/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: PVR
+current stock price: 23.16
+price 23.16, dividend 0.55, decl_date 7/24/2013, ex_date 8/5/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: VLCCF
+current stock price: 8.05
+price 8.05, dividend 0.175, decl_date 8/14/2013, ex_date 8/26/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: HTGC
+current stock price: 14.75
+price 14.75, dividend 0.28, decl_date 8/1/2013, ex_date 8/9/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: STWD
+current stock price: 25.0
+price 25.0, dividend 0.46, decl_date 8/6/2013, ex_date 9/26/2013
+options expires earlier than ex_div_date: 9/26/2013
+options expires earlier than ex_div_date: 10/26/2013
+not appropriate options for STWD pass the analysis
+
+
+===== PARAMETERS =====
+stock: QCCO
+current stock price: 2.53
+price 2.53, dividend 0.05, decl_date 7/30/2013, ex_date 8/20/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: TNK
+current stock price: 2.7
+price 2.7, dividend 0.03, decl_date 7/8/2013, ex_date 7/17/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: NS
+current stock price: 41.65
+price 41.65, dividend 1.095, decl_date 7/25/2013, ex_date 8/1/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: TEU
+current stock price: 4.18
+price 4.18, dividend 0.12, decl_date 8/6/2013, ex_date 9/6/2013
+options are expired at 9/21/2013 which is 1.5 months later
+dividend within date 2013/8 to 2013/9 is 0.12
+===== YIELD TABLE =====
+
+
+===== PARAMETERS =====
+stock: WHZ
+current stock price: 12.89
+price 12.89, dividend 0.739362, decl_date 8/7/2013, ex_date 8/15/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: SRC
+current stock price: 8.9
+price 8.9, dividend 0.0, decl_date 0/0/0, ex_date 0/0/0
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: TAC
+current stock price: 13.19
+price 13.19, dividend 0.2807, decl_date 4/22/2013, ex_date 5/29/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: MEMP
+current stock price: 20.68
+price 20.68, dividend 0.5125, decl_date 7/19/2013, ex_date 7/30/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: PDH
+current stock price: 11.65
+price 11.65, dividend 0.3, decl_date 7/24/2013, ex_date 8/1/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: MTGE
+current stock price: 19.98
+price 19.98, dividend 0.8, decl_date 6/18/2013, ex_date 6/26/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: TCAP
+current stock price: 29.57
+price 29.57, dividend 0.54, decl_date 5/29/2013, ex_date 6/10/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: SBS
+current stock price: 8.8
+price 8.8, dividend 1.16279, decl_date 3/22/2013, ex_date 4/1/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: WIN
+current stock price: 8.22
+price 8.22, dividend 0.25, decl_date 8/7/2013, ex_date 9/26/2013
+options expires earlier than ex_div_date: 9/26/2013
+options expires earlier than ex_div_date: 10/26/2013
+options expires earlier than ex_div_date: 11/26/2013
+not appropriate options for WIN pass the analysis
+
+
+===== PARAMETERS =====
+stock: OZM
+current stock price: 11.19
+price 11.19, dividend 0.14, decl_date 8/1/2013, ex_date 8/8/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: NTI
+current stock price: 20.85
+price 20.85, dividend 0.68, decl_date 8/12/2013, ex_date 8/20/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: CODI
+current stock price: 17.36
+price 17.36, dividend 0.36, decl_date 7/10/2013, ex_date 7/19/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: NMM
+current stock price: 14.48
+price 14.48, dividend 0.4425, decl_date 7/22/2013, ex_date 8/6/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: EVEP
+current stock price: 37.35
+price 37.35, dividend 0.769, decl_date 7/29/2013, ex_date 8/6/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: CPLP
+current stock price: 9.04
+price 9.04, dividend 0.2325, decl_date 7/22/2013, ex_date 8/5/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: PSEC
+current stock price: 11.38
+price 11.38, dividend 0.110375, decl_date 8/20/2013, ex_date 3/27/2014
+options expires earlier than ex_div_date: 3/27/2014
+options expires earlier than ex_div_date: 4/27/2014
+options expires earlier than ex_div_date: 5/27/2014
+not appropriate options for PSEC pass the analysis
+
+
+===== PARAMETERS =====
+stock: CAW
+current stock price: 3.51
+price 3.51, dividend 0.07, decl_date 7/18/2013, ex_date 7/31/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: BPT
+current stock price: 85.54
+price 85.54, dividend 2.1429095, decl_date 7/3/2013, ex_date 7/11/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: DX
+current stock price: 8.06
+price 8.06, dividend 0.29, decl_date 6/5/2013, ex_date 6/26/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: ARCC
+current stock price: 17.7
+price 17.7, dividend 0.38, decl_date 8/6/2013, ex_date 9/12/2013
+options are expired at 9/21/2013 which is 1.5 months later
+dividend within date 2013/8 to 2013/9 is 0.38
+===== YIELD TABLE =====
+----- c_strike: 18.0 p_strike: 11.0 c_price: 0.0 p_price: 0.1
+exceeds max loss, drop
+----- c_strike: 18.0 p_strike: 12.0 c_price: 0.0 p_price: 0.1
+exceeds max loss, drop
+----- c_strike: 18.0 p_strike: 13.0 c_price: 0.0 p_price: 0.1
+exceeds max loss, drop
+----- c_strike: 18.0 p_strike: 14.0 c_price: 0.0 p_price: 0.1
+exceeds max loss, drop
+----- c_strike: 18.0 p_strike: 15.0 c_price: 0.0 p_price: 0.1
+exceeds max loss, drop
+----- c_strike: 18.0 p_strike: 16.0 c_price: 0.0 p_price: 0.05
+exceeds max loss, drop
+----- c_strike: 18.0 p_strike: 17.0 c_price: 0.0 p_price: 0.2
+future price: 8.85, profit: -0.52, term yield: -0.0290502793296annualized yield: -0.21009669842
+future price: 10.62, profit: -0.52, term yield: -0.0290502793296annualized yield: -0.21009669842
+future price: 12.39, profit: -0.52, term yield: -0.0290502793296annualized yield: -0.21009669842
+future price: 14.16, profit: -0.52, term yield: -0.0290502793296annualized yield: -0.21009669842
+future price: 15.93, profit: -0.52, term yield: -0.0290502793296annualized yield: -0.21009669842
+future price: 17.7, profit: 0.18, term yield: 0.0100558659218annualized yield: 0.0833359650403
+future price: 19.47, profit: 0.48, term yield: 0.0268156424581annualized yield: 0.235776148057
+future price: 21.24, profit: 0.48, term yield: 0.0268156424581annualized yield: 0.235776148057
+future price: 23.01, profit: 0.48, term yield: 0.0268156424581annualized yield: 0.235776148057
+future price: 24.78, profit: 0.48, term yield: 0.0268156424581annualized yield: 0.235776148057
+----- c_strike: 19.0 p_strike: 11.0 c_price: 0.0 p_price: 0.1
+exceeds max loss, drop
+----- c_strike: 19.0 p_strike: 12.0 c_price: 0.0 p_price: 0.1
+exceeds max loss, drop
+----- c_strike: 19.0 p_strike: 13.0 c_price: 0.0 p_price: 0.1
+exceeds max loss, drop
+----- c_strike: 19.0 p_strike: 14.0 c_price: 0.0 p_price: 0.1
+exceeds max loss, drop
+----- c_strike: 19.0 p_strike: 15.0 c_price: 0.0 p_price: 0.1
+exceeds max loss, drop
+----- c_strike: 19.0 p_strike: 16.0 c_price: 0.0 p_price: 0.05
+exceeds max loss, drop
+----- c_strike: 19.0 p_strike: 17.0 c_price: 0.0 p_price: 0.2
+future price: 8.85, profit: -0.52, term yield: -0.0290502793296annualized yield: -0.21009669842
+future price: 10.62, profit: -0.52, term yield: -0.0290502793296annualized yield: -0.21009669842
+future price: 12.39, profit: -0.52, term yield: -0.0290502793296annualized yield: -0.21009669842
+future price: 14.16, profit: -0.52, term yield: -0.0290502793296annualized yield: -0.21009669842
+future price: 15.93, profit: -0.52, term yield: -0.0290502793296annualized yield: -0.21009669842
+future price: 17.7, profit: 0.18, term yield: 0.0100558659218annualized yield: 0.0833359650403
+future price: 19.47, profit: 1.48, term yield: 0.0826815642458annualized yield: 0.888017145391
+future price: 21.24, profit: 1.48, term yield: 0.0826815642458annualized yield: 0.888017145391
+future price: 23.01, profit: 1.48, term yield: 0.0826815642458annualized yield: 0.888017145391
+future price: 24.78, profit: 1.48, term yield: 0.0826815642458annualized yield: 0.888017145391
+----- c_strike: 19.0 p_strike: 18.0 c_price: 0.0 p_price: 0.75
+future price: 8.85, profit: -0.07, term yield: -0.00379403794038annualized yield: -0.0299522951846
+future price: 10.62, profit: -0.07, term yield: -0.00379403794038annualized yield: -0.0299522951846
+future price: 12.39, profit: -0.07, term yield: -0.00379403794038annualized yield: -0.0299522951846
+future price: 14.16, profit: -0.07, term yield: -0.00379403794038annualized yield: -0.0299522951846
+future price: 15.93, profit: -0.07, term yield: -0.00379403794038annualized yield: -0.0299522951846
+future price: 17.7, profit: -0.07, term yield: -0.00379403794038annualized yield: -0.0299522951846
+future price: 19.47, profit: 0.93, term yield: 0.050406504065annualized yield: 0.482037585382
+future price: 21.24, profit: 0.93, term yield: 0.050406504065annualized yield: 0.482037585382
+future price: 23.01, profit: 0.93, term yield: 0.050406504065annualized yield: 0.482037585382
+future price: 24.78, profit: 0.93, term yield: 0.050406504065annualized yield: 0.482037585382
+----- c_strike: 20.0 p_strike: 11.0 c_price: 0.0 p_price: 0.1
+exceeds max loss, drop
+----- c_strike: 20.0 p_strike: 12.0 c_price: 0.0 p_price: 0.1
+exceeds max loss, drop
+----- c_strike: 20.0 p_strike: 13.0 c_price: 0.0 p_price: 0.1
+exceeds max loss, drop
+----- c_strike: 20.0 p_strike: 14.0 c_price: 0.0 p_price: 0.1
+exceeds max loss, drop
+----- c_strike: 20.0 p_strike: 15.0 c_price: 0.0 p_price: 0.1
+exceeds max loss, drop
+----- c_strike: 20.0 p_strike: 16.0 c_price: 0.0 p_price: 0.05
+exceeds max loss, drop
+----- c_strike: 20.0 p_strike: 17.0 c_price: 0.0 p_price: 0.2
+future price: 8.85, profit: -0.52, term yield: -0.0290502793296annualized yield: -0.21009669842
+future price: 10.62, profit: -0.52, term yield: -0.0290502793296annualized yield: -0.21009669842
+future price: 12.39, profit: -0.52, term yield: -0.0290502793296annualized yield: -0.21009669842
+future price: 14.16, profit: -0.52, term yield: -0.0290502793296annualized yield: -0.21009669842
+future price: 15.93, profit: -0.52, term yield: -0.0290502793296annualized yield: -0.21009669842
+future price: 17.7, profit: 0.18, term yield: 0.0100558659218annualized yield: 0.0833359650403
+future price: 19.47, profit: 1.95, term yield: 0.108938547486annualized yield: 1.28696669981
+future price: 21.24, profit: 2.48, term yield: 0.138547486034annualized yield: 1.82363911573
+future price: 23.01, profit: 2.48, term yield: 0.138547486034annualized yield: 1.82363911573
+future price: 24.78, profit: 2.48, term yield: 0.138547486034annualized yield: 1.82363911573
+----- c_strike: 20.0 p_strike: 18.0 c_price: 0.0 p_price: 0.75
+future price: 8.85, profit: -0.07, term yield: -0.00379403794038annualized yield: -0.0299522951846
+future price: 10.62, profit: -0.07, term yield: -0.00379403794038annualized yield: -0.0299522951846
+future price: 12.39, profit: -0.07, term yield: -0.00379403794038annualized yield: -0.0299522951846
+future price: 14.16, profit: -0.07, term yield: -0.00379403794038annualized yield: -0.0299522951846
+future price: 15.93, profit: -0.07, term yield: -0.00379403794038annualized yield: -0.0299522951846
+future price: 17.7, profit: -0.07, term yield: -0.00379403794038annualized yield: -0.0299522951846
+future price: 19.47, profit: 1.4, term yield: 0.0758807588076annualized yield: 0.795201179136
+future price: 21.24, profit: 1.93, term yield: 0.10460704607annualized yield: 1.21647314341
+future price: 23.01, profit: 1.93, term yield: 0.10460704607annualized yield: 1.21647314341
+future price: 24.78, profit: 1.93, term yield: 0.10460704607annualized yield: 1.21647314341
+----- c_strike: 20.0 p_strike: 19.0 c_price: 0.0 p_price: 1.75
+future price: 8.85, profit: -0.07, term yield: -0.00359897172237annualized yield: -0.0284316998377
+future price: 10.62, profit: -0.07, term yield: -0.00359897172237annualized yield: -0.0284316998377
+future price: 12.39, profit: -0.07, term yield: -0.00359897172237annualized yield: -0.0284316998377
+future price: 14.16, profit: -0.07, term yield: -0.00359897172237annualized yield: -0.0284316998377
+future price: 15.93, profit: -0.07, term yield: -0.00359897172237annualized yield: -0.0284316998377
+future price: 17.7, profit: -0.07, term yield: -0.00359897172237annualized yield: -0.0284316998377
+future price: 19.47, profit: 0.4, term yield: 0.0205655526992annualized yield: 0.176866616114
+future price: 21.24, profit: 0.93, term yield: 0.0478149100257annualized yield: 0.453036728313
+future price: 23.01, profit: 0.93, term yield: 0.0478149100257annualized yield: 0.453036728313
+future price: 24.78, profit: 0.93, term yield: 0.0478149100257annualized yield: 0.453036728313
+
+
+===== PARAMETERS =====
+stock: MSB
+current stock price: 21.37
+price 21.37, dividend 0.46, decl_date 7/16/2013, ex_date 7/26/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: CYS
+current stock price: 7.58
+price 7.58, dividend 0.34, decl_date 6/10/2013, ex_date 6/21/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: QRE
+current stock price: 16.65
+price 16.65, dividend 0.4875, decl_date 7/24/2013, ex_date 8/5/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: PGH
+current stock price: 5.53
+price 5.53, dividend 0.0387, decl_date 8/12/2013, ex_date 8/20/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: MCEP
+current stock price: 23.15
+price 23.15, dividend 0.515, decl_date 7/25/2013, ex_date 8/5/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: NTLS
+current stock price: 16.28
+price 16.28, dividend 0.42, decl_date 7/25/2013, ex_date 9/11/2013
+options are expired at 9/21/2013 which is 1.5 months later
+dividend within date 2013/8 to 2013/9 is 0.42
+===== YIELD TABLE =====
+----- c_strike: 17.5 p_strike: 12.5 c_price: 0.4 p_price: 0.3
+exceeds max loss, drop
+----- c_strike: 17.5 p_strike: 10.0 c_price: 0.4 p_price: 0.1
+exceeds max loss, drop
+----- c_strike: 17.5 p_strike: 15.0 c_price: 0.4 p_price: 0.8
+exceeds max loss, drop
+----- c_strike: 20.0 p_strike: 12.5 c_price: 0.0 p_price: 0.3
+exceeds max loss, drop
+----- c_strike: 20.0 p_strike: 17.5 c_price: 0.0 p_price: 2.5
+exceeds max loss, drop
+----- c_strike: 20.0 p_strike: 10.0 c_price: 0.0 p_price: 0.1
+exceeds max loss, drop
+----- c_strike: 20.0 p_strike: 15.0 c_price: 0.0 p_price: 0.8
+exceeds max loss, drop
+----- c_strike: 22.5 p_strike: 12.5 c_price: 0.0 p_price: 0.3
+exceeds max loss, drop
+----- c_strike: 22.5 p_strike: 17.5 c_price: 0.0 p_price: 2.5
+exceeds max loss, drop
+----- c_strike: 22.5 p_strike: 10.0 c_price: 0.0 p_price: 0.1
+exceeds max loss, drop
+----- c_strike: 22.5 p_strike: 15.0 c_price: 0.0 p_price: 0.8
+exceeds max loss, drop
+
+
+===== PARAMETERS =====
+stock: NSH
+current stock price: 23.99
+price 23.99, dividend 0.545, decl_date 7/25/2013, ex_date 8/1/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: GOOD
+current stock price: 18.03
+price 18.03, dividend 0.125, decl_date 7/2/2013, ex_date 9/16/2013
+options are expired at 9/21/2013 which is 1.5 months later
+dividend within date 2013/8 to 2013/9 is 0.125
+===== YIELD TABLE =====
+
+
+===== PARAMETERS =====
+stock: MTR
+current stock price: 23.23
+price 23.23, dividend 0.2293704, decl_date 8/19/2013, ex_date 8/28/2013
+not appropriate options for MTR pass the analysis
+
+
+===== PARAMETERS =====
+stock: HGT
+current stock price: 8.41
+price 8.41, dividend 0.0824, decl_date 8/20/2013, ex_date 8/28/2013
+options are expired at 9/21/2013 which is 0.5 months later
+dividend within date 2013/8 to 2013/8 is 0.0824
+===== YIELD TABLE =====
+----- c_strike: 10.0 p_strike: 7.5 c_price: 0.0 p_price: 0.1
+exceeds max loss, drop
+
+
+===== PARAMETERS =====
+stock: ABR
+current stock price: 7.1
+price 7.1, dividend 0.13, decl_date 8/2/2013, ex_date 8/12/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: CMLP
+current stock price: 26.55
+price 26.55, dividend 0.51, decl_date 7/18/2013, ex_date 7/30/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: AMTG
+current stock price: 15.16
+price 15.16, dividend 0.7, decl_date 6/17/2013, ex_date 6/26/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: GOV
+current stock price: 24.12
+price 24.12, dividend 0.43, decl_date 7/10/2013, ex_date 7/24/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: TNH
+current stock price: 210.73
+price 210.73, dividend 4.02, decl_date 8/6/2013, ex_date 8/14/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: GLAD
+current stock price: 8.37
+price 8.37, dividend 0.07, decl_date 7/9/2013, ex_date 9/16/2013
+options are expired at 9/21/2013 which is 1.5 months later
+dividend within date 2013/8 to 2013/9 is 0.07
+===== YIELD TABLE =====
+----- c_strike: 10.0 p_strike: 7.5 c_price: 0.0 p_price: 0.15
+exceeds max loss, drop
+
+
+===== PARAMETERS =====
+stock: ARP
+current stock price: 20.9
+price 20.9, dividend 0.54, decl_date 7/24/2013, ex_date 8/2/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: RSO
+current stock price: 5.87
+price 5.87, dividend 0.2, decl_date 6/14/2013, ex_date 6/26/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: SDR
+current stock price: 14.01
+price 14.01, dividend 0.683, decl_date 7/25/2013, ex_date 8/12/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: NRF
+current stock price: 8.92
+price 8.92, dividend 0.2, decl_date 7/31/2013, ex_date 8/8/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: ARI
+current stock price: 15.25
+price 15.25, dividend 0.4, decl_date 7/31/2013, ex_date 9/26/2013
+options expires earlier than ex_div_date: 9/26/2013
+options expires earlier than ex_div_date: 10/26/2013
+options expires earlier than ex_div_date: 11/26/2013
+not appropriate options for ARI pass the analysis
+
+
+===== PARAMETERS =====
+stock: LGP
+current stock price: 27.24
+price 27.24, dividend 0.4775, decl_date 8/8/2013, ex_date 8/21/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: NRP
+current stock price: 19.88
+price 19.88, dividend 0.55, decl_date 7/23/2013, ex_date 8/1/2013
+date not match, pass
+
+
+===== PARAMETERS =====
+stock: NRT
+current stock price: 23.77
+price 23.77, dividend 0.49, decl_date 7/29/2013, ex_date 8/14/2013
+date not match, pass

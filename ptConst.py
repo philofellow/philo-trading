@@ -8,7 +8,6 @@ sys.path.append('utils')
 sys.path.append('ta_libs')
 sys.path.append('strategies')
 sys.path.append('tools')
-sys.path.append('tools/collar_divident')
 
 MARKET_DATA_PATH = './market-data/'
 DATA_BEGIN_DATE = '01-jan-90'
