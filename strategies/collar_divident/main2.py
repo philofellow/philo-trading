@@ -13,7 +13,7 @@
 
 import sys
 sys.path.append('../../')
-import os, ptConst, math, numpy, datetime, urllib2
+import time, os, ptConst, math, numpy, datetime, urllib2, random
 
 SYMBOL_LIST = 'symbols.data'
 RANGE = 0.5 # stock price at expiration will be stock_price * (1 - range ) to stock_price * (1 + range)
@@ -79,14 +79,48 @@ class StockMap:
 			data = line.split()
 			for symbol in data:
 				ptConst.logging.info('adding ' + symbol + ' to stock map')
-				self.LoadDividendData(symbol)
+				self.LoadDividendDataStreetInsider(symbol)
 
 	def Print(self):
 		for symbol in self.stock_map.keys():
 			print 'symbol: ', symbol
 			self.stock_map[symbol].Print()
 
-	def LoadDividendData(self, symbol):
+	def LoadDividendDataStreetInsider(self, symbol):
+		time.sleep(random.randint(30, 60))
+		link = 'http://www.streetinsider.com/dividend_history.php?q=' + symbol
+		filename = symbol + '.div'
+		data = urllib2.urlopen(link).read()
+		f = open(filename, 'w')
+    		f.write(data)
+		f.close()
+		price = '0.0'
+		dividend = '0.0'
+		ex_date = '0/0/0'
+		decl_date = '0/0/0'
+		f = open(filename, 'r')
+		while True:
+			line = f.readline()
+			if '<strong>Price:</strong>' in line:
+				price = self.LoadProperty(line, '<strong>Price:</strong> ', '&nbsp; |')
+			if '<tr class="LiteHover">' in line:
+				line = f.readline()
+				ex_date = self.LoadProperty(line, '<td>', '<')
+				line = f.readline()
+				dividend = self.LoadProperty(line, '<td>', '<')[1:]
+				f.readline()
+				f.readline()
+				f.readline()
+				line = f.readline()
+				decl_date = self.LoadProperty(line, '<td>', '<')
+				break
+		ptConst.logging.info('parameters loaded: price = ' + price + ', dividend = ' \
+				+ dividend + ', decl_date = ' + decl_date + ', ex_date = ' + ex_date)
+		self.stock_map[symbol] = Stock(price, dividend, ex_date, decl_date)
+	#	os.system('rm ' + filename)
+	
+
+	def LoadDividendDataNasdaq(self, symbol):
 		ex_date_mark = 'quotes_content_left_dividendhistoryGrid_exdate_0">'
 		price_mark = 'qwidget_lastsale'
 		div_mark = 'quotes_content_left_dividendhistoryGrid_CashAmount_0">'
