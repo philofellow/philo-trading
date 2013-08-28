@@ -18,7 +18,9 @@ import os, ptConst, math, numpy, datetime, urllib2
 SYMBOL_LIST = 'symbols.data'
 RANGE = 0.5 # stock price at expiration will be stock_price * (1 - range ) to stock_price * (1 + range)
 SAMPLE_SIZE = 10
-MAX_LOSS = -0.25
+MAX_LOSS = -0.45
+CASH = 2000.0
+STOCK_TRADING_FEE = 3.95
 
 class Date:
 	valid = True
@@ -193,20 +195,35 @@ def GetPriceSamples(price, rg, num):
 	step = (max - min) / num
 	return numpy.arange(min, max, step)
 
-def ComputeYield(c_strike, c_price, p_strike, p_price, price, dividend, months):
+def GetShares(p):
+	# return max hundreds of shares with CASH
+	num = 1
+	while True:
+		if num * 100.0 * p > CASH:
+			return num - 1
+		num += 1	
+
+def GetFee(contracts_num):
+	if contracts_num <= 5:
+		return STOCK_TRADING_FEE + (5 * 2) 
+	else: 
+		return STOCK_TRADING_FEE + (8.5 + 0.15 * contracts_num) * 2
+
+def ComputeYield(c_strike, c_price, p_strike, p_price, price, dividend, months, c_num):
 	ptConst.logging.info('compute yield') 
 	ptConst.logging.info('c_strike: ' + str(c_strike) + ' p_strike: ' + str(p_strike) \
 			+ ' c_price: ' + str(c_price) + ' p_price: ' + str(p_price) \
-			+ ' dividend ' + str(dividend) + ' month_diff ' + str(months))
-	cost = price - c_price + p_price 
+			+ ' dividend ' + str(dividend) + ' month_diff ' + str(months) \
+			+ ' shares ' + str(c_num * 100))
+	cost = (price - c_price + p_price) * c_num * 100 + GetFee(c_num) 
 	p_to_yield = dict()
 	for p in GetPriceSamples(price, RANGE, SAMPLE_SIZE):
 		if p >= c_strike:
-			revenue = c_strike + dividend
+			revenue = (c_strike + dividend) * c_num * 100 - STOCK_TRADING_FEE 
 		elif p < c_strike and p > p_strike:
-			revenue = p + dividend
+			revenue = (p + dividend) * c_num * 100 - STOCK_TRADING_FEE
 		else:
-			revenue = p_strike + dividend
+			revenue = (p_strike + dividend) * c_num * 100 - STOCK_TRADING_FEE
 		
 		profit = revenue - cost	
 		term_yield = profit / cost
@@ -214,6 +231,7 @@ def ComputeYield(c_strike, c_price, p_strike, p_price, price, dividend, months):
 		ptConst.logging.info('revenue: ' + str(revenue) + ', cost: ' + str(cost) \
 				+ ', profit: ' + str(profit) + ', term_yield: ' + str(term_yield) \
 				+ ', annualized_yield: ' + str(annualized_yield))
+		ptConst.logging.info('every cent less converts to ' + str(c_num) + ' dollars')
 		if annualized_yield < MAX_LOSS:
 			ptConst.logging.info('loss greater than max loss ' + str(MAX_LOSS))
 			return None 
@@ -270,19 +288,19 @@ div_data = StockMap()
 for symbol in div_data.stock_map.keys():
 	price = div_data.stock_map[symbol].price
 	dividend = div_data.stock_map[symbol].dividend
-
+	
+	ptConst.logging.info('=== begin analysis for ' + symbol + ', price: ' + str(price) + ', dividend: ' + str(dividend))
 	print '\n\n===== PARAMETERS ====='
-	print 'stock:', symbol
-	print 'current stock price:', price
+	print 'stock:', symbol, 'current stock price:', price
 	stock = div_data.stock_map[symbol]
 	stock.Print()
 	if not DateMatch(stock.decl_date, stock.ex_date):
-		ptConst.logging.info('date not match for ' + symbol) 
+		ptConst.logging.info('date not match for ' + symbol + ', pass') 
 		print 'date not match, pass'
 		continue
 	opt = DownloadBestOption(symbol, stock.ex_date)
 	if opt == '':
-		print 'not appropriate options for', symbol, 'pass the analysis'	
+		print 'no appropriate options for', symbol, 'pass'	
 		continue
 
 	opt_month = int(opt.split('_')[2][:-4])
@@ -292,8 +310,20 @@ for symbol in div_data.stock_map.keys():
 	month_diff = GetMonthDiff(opt_month, opt_year, now_month, now_year)
 	print 'options are expired at', GetOptionExpireDate(opt).GetString(), 'which is', month_diff, 'months later'
 	print 'dividend within date ' + str(now_year) + '/' + str(now_month) + ' to ' + str(opt_year) + '/' + str(opt_month) + ' is ' + str(dividend)
+	ptConst.logging.info('options are expired at ' + GetOptionExpireDate(opt).GetString())
+	ptConst.logging.info('dividend within date ' + str(now_year) + '/' + str(now_month) \
+			+ ' to ' + str(opt_year) + '/' + str(opt_month) + ' is ' + str(dividend))
+	
+	shares = GetShares(price)
+	if shares == 0:
+		ptConst.logging.info('$' + str(CASH) + ' is not enough to buy 100 shares, pass')
+		print '$' + str(CASH) + ' is not enough to buy 100 shares, pass'
+		continue
+	ptConst.logging.info('can buy ' + str(shares * 100) + ' shares with $' + str(CASH))
+	print 'can buy ' + str(shares * 100) + ' with $' + str(CASH)
 
 	call, put = LoadOptionFile(opt, symbol)	
+
 	print '===== YIELD TABLE ====='
 	ptConst.logging.info('begin generating yield table')
 	for c_strike in call.keys():
@@ -301,13 +331,13 @@ for symbol in div_data.stock_map.keys():
 			for p_strike in put.keys():
 				if p_strike < c_strike:
 					print '----- c_strike:', c_strike, 'p_strike:', p_strike, 'c_price:', call[c_strike], 'p_price:', put[p_strike]
-					yield_table = ComputeYield(c_strike, call[c_strike], p_strike, put[p_strike], price, dividend, month_diff)
+					yield_table = ComputeYield(c_strike, call[c_strike], p_strike, put[p_strike], price, dividend, month_diff, shares)
 					if yield_table is None:
-						print 'exceeds max loss, drop'
+						print 'exceeds max loss drop'
 					else:					
 						for p in sorted(yield_table.keys()):
 							print 'future price: ' + str(p) \
 									+ ', profit: ' + str(yield_table[p][0]) \
 									+ ', term yield: ' + str(yield_table[p][1]) \
-									+ 'annualized yield: ' + str(yield_table[p][2])
+									+ ', annualized yield: ' + str(yield_table[p][2])
 
