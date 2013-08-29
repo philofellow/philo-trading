@@ -25,3 +25,1509 @@
 2013-08-28 00:33:19,858, INFO, adding WMC to stock map
 2013-08-28 00:34:08,931, INFO, parameters loaded: price = 15.90, dividend = 0.90, decl_date = 6/21/2013, ex_date = 6/27/2013
 2013-08-28 00:34:08,934, INFO, adding WHZ to stock map
+2013-08-28 23:18:41,436, INFO, ===== Start a new run of Divident-Collar-Analysis =====
+2013-08-28 23:18:41,483, INFO, initilizing stock map from file symbols.data
+2013-08-28 23:18:41,485, INFO, adding WMC to stock map
+2013-08-28 23:21:51,171, INFO, ===== Start a new run of Divident-Collar-Analysis =====
+2013-08-28 23:21:51,212, INFO, initilizing stock map from file symbols.data
+2013-08-28 23:21:51,215, INFO, adding WMC to stock map
+2013-08-28 23:54:38,088, INFO, ===== Start a new run of Divident-Collar-Analysis =====
+2013-08-28 23:54:38,130, INFO, initilizing stock map from file symbols.data
+2013-08-28 23:54:38,131, INFO, adding WMC to stock map
+2013-08-28 23:54:41,651, INFO, parameters loaded: price = 15.61, dividend = 0.90, decl_date = 6/21/2013, ex_date = 6/27/2013
+2013-08-28 23:54:41,654, INFO, adding WHZ to stock map
+2013-08-28 23:59:12,036, INFO, ===== Start a new run of Divident-Collar-Analysis =====
+2013-08-28 23:59:12,090, INFO, initilizing stock map from file symbols.data
+2013-08-28 23:59:12,093, INFO, adding WMC to stock map
+2013-08-28 23:59:16,651, INFO, parameters loaded: price = 15.61, dividend = 0.90, decl_date = 6/21/2013, ex_date = 6/27/2013
+2013-08-28 23:59:16,655, INFO, adding WHZ to stock map
+2013-08-29 00:04:59,382, INFO, ===== Start a new run of Divident-Collar-Analysis =====
+2013-08-29 00:04:59,429, INFO, initilizing stock map from file symbols.data
+2013-08-29 00:04:59,431, INFO, adding WMC to stock map
+2013-08-29 00:11:12,816, INFO, ===== Start a new run of Divident-Collar-Analysis =====
+2013-08-29 00:11:12,863, INFO, initilizing stock map from file symbols.data
+2013-08-29 00:11:12,866, INFO, adding WMC to stock map
+2013-08-29 00:11:19,918, INFO, parameters loaded: price = 0.0, dividend = 0.0, decl_date = 6/20/2013, ex_date = 6/27/2013
+2013-08-29 00:11:19,920, INFO, adding WHZ to stock map
+2013-08-29 00:11:26,957, INFO, parameters loaded: price = 0.0, dividend = 0.0, decl_date = 8/07/2013, ex_date = 8/15/2013
+2013-08-29 00:11:26,958, INFO, adding CHKR to stock map
+2013-08-29 00:11:32,774, INFO, parameters loaded: price = 0.0, dividend = 0.0, decl_date = 8/08/2013, ex_date = 8/15/2013
+2013-08-29 00:11:32,775, INFO, adding SDT to stock map
+2013-08-29 00:11:39,650, INFO, parameters loaded: price = 0.0, dividend = 0.0, decl_date = 7/25/2013, ex_date = 8/12/2013
+2013-08-29 00:11:39,651, INFO, adding AMTG to stock map
+2013-08-29 00:11:46,523, INFO, parameters loaded: price = 0.0, dividend = 0.0, decl_date = 6/17/2013, ex_date = 6/26/2013
+2013-08-29 00:11:46,523, INFO, adding AGNC to stock map
+2013-08-29 00:11:50,242, INFO, parameters loaded: price = 0.0, dividend = 0.0, decl_date = 6/18/2013, ex_date = 6/26/2013
+2013-08-29 00:11:50,243, INFO, adding CYS to stock map
+2013-08-29 00:13:44,616, INFO, ===== Start a new run of Divident-Collar-Analysis =====
+2013-08-29 00:13:44,661, INFO, initilizing stock map from file symbols.data
+2013-08-29 00:13:44,664, INFO, adding WMC to stock map
+2013-08-29 00:13:48,328, INFO, parameters loaded: price = 15.90, dividend = 0.9000, decl_date = 6/20/2013, ex_date = 6/27/2013
+2013-08-29 00:13:48,329, INFO, adding WHZ to stock map
+2013-08-29 00:13:52,046, INFO, parameters loaded: price = 12.91, dividend = 0.7394, decl_date = 8/07/2013, ex_date = 8/15/2013
+2013-08-29 00:13:52,047, INFO, adding CHKR to stock map
+2013-08-29 00:13:55,683, INFO, parameters loaded: price = 13.59, dividend = 0.6900, decl_date = 8/08/2013, ex_date = 8/15/2013
+2013-08-29 00:13:55,684, INFO, adding SDT to stock map
+2013-08-29 00:14:01,319, INFO, parameters loaded: price = 12.86, dividend = 0.6112, decl_date = 7/25/2013, ex_date = 8/12/2013
+2013-08-29 00:14:01,320, INFO, adding AMTG to stock map
+2013-08-29 00:14:04,939, INFO, parameters loaded: price = 15.34, dividend = COLOR="green"><B>Special, decl_date = 6/17/2013, ex_date = 6/26/2013
+2013-08-29 00:17:56,717, INFO, ===== Start a new run of Divident-Collar-Analysis =====
+2013-08-29 00:17:56,767, INFO, initilizing stock map from file symbols.data
+2013-08-29 00:17:56,769, INFO, adding WMC to stock map
+2013-08-29 00:18:00,748, INFO, parameters loaded: price = 15.90, dividend = <td class="hyper13"><div style="color:red" align="right"><b>, decl_date = 6/20/2013, ex_date = 6/27/2013
+2013-08-29 00:18:34,529, INFO, ===== Start a new run of Divident-Collar-Analysis =====
+2013-08-29 00:18:34,575, INFO, initilizing stock map from file symbols.data
+2013-08-29 00:18:34,578, INFO, adding WMC to stock map
+2013-08-29 00:18:39,467, INFO, parameters loaded: price = 15.90, dividend = 0.9000, decl_date = 6/20/2013, ex_date = 6/27/2013
+2013-08-29 00:18:39,469, INFO, adding WHZ to stock map
+2013-08-29 00:18:43,138, INFO, parameters loaded: price = 12.91, dividend = 0.7394, decl_date = 8/07/2013, ex_date = 8/15/2013
+2013-08-29 00:18:43,139, INFO, adding CHKR to stock map
+2013-08-29 00:18:49,163, INFO, parameters loaded: price = 13.59, dividend = 0.6900, decl_date = 8/08/2013, ex_date = 8/15/2013
+2013-08-29 00:18:49,168, INFO, adding SDT to stock map
+2013-08-29 00:18:55,842, INFO, parameters loaded: price = 12.86, dividend = 0.6112, decl_date = 7/25/2013, ex_date = 8/12/2013
+2013-08-29 00:18:55,843, INFO, adding AMTG to stock map
+2013-08-29 00:19:02,574, INFO, parameters loaded: price = 15.34, dividend = 0.7000, decl_date = 6/17/2013, ex_date = 6/26/2013
+2013-08-29 00:19:02,575, INFO, adding AGNC to stock map
+2013-08-29 00:19:08,209, INFO, parameters loaded: price = 22.95, dividend = 1.0500, decl_date = 6/18/2013, ex_date = 6/26/2013
+2013-08-29 00:19:08,209, INFO, adding CYS to stock map
+2013-08-29 00:19:11,848, INFO, parameters loaded: price = 7.81, dividend = 0.3400, decl_date = 6/10/2013, ex_date = 6/21/2013
+2013-08-29 00:19:11,849, INFO, adding SDR to stock map
+2013-08-29 00:19:17,562, INFO, parameters loaded: price = 14.15, dividend = 0.6830, decl_date = 7/25/2013, ex_date = 8/12/2013
+2013-08-29 00:19:17,563, INFO, adding IVR to stock map
+2013-08-29 00:19:21,187, INFO, parameters loaded: price = 15.59, dividend = 0.6500, decl_date = 6/17/2013, ex_date = 6/25/2013
+2013-08-29 00:19:21,187, INFO, adding MTGE to stock map
+2013-08-29 00:19:25,891, INFO, parameters loaded: price = 20.19, dividend = 0.8000, decl_date = 6/18/2013, ex_date = 6/26/2013
+2013-08-29 00:19:25,895, INFO, adding HTS to stock map
+2013-08-29 00:19:29,531, INFO, parameters loaded: price = 18.77, dividend = 0.7000, decl_date = 6/18/2013, ex_date = 6/27/2013
+2013-08-29 00:19:29,532, INFO, adding DX to stock map
+2013-08-29 00:19:35,147, INFO, parameters loaded: price = 8.02, dividend = 0.2900, decl_date = 6/13/2013, ex_date = 6/26/2013
+2013-08-29 00:19:35,148, INFO, adding ALTV to stock map
+2013-08-29 00:19:38,779, INFO, parameters loaded: price = 7.48, dividend = 0.2700, decl_date = 6/11/2013, ex_date = 6/19/2013
+2013-08-29 00:19:38,780, INFO, adding SRC to stock map
+2013-08-29 00:19:43,414, INFO, parameters loaded: price = 8.71, dividend = 0.3125, decl_date = 6/17/2013, ex_date = 6/26/2013
+2013-08-29 00:19:43,415, INFO, adding NLY to stock map
+2013-08-29 00:19:49,043, INFO, parameters loaded: price = 11.54, dividend = 0.4000, decl_date = 6/19/2013, ex_date = 6/27/2013
+2013-08-29 00:19:49,044, INFO, adding PER to stock map
+2013-08-29 00:19:52,671, INFO, parameters loaded: price = 14.85, dividend = 0.5850, decl_date = 7/25/2013, ex_date = 8/12/2013
+2013-08-29 00:19:52,672, INFO, adding EROC to stock map
+2013-08-29 00:19:59,325, INFO, parameters loaded: price = 6.08, dividend = 0.2200, decl_date = 7/23/2013, ex_date = 8/05/2013
+2013-08-29 00:19:59,326, INFO, adding RSO to stock map
+2013-08-29 00:20:05,283, INFO, parameters loaded: price = 5.82, dividend = 0.2000, decl_date = 6/14/2013, ex_date = 6/26/2013
+2013-08-29 00:20:05,284, INFO, adding ANH to stock map
+2013-08-29 00:20:11,314, INFO, parameters loaded: price = 4.46, dividend = 0.1500, decl_date = 6/28/2013, ex_date = 7/03/2013
+2013-08-29 00:20:11,315, INFO, adding PDH to stock map
+2013-08-29 00:20:15,940, INFO, parameters loaded: price = 12.20, dividend = 0.3000, decl_date = 7/24/2013, ex_date = 8/01/2013
+2013-08-29 00:20:15,942, INFO, adding SID to stock map
+2013-08-29 00:20:22,579, INFO, parameters loaded: price = 3.67, dividend = 0.0614, decl_date = 11/30/, ex_date = 8/15/2013
+2013-08-29 00:23:31,860, INFO, ===== Start a new run of Divident-Collar-Analysis =====
+2013-08-29 00:23:31,928, INFO, initilizing stock map from file symbols.data
+2013-08-29 00:23:31,936, INFO, adding WMC to stock map
+2013-08-29 00:23:37,797, INFO, parameters loaded: price = 15.90, dividend = 0.9000, decl_date = 6/20/2013, ex_date = 6/27/2013
+2013-08-29 00:23:37,798, INFO, adding WHZ to stock map
+2013-08-29 00:23:44,797, INFO, parameters loaded: price = 12.91, dividend = 0.7394, decl_date = 8/07/2013, ex_date = 8/15/2013
+2013-08-29 00:23:44,798, INFO, adding CHKR to stock map
+2013-08-29 00:23:50,485, INFO, parameters loaded: price = 13.59, dividend = 0.6900, decl_date = 8/08/2013, ex_date = 8/15/2013
+2013-08-29 00:23:50,486, INFO, adding SDT to stock map
+2013-08-29 00:23:57,109, INFO, parameters loaded: price = 12.86, dividend = 0.6112, decl_date = 7/25/2013, ex_date = 8/12/2013
+2013-08-29 00:23:57,110, INFO, adding AMTG to stock map
+2013-08-29 00:24:00,954, INFO, parameters loaded: price = 15.34, dividend = 0.7000, decl_date = 6/17/2013, ex_date = 6/26/2013
+2013-08-29 00:24:00,956, INFO, adding AGNC to stock map
+2013-08-29 00:24:05,074, INFO, parameters loaded: price = 22.95, dividend = 1.0500, decl_date = 6/18/2013, ex_date = 6/26/2013
+2013-08-29 00:24:05,076, INFO, adding CYS to stock map
+2013-08-29 00:24:09,119, INFO, parameters loaded: price = 7.81, dividend = 0.3400, decl_date = 6/10/2013, ex_date = 6/21/2013
+2013-08-29 00:24:09,120, INFO, adding SDR to stock map
+2013-08-29 00:24:15,045, INFO, parameters loaded: price = 14.15, dividend = 0.6830, decl_date = 7/25/2013, ex_date = 8/12/2013
+2013-08-29 00:24:15,045, INFO, adding IVR to stock map
+2013-08-29 00:24:20,834, INFO, parameters loaded: price = 15.59, dividend = 0.6500, decl_date = 6/17/2013, ex_date = 6/25/2013
+2013-08-29 00:24:20,835, INFO, adding MTGE to stock map
+2013-08-29 00:24:24,480, INFO, parameters loaded: price = 20.19, dividend = 0.8000, decl_date = 6/18/2013, ex_date = 6/26/2013
+2013-08-29 00:24:24,481, INFO, adding HTS to stock map
+2013-08-29 00:24:31,196, INFO, parameters loaded: price = 18.77, dividend = 0.7000, decl_date = 6/18/2013, ex_date = 6/27/2013
+2013-08-29 00:24:31,197, INFO, adding DX to stock map
+2013-08-29 00:24:36,929, INFO, parameters loaded: price = 8.02, dividend = 0.2900, decl_date = 6/13/2013, ex_date = 6/26/2013
+2013-08-29 00:24:36,930, INFO, adding ALTV to stock map
+2013-08-29 00:24:43,571, INFO, parameters loaded: price = 7.48, dividend = 0.2700, decl_date = 6/11/2013, ex_date = 6/19/2013
+2013-08-29 00:24:43,572, INFO, adding SRC to stock map
+2013-08-29 00:24:49,301, INFO, parameters loaded: price = 8.71, dividend = 0.3125, decl_date = 6/17/2013, ex_date = 6/26/2013
+2013-08-29 00:24:49,303, INFO, adding NLY to stock map
+2013-08-29 00:24:55,944, INFO, parameters loaded: price = 11.54, dividend = 0.4000, decl_date = 6/19/2013, ex_date = 6/27/2013
+2013-08-29 00:24:55,946, INFO, adding PER to stock map
+2013-08-29 00:25:01,569, INFO, parameters loaded: price = 14.85, dividend = 0.5850, decl_date = 7/25/2013, ex_date = 8/12/2013
+2013-08-29 00:25:01,570, INFO, adding EROC to stock map
+2013-08-29 00:25:05,191, INFO, parameters loaded: price = 6.08, dividend = 0.2200, decl_date = 7/23/2013, ex_date = 8/05/2013
+2013-08-29 00:25:05,192, INFO, adding RSO to stock map
+2013-08-29 00:25:08,806, INFO, parameters loaded: price = 5.82, dividend = 0.2000, decl_date = 6/14/2013, ex_date = 6/26/2013
+2013-08-29 00:25:08,807, INFO, adding ANH to stock map
+2013-08-29 00:25:13,450, INFO, parameters loaded: price = 4.46, dividend = 0.1500, decl_date = 6/28/2013, ex_date = 7/03/2013
+2013-08-29 00:25:13,451, INFO, adding PDH to stock map
+2013-08-29 00:25:17,082, INFO, parameters loaded: price = 12.20, dividend = 0.3000, decl_date = 7/24/2013, ex_date = 8/01/2013
+2013-08-29 00:25:17,084, INFO, adding SID to stock map
+2013-08-29 00:25:21,729, INFO, parameters loaded: price = 3.67, dividend = 0.0614, decl_date = 0/0/0, ex_date = 8/15/2013
+2013-08-29 00:25:21,730, WARNING, parameter not valid
+2013-08-29 00:25:21,731, INFO, adding NTI to stock map
+2013-08-29 00:25:27,365, INFO, parameters loaded: price = 21.19, dividend = 0.6800, decl_date = 8/12/2013, ex_date = 8/20/2013
+2013-08-29 00:25:27,367, INFO, adding KCAP to stock map
+2013-08-29 00:25:32,992, INFO, parameters loaded: price = 8.53, dividend = 0.2800, decl_date = 6/17/2013, ex_date = 7/02/2013
+2013-08-29 00:25:32,993, INFO, adding LRE to stock map
+2013-08-29 00:25:39,619, INFO, parameters loaded: price = 15.12, dividend = 0.4850, decl_date = 7/19/2013, ex_date = 7/26/2013
+2013-08-29 00:25:39,621, INFO, adding NMM to stock map
+2013-08-29 00:25:43,337, INFO, parameters loaded: price = 14.15, dividend = 0.4425, decl_date = 7/22/2013, ex_date = 8/06/2013
+2013-08-29 00:25:43,339, INFO, adding WIN to stock map
+2013-08-29 00:25:50,033, INFO, parameters loaded: price = 8.10, dividend = 0.2500, decl_date = 8/07/2013, ex_date = 9/26/2013
+2013-08-29 00:25:50,034, INFO, adding MFA to stock map
+2013-08-29 00:25:55,703, INFO, parameters loaded: price = 7.41, dividend = 0.2800, decl_date = 8/01/2013, ex_date = 8/08/2013
+2013-08-29 00:25:55,704, INFO, adding TICC to stock map
+2013-08-29 00:26:00,325, INFO, parameters loaded: price = 9.62, dividend = 0.2900, decl_date = 8/06/2013, ex_date = 9/12/2013
+2013-08-29 00:26:00,326, INFO, adding TNK to stock map
+2013-08-29 00:26:03,961, INFO, parameters loaded: price = 2.68, dividend = 0.0300, decl_date = 7/08/2013, ex_date = 7/17/2013
+2013-08-29 00:26:03,962, INFO, adding LINE to stock map
+2013-08-29 00:26:08,592, INFO, parameters loaded: price = 24.57, dividend = 0.2416, decl_date = 8/01/2013, ex_date = 8/08/2013
+2013-08-29 00:26:08,593, INFO, adding QRE to stock map
+2013-08-29 00:26:15,238, INFO, parameters loaded: price = 16.78, dividend = 0.4875, decl_date = 7/24/2013, ex_date = 8/05/2013
+2013-08-29 00:26:15,239, INFO, adding PSEC to stock map
+2013-08-29 00:26:20,930, INFO, parameters loaded: price = 11.20, dividend = 0.1104, decl_date = 8/21/2013, ex_date = 2/26/2014
+2013-08-29 00:26:20,932, INFO, adding SCCO to stock map
+2013-08-29 00:26:27,565, INFO, parameters loaded: price = 27.63, dividend = 0.1200, decl_date = 7/18/2013, ex_date = 8/05/2013
+2013-08-29 00:26:27,566, INFO, adding OZM to stock map
+2013-08-29 00:26:33,238, INFO, parameters loaded: price = 10.57, dividend = 0.1400, decl_date = 8/02/2013, ex_date = 8/08/2013
+2013-08-29 00:26:33,239, INFO, adding TEU to stock map
+2013-08-29 00:26:38,878, INFO, parameters loaded: price = 4.18, dividend = 0.1200, decl_date = 8/06/2013, ex_date = 9/06/2013
+2013-08-29 00:26:38,879, INFO, adding RNF to stock map
+2013-08-29 00:26:42,497, INFO, parameters loaded: price = 26.48, dividend = 0.8500, decl_date = 7/24/2013, ex_date = 8/05/2013
+2013-08-29 00:26:42,498, INFO, adding NRP to stock map
+2013-08-29 00:26:49,141, INFO, parameters loaded: price = 20.29, dividend = 0.5500, decl_date = 7/23/2013, ex_date = 8/01/2013
+2013-08-29 00:26:49,142, INFO, adding PT to stock map
+2013-08-29 00:26:55,769, INFO, parameters loaded: price = 3.71, dividend = 0.5421, decl_date = 0/0/0, ex_date = 5/22/2012
+2013-08-29 00:26:55,770, WARNING, parameter not valid
+2013-08-29 00:26:55,770, INFO, adding SBS to stock map
+2013-08-29 00:27:02,525, INFO, parameters loaded: price = 8.38, dividend = 0.8586, decl_date = 0/0/0, ex_date = 4/01/2013
+2013-08-29 00:27:02,526, WARNING, parameter not valid
+2013-08-29 00:27:02,527, INFO, adding DOM to stock map
+2013-08-29 00:27:09,159, INFO, parameters loaded: price = 5.38, dividend = 0.2014, decl_date = 8/19/2013, ex_date = 8/27/2013
+2013-08-29 00:27:09,161, INFO, adding FSC to stock map
+2013-08-29 00:27:13,795, INFO, parameters loaded: price = 10.41, dividend = 0.0958, decl_date = 8/05/2013, ex_date = 11/13/2013
+2013-08-29 00:27:13,796, INFO, adding BBEP to stock map
+2013-08-29 00:27:19,441, INFO, parameters loaded: price = 17.50, dividend = 0.4800, decl_date = 7/31/2013, ex_date = 8/08/2013
+2013-08-29 00:27:19,442, INFO, adding VOC to stock map
+2013-08-29 00:27:26,073, INFO, parameters loaded: price = 15.27, dividend = 0.4100, decl_date = 7/18/2013, ex_date = 7/26/2013
+2013-08-29 00:27:26,074, INFO, adding CMO to stock map
+2013-08-29 00:27:29,713, INFO, parameters loaded: price = 11.83, dividend = 0.3100, decl_date = 6/13/2013, ex_date = 6/26/2013
+2013-08-29 00:27:29,714, INFO, adding NS to stock map
+2013-08-29 00:27:36,354, INFO, parameters loaded: price = 43.33, dividend = 1.0950, decl_date = 7/25/2013, ex_date = 8/01/2013
+2013-08-29 00:27:36,355, INFO, adding ARI to stock map
+2013-08-29 00:27:42,982, INFO, parameters loaded: price = 15.12, dividend = 0.4000, decl_date = 7/31/2013, ex_date = 9/26/2013
+2013-08-29 00:27:42,983, INFO, adding STON to stock map
+2013-08-29 00:27:47,596, INFO, parameters loaded: price = 23.20, dividend = 0.6000, decl_date = 7/23/2013, ex_date = 8/01/2013
+2013-08-29 00:27:47,597, INFO, adding ARP to stock map
+2013-08-29 00:27:51,284, INFO, parameters loaded: price = 21.01, dividend = 0.5400, decl_date = 7/24/2013, ex_date = 8/02/2013
+2013-08-29 00:27:51,285, INFO, adding NTLS to stock map
+2013-08-29 00:27:55,911, INFO, parameters loaded: price = 16.53, dividend = 0.4200, decl_date = 7/25/2013, ex_date = 9/11/2013
+2013-08-29 00:27:55,912, INFO, adding BKCC to stock map
+2013-08-29 00:28:02,545, INFO, parameters loaded: price = 9.92, dividend = 0.2600, decl_date = 7/31/2013, ex_date = 9/17/2013
+2013-08-29 00:28:02,546, INFO, adding CPLP to stock map
+2013-08-29 00:28:09,212, INFO, parameters loaded: price = 8.92, dividend = 0.2325, decl_date = 7/22/2013, ex_date = 8/05/2013
+2013-08-29 00:28:09,213, INFO, adding NDRO to stock map
+2013-08-29 00:28:12,869, INFO, parameters loaded: price = 15.81, dividend = 0.1624, decl_date = 8/20/2013, ex_date = 8/28/2013
+2013-08-29 00:28:12,871, INFO, adding MSB to stock map
+2013-08-29 00:28:18,525, INFO, parameters loaded: price = 21.39, dividend = 0.4600, decl_date = 7/16/2013, ex_date = 7/26/2013
+2013-08-29 00:28:18,526, INFO, adding BPT to stock map
+2013-08-29 00:28:23,142, INFO, parameters loaded: price = 86.52, dividend = 2.1429, decl_date = 7/03/2013, ex_date = 7/11/2013
+2013-08-29 00:28:23,143, INFO, adding AINV to stock map
+2013-08-29 00:28:26,803, INFO, parameters loaded: price = 7.89, dividend = 0.2000, decl_date = 8/08/2013, ex_date = 9/18/2013
+2013-08-29 00:28:26,804, INFO, adding UAN to stock map
+2013-08-29 00:28:30,443, INFO, parameters loaded: price = 18.52, dividend = 0.5830, decl_date = 7/26/2013, ex_date = 8/05/2013
+2013-08-29 00:28:30,444, INFO, adding GLAD to stock map
+2013-08-29 00:28:34,074, INFO, parameters loaded: price = 8.22, dividend = 0.0700, decl_date = 7/09/2013, ex_date = 8/19/2013
+2013-08-29 00:28:34,075, INFO, adding MEMP to stock map
+2013-08-29 00:28:37,795, INFO, parameters loaded: price = 20.67, dividend = 0.5125, decl_date = 7/19/2013, ex_date = 7/30/2013
+2013-08-29 00:28:37,796, INFO, adding PNNT to stock map
+2013-08-29 00:28:43,821, INFO, parameters loaded: price = 11.06, dividend = 0.2800, decl_date = 6/03/2013, ex_date = 6/19/2013
+2013-08-29 00:28:43,822, INFO, adding STRA to stock map
+2013-08-29 00:28:50,615, INFO, parameters loaded: price = 41.10, dividend = 1.0000, decl_date = 11/09/2012, ex_date = 11/21/2012
+2013-08-29 00:28:50,617, INFO, adding VGR to stock map
+2013-08-29 00:28:55,317, INFO, parameters loaded: price = 16.31, dividend = 0.4000, decl_date = 5/31/2013, ex_date = 6/12/2013
+2013-08-29 00:28:55,318, INFO, adding MGPC to stock map
+2013-08-29 00:28:58,936, INFO, parameters loaded: price = 0.00, dividend = 0.0000, decl_date = 0/0/0, ex_date = 0/0/0
+2013-08-29 00:28:58,937, WARNING, parameter not valid
+2013-08-29 00:28:58,937, INFO, adding PVR to stock map
+2013-08-29 00:29:05,903, INFO, parameters loaded: price = 23.08, dividend = 0.5500, decl_date = 7/24/2013, ex_date = 8/05/2013
+2013-08-29 00:29:05,904, INFO, adding SFL to stock map
+2013-08-29 00:29:11,753, INFO, parameters loaded: price = 15.69, dividend = 0.3900, decl_date = 8/28/2013, ex_date = 9/10/2013
+2013-08-29 00:29:11,754, INFO, adding CSA to stock map
+2013-08-29 00:29:17,399, INFO, parameters loaded: price = 4.25, dividend = 0.1000, decl_date = 12/12/2011, ex_date = 12/22/2011
+2013-08-29 00:29:17,400, INFO, adding NRT to stock map
+2013-08-29 00:29:21,119, INFO, parameters loaded: price = 24.55, dividend = 0.6400, decl_date = 4/29/2013, ex_date = 5/15/2013
+2013-08-29 00:29:21,122, INFO, adding ROYT to stock map
+2013-08-29 00:29:26,936, INFO, parameters loaded: price = 17.85, dividend = 0.1699, decl_date = 8/27/2013, ex_date = 9/04/2013
+2013-08-29 00:29:26,937, INFO, adding CLMT to stock map
+2013-08-29 00:29:30,652, INFO, parameters loaded: price = 30.45, dividend = 0.6850, decl_date = 7/22/2013, ex_date = 7/31/2013
+2013-08-29 00:29:30,653, INFO, adding NSH to stock map
+2013-08-29 00:29:36,327, INFO, parameters loaded: price = 24.11, dividend = 0.5450, decl_date = 7/26/2013, ex_date = 8/01/2013
+2013-08-29 00:29:36,328, INFO, adding WVT to stock map
+2013-08-29 00:29:39,958, INFO, parameters loaded: price = 11.91, dividend = 0.2700, decl_date = 12/03/2012, ex_date = 12/13/2012
+2013-08-29 00:29:39,959, INFO, adding VNR to stock map
+2013-08-29 00:29:44,791, INFO, parameters loaded: price = 27.85, dividend = 0.2075, decl_date = 8/20/2013, ex_date = 8/29/2013
+2013-08-29 00:29:44,792, INFO, adding NRF to stock map
+2013-08-29 00:29:50,505, INFO, parameters loaded: price = 8.66, dividend = 0.2000, decl_date = 7/31/2013, ex_date = 8/08/2013
+2013-08-29 00:29:50,506, INFO, adding CNSL to stock map
+2013-08-29 00:29:56,146, INFO, parameters loaded: price = 16.71, dividend = 0.3874, decl_date = 8/05/2013, ex_date = 10/10/2013
+2013-08-29 00:29:56,147, INFO, adding MCEP to stock map
+2013-08-29 00:30:01,774, INFO, parameters loaded: price = 23.45, dividend = 0.5150, decl_date = 7/25/2013, ex_date = 8/05/2013
+2013-08-29 00:30:01,775, INFO, adding TAC to stock map
+2013-08-29 00:30:08,929, INFO, parameters loaded: price = 13.15, dividend = 0.2900, decl_date = 7/23/2013, ex_date = 8/28/2013
+2013-08-29 00:30:08,933, INFO, adding FTR to stock map
+2013-08-29 00:30:18,254, INFO, parameters loaded: price = 4.47, dividend = 0.1000, decl_date = 7/31/2013, ex_date = 9/05/2013
+2013-08-29 00:30:18,255, INFO, adding FGP to stock map
+2013-08-29 00:30:26,318, INFO, parameters loaded: price = 23.22, dividend = 0.5000, decl_date = 8/22/2013, ex_date = 9/04/2013
+2013-08-29 00:30:26,320, INFO, adding VLCCF to stock map
+2013-08-29 00:30:32,262, INFO, parameters loaded: price = 8.28, dividend = 0.1750, decl_date = 8/14/2013, ex_date = 8/26/2013
+2013-08-29 00:30:32,264, INFO, adding HGT to stock map
+2013-08-29 00:30:37,692, INFO, parameters loaded: price = 8.48, dividend = 0.0824, decl_date = 8/20/2013, ex_date = 8/28/2013
+2013-08-29 00:30:37,693, INFO, adding PGH to stock map
+2013-08-29 00:30:42,639, INFO, parameters loaded: price = 5.48, dividend = 0.0400, decl_date = 8/12/2013, ex_date = 8/20/2013
+2013-08-29 00:30:42,640, INFO, adding LGCY to stock map
+2013-08-29 00:30:49,555, INFO, parameters loaded: price = 26.91, dividend = 0.5800, decl_date = 7/22/2013, ex_date = 7/30/2013
+2013-08-29 00:30:49,560, INFO, adding GAIN to stock map
+2013-08-29 00:30:55,290, INFO, parameters loaded: price = 7.00, dividend = 0.0500, decl_date = 7/09/2013, ex_date = 9/16/2013
+2013-08-29 00:30:55,294, INFO, adding BAMM to stock map
+2013-08-29 00:31:01,019, INFO, parameters loaded: price = 2.36, dividend = 0.0500, decl_date = 3/22/2011, ex_date = 4/01/2011
+2013-08-29 00:31:01,020, INFO, adding BGCP to stock map
+2013-08-29 00:31:05,780, INFO, parameters loaded: price = 5.56, dividend = 0.1200, decl_date = 7/30/2013, ex_date = 8/21/2013
+2013-08-29 00:31:05,781, INFO, adding ARCC to stock map
+2013-08-29 00:31:10,651, INFO, parameters loaded: price = 17.66, dividend = 0.3800, decl_date = 8/06/2013, ex_date = 9/12/2013
+2013-08-29 00:31:10,652, INFO, adding GOOD to stock map
+2013-08-29 00:31:16,649, INFO, parameters loaded: price = 17.84, dividend = 0.1250, decl_date = 7/09/2013, ex_date = 9/16/2013
+2013-08-29 00:31:16,651, INFO, adding CODI to stock map
+2013-08-29 00:31:23,371, INFO, parameters loaded: price = 17.25, dividend = 0.3600, decl_date = 7/10/2013, ex_date = 7/19/2013
+2013-08-29 00:31:23,372, INFO, adding SXE to stock map
+2013-08-29 00:31:30,039, INFO, parameters loaded: price = 37.51, dividend = 0.0000, decl_date = 0/0/0, ex_date = 0/0/0
+2013-08-29 00:31:30,042, WARNING, parameter not valid
+2013-08-29 00:31:30,043, INFO, adding EVEP to stock map
+2013-08-29 00:31:36,690, INFO, parameters loaded: price = 37.45, dividend = 0.7690, decl_date = 7/29/2013, ex_date = 8/06/2013
+2013-08-29 00:31:36,691, INFO, adding SDRL to stock map
+2013-08-29 00:31:42,327, INFO, parameters loaded: price = 43.73, dividend = 0.9100, decl_date = 8/28/2013, ex_date = 9/05/2013
+2013-08-29 00:31:42,328, INFO, adding SAN to stock map
+2013-08-29 00:31:46,135, INFO, parameters loaded: price = 7.24, dividend = 0.1543, decl_date = 0/0/0, ex_date = 7/10/2013
+2013-08-29 00:31:46,135, WARNING, parameter not valid
+2013-08-29 00:31:46,136, INFO, adding CAW to stock map
+2013-08-29 00:31:49,772, INFO, parameters loaded: price = 3.46, dividend = 0.0700, decl_date = 7/18/2013, ex_date = 7/31/2013
+2013-08-29 00:31:49,773, INFO, adding QCCO to stock map
+2013-08-29 00:31:53,475, INFO, parameters loaded: price = 2.60, dividend = 0.0500, decl_date = 8/08/2013, ex_date = 8/20/2013
+2013-08-29 00:31:53,476, INFO, adding AB to stock map
+2013-08-29 00:31:57,199, INFO, parameters loaded: price = 19.29, dividend = 0.4100, decl_date = 7/31/2013, ex_date = 8/08/2013
+2013-08-29 00:31:57,200, INFO, adding GA to stock map
+2013-08-29 00:32:03,838, INFO, parameters loaded: price = 7.70, dividend = 0.4100, decl_date = 0/0/0, ex_date = 5/16/2013
+2013-08-29 00:32:03,839, WARNING, parameter not valid
+2013-08-29 00:32:03,839, INFO, adding MCHX to stock map
+2013-08-29 00:32:10,505, INFO, parameters loaded: price = 6.94, dividend = 0.1400, decl_date = 12/07/2012, ex_date = 12/14/2012
+2013-08-29 00:32:10,506, INFO, adding TNH to stock map
+2013-08-29 00:32:14,154, INFO, parameters loaded: price = 210.24, dividend = 4.0200, decl_date = 8/06/2013, ex_date = 8/14/2013
+2013-08-29 00:32:14,155, INFO, adding MTR to stock map
+2013-08-29 00:32:17,825, INFO, parameters loaded: price = 23.20, dividend = 0.1064, decl_date = 7/18/2013, ex_date = 8/28/2013
+2013-08-29 00:32:17,826, INFO, adding HCLP to stock map
+2013-08-29 00:32:21,457, INFO, parameters loaded: price = 23.43, dividend = 0.4750, decl_date = 7/17/2013, ex_date = 7/30/2013
+2013-08-29 00:32:21,458, INFO, adding APU to stock map
+2013-08-29 00:32:28,096, INFO, parameters loaded: price = 42.93, dividend = 0.8400, decl_date = 7/29/2013, ex_date = 8/07/2013
+2013-08-29 00:32:28,099, INFO, adding NAT to stock map
+2013-08-29 00:32:31,739, INFO, parameters loaded: price = 7.80, dividend = 0.1600, decl_date = 7/09/2013, ex_date = 7/29/2013
+2013-08-29 00:32:31,740, INFO, adding CMLP to stock map
+2013-08-29 00:32:36,384, INFO, parameters loaded: price = 25.93, dividend = 0.5100, decl_date = 7/18/2013, ex_date = 7/30/2013
+2013-08-29 00:32:36,386, INFO, adding SPH to stock map
+2013-08-29 00:32:42,047, INFO, parameters loaded: price = 46.94, dividend = 0.8750, decl_date = 7/25/2013, ex_date = 8/02/2013
+2013-08-29 00:32:42,048, INFO, adding HTGC to stock map
+2013-08-29 00:32:47,686, INFO, parameters loaded: price = 14.52, dividend = 0.2800, decl_date = 8/01/2013, ex_date = 8/09/2013
+2013-08-29 00:32:47,687, INFO, adding EXLP to stock map
+2013-08-29 00:32:54,332, INFO, parameters loaded: price = 27.67, dividend = 0.5225, decl_date = 7/30/2013, ex_date = 8/07/2013
+2013-08-29 00:32:54,333, INFO, adding STWD to stock map
+2013-08-29 00:32:58,954, INFO, parameters loaded: price = 24.91, dividend = 0.4600, decl_date = 8/06/2013, ex_date = 9/26/2013
+2013-08-29 00:32:58,954, INFO, adding ABR to stock map
+2013-08-29 00:33:02,665, INFO, parameters loaded: price = 6.87, dividend = 0.1300, decl_date = 8/02/2013, ex_date = 8/12/2013
+2013-08-29 00:33:02,666, INFO, adding TCAP to stock map
+2013-08-29 00:33:09,357, INFO, parameters loaded: price = 29.08, dividend = 0.5400, decl_date = 8/28/2013, ex_date = 9/09/2013
+2013-08-29 00:33:09,358, INFO, adding CRT to stock map
+2013-08-29 00:33:14,985, INFO, parameters loaded: price = 29.34, dividend = 0.2357, decl_date = 8/20/2013, ex_date = 8/28/2013
+2013-08-29 00:33:14,986, INFO, adding UMH to stock map
+2013-08-29 00:33:21,625, INFO, parameters loaded: price = 9.69, dividend = 0.1800, decl_date = 7/01/2013, ex_date = 8/13/2013
+2013-08-29 00:33:21,626, INFO, adding SIR to stock map
+2013-08-29 00:33:28,258, INFO, parameters loaded: price = 24.28, dividend = 0.4400, decl_date = 7/09/2013, ex_date = 7/22/2013
+2013-08-29 00:33:28,259, INFO, adding GOV to stock map
+2013-08-29 00:33:34,899, INFO, parameters loaded: price = 23.76, dividend = 0.4300, decl_date = 7/10/2013, ex_date = 7/24/2013
+2013-08-29 00:33:34,900, INFO, adding HLSS to stock map
+2013-08-29 00:33:39,540, INFO, parameters loaded: price = 23.01, dividend = 0.1500, decl_date = 7/18/2013, ex_date = 9/26/2013
+2013-08-29 00:33:39,542, INFO, adding EEP to stock map
+2013-08-29 00:33:43,164, INFO, parameters loaded: price = 29.94, dividend = 0.5435, decl_date = 7/29/2013, ex_date = 8/05/2013
+2013-08-29 00:33:43,165, INFO, adding BWP to stock map
+2013-08-29 00:33:48,787, INFO, parameters loaded: price = 30.13, dividend = 0.5325, decl_date = 7/29/2013, ex_date = 8/06/2013
+2013-08-29 00:33:48,788, INFO, adding LGP to stock map
+2013-08-29 00:33:52,415, INFO, parameters loaded: price = 27.02, dividend = 0.4775, decl_date = 8/08/2013, ex_date = 8/21/2013
+2013-08-29 00:33:52,416, INFO, adding CLNY to stock map
+2013-08-29 00:33:56,459, INFO, parameters loaded: price = 19.71, dividend = 0.3500, decl_date = 6/04/2013, ex_date = 6/26/2013
+2013-08-29 00:33:56,460, INFO, adding SBR to stock map
+2013-08-29 00:34:01,087, INFO, parameters loaded: price = 53.31, dividend = 0.4497, decl_date = 8/05/2013, ex_date = 8/13/2013
+2013-08-29 00:34:01,087, INFO, adding MMLP to stock map
+2013-08-29 00:34:05,743, INFO, parameters loaded: price = 45.82, dividend = 0.7800, decl_date = 7/25/2013, ex_date = 8/05/2013
+2013-08-29 00:34:05,744, INFO, adding VOD to stock map
+2013-08-29 00:34:12,765, INFO, parameters loaded: price = 29.34, dividend = 1.0426, decl_date = 0/0/0, ex_date = 6/12/2013
+2013-08-29 00:34:12,767, WARNING, parameter not valid
+2013-08-29 00:34:12,768, INFO, === begin analysis for SIR, price: 24.28, dividend: 0.44
+2013-08-29 00:34:12,769, INFO, matching past: 7/9/2013, now: 8/29/2013, future: 7/22/2013
+2013-08-29 00:34:12,770, INFO, date not match for SIR, pass
+2013-08-29 00:34:12,770, INFO, === begin analysis for EXLP, price: 27.67, dividend: 0.5225
+2013-08-29 00:34:12,771, INFO, matching past: 7/30/2013, now: 8/29/2013, future: 8/7/2013
+2013-08-29 00:34:12,772, INFO, date not match for EXLP, pass
+2013-08-29 00:34:12,773, INFO, === begin analysis for GAIN, price: 7.0, dividend: 0.05
+2013-08-29 00:34:12,773, INFO, matching past: 7/9/2013, now: 8/29/2013, future: 9/16/2013
+2013-08-29 00:34:12,774, INFO, download options of <GAIN> from http://www.optionpain.altervista.org/csv.php?symbol=GAIN&month=9&year=2013
+2013-08-29 00:34:14,596, INFO, find valid option file GAIN_2013_9.opt
+2013-08-29 00:34:14,598, INFO, options are expired at 9/21/2013
+2013-08-29 00:34:14,599, INFO, dividend within date 2013/8 to 2013/9 is 0.05
+2013-08-29 00:34:14,601, INFO, can buy 200 shares with $2000.0
+2013-08-29 00:34:14,601, INFO, loading options file GAIN_2013_9.opt
+2013-08-29 00:34:14,603, INFO, begin generating yield table
+2013-08-29 00:34:14,603, INFO, === begin analysis for CLMT, price: 30.45, dividend: 0.685
+2013-08-29 00:34:14,605, INFO, matching past: 7/22/2013, now: 8/29/2013, future: 7/31/2013
+2013-08-29 00:34:14,606, INFO, date not match for CLMT, pass
+2013-08-29 00:34:14,607, INFO, === begin analysis for SID, price: 3.67, dividend: 0.0614
+2013-08-29 00:34:14,611, INFO, matching past: 0/0/0, now: 8/29/2013, future: 8/15/2013
+2013-08-29 00:34:14,617, INFO, date not match for SID, pass
+2013-08-29 00:34:14,618, INFO, === begin analysis for LINE, price: 24.57, dividend: 0.2416
+2013-08-29 00:34:14,620, INFO, matching past: 8/1/2013, now: 8/29/2013, future: 8/8/2013
+2013-08-29 00:34:14,621, INFO, date not match for LINE, pass
+2013-08-29 00:34:14,622, INFO, === begin analysis for BWP, price: 30.13, dividend: 0.5325
+2013-08-29 00:34:14,625, INFO, matching past: 7/29/2013, now: 8/29/2013, future: 8/6/2013
+2013-08-29 00:34:14,626, INFO, date not match for BWP, pass
+2013-08-29 00:34:14,626, INFO, === begin analysis for KCAP, price: 8.53, dividend: 0.28
+2013-08-29 00:34:14,627, INFO, matching past: 6/17/2013, now: 8/29/2013, future: 7/2/2013
+2013-08-29 00:34:14,636, INFO, date not match for KCAP, pass
+2013-08-29 00:34:14,637, INFO, === begin analysis for SXE, price: 37.51, dividend: 0.0
+2013-08-29 00:34:14,637, INFO, matching past: 0/0/0, now: 8/29/2013, future: 0/0/0
+2013-08-29 00:34:14,638, INFO, date not match for SXE, pass
+2013-08-29 00:34:14,638, INFO, === begin analysis for BKCC, price: 9.92, dividend: 0.26
+2013-08-29 00:34:14,638, INFO, matching past: 7/31/2013, now: 8/29/2013, future: 9/17/2013
+2013-08-29 00:34:14,639, INFO, download options of <BKCC> from http://www.optionpain.altervista.org/csv.php?symbol=BKCC&month=9&year=2013
+2013-08-29 00:34:16,314, INFO, find valid option file BKCC_2013_9.opt
+2013-08-29 00:34:16,316, INFO, options are expired at 9/21/2013
+2013-08-29 00:34:16,317, INFO, dividend within date 2013/8 to 2013/9 is 0.26
+2013-08-29 00:34:16,318, INFO, can buy 200 shares with $2000.0
+2013-08-29 00:34:16,319, INFO, loading options file BKCC_2013_9.opt
+2013-08-29 00:34:16,320, INFO, begin generating yield table
+2013-08-29 00:34:16,321, INFO, compute yield
+2013-08-29 00:34:16,322, INFO, c_strike: 12.5 p_strike: 7.5 c_price: 0.0 p_price: 0.05 dividend 0.26 month_diff 1.5 shares 200
+2013-08-29 00:34:16,324, INFO, revenue: 1548.05, cost: 2007.95, profit: -459.9, term_yield: -0.229039567718, annualized_yield: -0.875187892667
+2013-08-29 00:34:16,328, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:16,335, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:16,337, INFO, compute yield
+2013-08-29 00:34:16,338, INFO, c_strike: 12.5 p_strike: 10.0 c_price: 0.0 p_price: 0.45 dividend 0.26 month_diff 1.5 shares 200
+2013-08-29 00:34:16,339, INFO, revenue: 2048.05, cost: 2087.95, profit: -39.9, term_yield: -0.0191096530089, annualized_yield: -0.143033815756
+2013-08-29 00:34:16,340, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:16,345, INFO, revenue: 2048.05, cost: 2087.95, profit: -39.9, term_yield: -0.0191096530089, annualized_yield: -0.143033815756
+2013-08-29 00:34:16,346, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:16,346, INFO, revenue: 2048.05, cost: 2087.95, profit: -39.9, term_yield: -0.0191096530089, annualized_yield: -0.143033815756
+2013-08-29 00:34:16,346, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:16,347, INFO, revenue: 2048.05, cost: 2087.95, profit: -39.9, term_yield: -0.0191096530089, annualized_yield: -0.143033815756
+2013-08-29 00:34:16,347, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:16,347, INFO, revenue: 2048.05, cost: 2087.95, profit: -39.9, term_yield: -0.0191096530089, annualized_yield: -0.143033815756
+2013-08-29 00:34:16,347, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:16,348, INFO, revenue: 2048.05, cost: 2087.95, profit: -39.9, term_yield: -0.0191096530089, annualized_yield: -0.143033815756
+2013-08-29 00:34:16,348, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:16,352, INFO, revenue: 2230.45, cost: 2087.95, profit: 142.5, term_yield: 0.0682487607462, annualized_yield: 0.695817768372
+2013-08-29 00:34:16,361, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:16,362, INFO, revenue: 2428.85, cost: 2087.95, profit: 340.9, term_yield: 0.163270193252, annualized_yield: 2.35308684372
+2013-08-29 00:34:16,363, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:16,364, INFO, revenue: 2548.05, cost: 2087.95, profit: 460.1, term_yield: 0.220359682943, annualized_yield: 3.91929436771
+2013-08-29 00:34:16,366, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:16,367, INFO, revenue: 2548.05, cost: 2087.95, profit: 460.1, term_yield: 0.220359682943, annualized_yield: 3.91929436771
+2013-08-29 00:34:16,367, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:16,368, INFO, compute yield
+2013-08-29 00:34:16,373, INFO, c_strike: 10.0 p_strike: 7.5 c_price: 0.05 p_price: 0.05 dividend 0.26 month_diff 1.5 shares 200
+2013-08-29 00:34:16,374, INFO, revenue: 1548.05, cost: 1997.95, profit: -449.9, term_yield: -0.225180810331, annualized_yield: -0.870101856089
+2013-08-29 00:34:16,374, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:16,375, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:16,375, INFO, === begin analysis for FGP, price: 23.22, dividend: 0.5
+2013-08-29 00:34:16,376, INFO, matching past: 8/22/2013, now: 8/29/2013, future: 9/4/2013
+2013-08-29 00:34:16,377, INFO, download options of <FGP> from http://www.optionpain.altervista.org/csv.php?symbol=FGP&month=9&year=2013
+2013-08-29 00:34:17,884, INFO, find valid option file FGP_2013_9.opt
+2013-08-29 00:34:17,885, INFO, options are expired at 9/21/2013
+2013-08-29 00:34:17,886, INFO, dividend within date 2013/8 to 2013/9 is 0.5
+2013-08-29 00:34:17,887, INFO, $2000.0 is not enough to buy 100 shares, pass
+2013-08-29 00:34:17,888, INFO, === begin analysis for SPH, price: 46.94, dividend: 0.875
+2013-08-29 00:34:17,889, INFO, matching past: 7/25/2013, now: 8/29/2013, future: 8/2/2013
+2013-08-29 00:34:17,890, INFO, date not match for SPH, pass
+2013-08-29 00:34:17,891, INFO, === begin analysis for VNR, price: 27.85, dividend: 0.2075
+2013-08-29 00:34:17,892, INFO, matching past: 8/20/2013, now: 8/29/2013, future: 8/29/2013
+2013-08-29 00:34:17,893, INFO, date not match for VNR, pass
+2013-08-29 00:34:17,894, INFO, === begin analysis for UAN, price: 18.52, dividend: 0.583
+2013-08-29 00:34:17,901, INFO, matching past: 7/26/2013, now: 8/29/2013, future: 8/5/2013
+2013-08-29 00:34:17,901, INFO, date not match for UAN, pass
+2013-08-29 00:34:17,902, INFO, === begin analysis for SBR, price: 53.31, dividend: 0.4497
+2013-08-29 00:34:17,902, INFO, matching past: 8/5/2013, now: 8/29/2013, future: 8/13/2013
+2013-08-29 00:34:17,903, INFO, date not match for SBR, pass
+2013-08-29 00:34:17,903, INFO, === begin analysis for NDRO, price: 15.81, dividend: 0.1624
+2013-08-29 00:34:17,904, INFO, matching past: 8/20/2013, now: 8/29/2013, future: 8/28/2013
+2013-08-29 00:34:17,904, INFO, date not match for NDRO, pass
+2013-08-29 00:34:17,905, INFO, === begin analysis for SDT, price: 12.86, dividend: 0.6112
+2013-08-29 00:34:17,906, INFO, matching past: 7/25/2013, now: 8/29/2013, future: 8/12/2013
+2013-08-29 00:34:17,906, INFO, date not match for SDT, pass
+2013-08-29 00:34:17,907, INFO, === begin analysis for BBEP, price: 17.5, dividend: 0.48
+2013-08-29 00:34:17,908, INFO, matching past: 7/31/2013, now: 8/29/2013, future: 8/8/2013
+2013-08-29 00:34:17,909, INFO, date not match for BBEP, pass
+2013-08-29 00:34:17,910, INFO, === begin analysis for BGCP, price: 5.56, dividend: 0.12
+2013-08-29 00:34:17,910, INFO, matching past: 7/30/2013, now: 8/29/2013, future: 8/21/2013
+2013-08-29 00:34:17,918, INFO, date not match for BGCP, pass
+2013-08-29 00:34:17,918, INFO, === begin analysis for GA, price: 7.7, dividend: 0.41
+2013-08-29 00:34:17,921, INFO, matching past: 0/0/0, now: 8/29/2013, future: 5/16/2013
+2013-08-29 00:34:17,922, INFO, date not match for GA, pass
+2013-08-29 00:34:17,923, INFO, === begin analysis for WMC, price: 15.9, dividend: 0.9
+2013-08-29 00:34:17,924, INFO, matching past: 6/20/2013, now: 8/29/2013, future: 6/27/2013
+2013-08-29 00:34:17,924, INFO, date not match for WMC, pass
+2013-08-29 00:34:17,925, INFO, === begin analysis for CLNY, price: 19.71, dividend: 0.35
+2013-08-29 00:34:17,925, INFO, matching past: 6/4/2013, now: 8/29/2013, future: 6/26/2013
+2013-08-29 00:34:17,935, INFO, date not match for CLNY, pass
+2013-08-29 00:34:17,936, INFO, === begin analysis for LGCY, price: 26.91, dividend: 0.58
+2013-08-29 00:34:17,937, INFO, matching past: 7/22/2013, now: 8/29/2013, future: 7/30/2013
+2013-08-29 00:34:17,937, INFO, date not match for LGCY, pass
+2013-08-29 00:34:17,938, INFO, === begin analysis for APU, price: 42.93, dividend: 0.84
+2013-08-29 00:34:17,938, INFO, matching past: 7/29/2013, now: 8/29/2013, future: 8/7/2013
+2013-08-29 00:34:17,939, INFO, date not match for APU, pass
+2013-08-29 00:34:17,939, INFO, === begin analysis for SFL, price: 15.69, dividend: 0.39
+2013-08-29 00:34:17,940, INFO, matching past: 8/28/2013, now: 8/29/2013, future: 9/10/2013
+2013-08-29 00:34:17,940, INFO, download options of <SFL> from http://www.optionpain.altervista.org/csv.php?symbol=SFL&month=9&year=2013
+2013-08-29 00:34:19,632, INFO, find valid option file SFL_2013_9.opt
+2013-08-29 00:34:19,633, INFO, options are expired at 9/21/2013
+2013-08-29 00:34:19,634, INFO, dividend within date 2013/8 to 2013/9 is 0.39
+2013-08-29 00:34:19,634, INFO, can buy 100 shares with $2000.0
+2013-08-29 00:34:19,634, INFO, loading options file SFL_2013_9.opt
+2013-08-29 00:34:19,635, INFO, begin generating yield table
+2013-08-29 00:34:19,636, INFO, compute yield
+2013-08-29 00:34:19,636, INFO, c_strike: 17.5 p_strike: 15.0 c_price: 0.0 p_price: 0.3 dividend 0.39 month_diff 1.5 shares 100
+2013-08-29 00:34:19,637, INFO, revenue: 1535.05, cost: 1612.95, profit: -77.9, term_yield: -0.0482965993986, annualized_yield: -0.32700324685
+2013-08-29 00:34:19,637, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:19,638, INFO, revenue: 1535.05, cost: 1612.95, profit: -77.9, term_yield: -0.0482965993986, annualized_yield: -0.32700324685
+2013-08-29 00:34:19,638, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:19,639, INFO, revenue: 1535.05, cost: 1612.95, profit: -77.9, term_yield: -0.0482965993986, annualized_yield: -0.32700324685
+2013-08-29 00:34:19,639, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:19,640, INFO, revenue: 1535.05, cost: 1612.95, profit: -77.9, term_yield: -0.0482965993986, annualized_yield: -0.32700324685
+2013-08-29 00:34:19,640, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:19,641, INFO, revenue: 1535.05, cost: 1612.95, profit: -77.9, term_yield: -0.0482965993986, annualized_yield: -0.32700324685
+2013-08-29 00:34:19,652, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:19,653, INFO, revenue: 1604.05, cost: 1612.95, profit: -8.9, term_yield: -0.00551783998264, annualized_yield: -0.0432995595884
+2013-08-29 00:34:19,654, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:19,654, INFO, revenue: 1760.95, cost: 1612.95, profit: 148.0, term_yield: 0.0917573390372, annualized_yield: 1.01840800639
+2013-08-29 00:34:19,655, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:19,656, INFO, revenue: 1785.05, cost: 1612.95, profit: 172.1, term_yield: 0.106698905732, annualized_yield: 1.25027628986
+2013-08-29 00:34:19,657, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:19,661, INFO, revenue: 1785.05, cost: 1612.95, profit: 172.1, term_yield: 0.106698905732, annualized_yield: 1.25027628986
+2013-08-29 00:34:19,662, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:19,663, INFO, revenue: 1785.05, cost: 1612.95, profit: 172.1, term_yield: 0.106698905732, annualized_yield: 1.25027628986
+2013-08-29 00:34:19,663, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:19,664, INFO, === begin analysis for HCLP, price: 23.43, dividend: 0.475
+2013-08-29 00:34:19,664, INFO, matching past: 7/17/2013, now: 8/29/2013, future: 7/30/2013
+2013-08-29 00:34:19,665, INFO, date not match for HCLP, pass
+2013-08-29 00:34:19,672, INFO, === begin analysis for CMO, price: 11.83, dividend: 0.31
+2013-08-29 00:34:19,673, INFO, matching past: 6/13/2013, now: 8/29/2013, future: 6/26/2013
+2013-08-29 00:34:19,673, INFO, date not match for CMO, pass
+2013-08-29 00:34:19,673, INFO, === begin analysis for BAMM, price: 2.36, dividend: 0.05
+2013-08-29 00:34:19,674, INFO, matching past: 3/22/2011, now: 8/29/2013, future: 4/1/2011
+2013-08-29 00:34:19,674, INFO, date not match for BAMM, pass
+2013-08-29 00:34:19,674, INFO, === begin analysis for MMLP, price: 45.82, dividend: 0.78
+2013-08-29 00:34:19,675, INFO, matching past: 7/25/2013, now: 8/29/2013, future: 8/5/2013
+2013-08-29 00:34:19,681, INFO, date not match for MMLP, pass
+2013-08-29 00:34:19,681, INFO, === begin analysis for NAT, price: 7.8, dividend: 0.16
+2013-08-29 00:34:19,682, INFO, matching past: 7/9/2013, now: 8/29/2013, future: 7/29/2013
+2013-08-29 00:34:19,682, INFO, date not match for NAT, pass
+2013-08-29 00:34:19,683, INFO, === begin analysis for CRT, price: 29.34, dividend: 0.2357
+2013-08-29 00:34:19,683, INFO, matching past: 8/20/2013, now: 8/29/2013, future: 8/28/2013
+2013-08-29 00:34:19,684, INFO, date not match for CRT, pass
+2013-08-29 00:34:19,684, INFO, === begin analysis for PNNT, price: 11.06, dividend: 0.28
+2013-08-29 00:34:19,685, INFO, matching past: 6/3/2013, now: 8/29/2013, future: 6/19/2013
+2013-08-29 00:34:19,685, INFO, date not match for PNNT, pass
+2013-08-29 00:34:19,686, INFO, === begin analysis for EEP, price: 29.94, dividend: 0.5435
+2013-08-29 00:34:19,686, INFO, matching past: 7/29/2013, now: 8/29/2013, future: 8/5/2013
+2013-08-29 00:34:19,687, INFO, date not match for EEP, pass
+2013-08-29 00:34:19,687, INFO, === begin analysis for CHKR, price: 13.59, dividend: 0.69
+2013-08-29 00:34:19,688, INFO, matching past: 8/8/2013, now: 8/29/2013, future: 8/15/2013
+2013-08-29 00:34:19,689, INFO, date not match for CHKR, pass
+2013-08-29 00:34:19,693, INFO, === begin analysis for EROC, price: 6.08, dividend: 0.22
+2013-08-29 00:34:19,694, INFO, matching past: 7/23/2013, now: 8/29/2013, future: 8/5/2013
+2013-08-29 00:34:19,695, INFO, date not match for EROC, pass
+2013-08-29 00:34:19,695, INFO, === begin analysis for AB, price: 19.29, dividend: 0.41
+2013-08-29 00:34:19,696, INFO, matching past: 7/31/2013, now: 8/29/2013, future: 8/8/2013
+2013-08-29 00:34:19,696, INFO, date not match for AB, pass
+2013-08-29 00:34:19,697, INFO, === begin analysis for MGPC, price: 0.0, dividend: 0.0
+2013-08-29 00:34:19,697, INFO, matching past: 0/0/0, now: 8/29/2013, future: 0/0/0
+2013-08-29 00:34:19,698, INFO, date not match for MGPC, pass
+2013-08-29 00:34:19,698, INFO, === begin analysis for CNSL, price: 16.71, dividend: 0.3874
+2013-08-29 00:34:19,699, INFO, matching past: 8/5/2013, now: 8/29/2013, future: 10/10/2013
+2013-08-29 00:34:19,699, INFO, download options of <CNSL> from http://www.optionpain.altervista.org/csv.php?symbol=CNSL&month=10&year=2013
+2013-08-29 00:34:21,161, INFO, find valid option file CNSL_2013_10.opt
+2013-08-29 00:34:21,162, INFO, options are expired at 10/19/2013
+2013-08-29 00:34:21,163, INFO, dividend within date 2013/8 to 2013/10 is 0.3874
+2013-08-29 00:34:21,164, INFO, can buy 100 shares with $2000.0
+2013-08-29 00:34:21,165, INFO, loading options file CNSL_2013_10.opt
+2013-08-29 00:34:21,166, INFO, begin generating yield table
+2013-08-29 00:34:21,168, INFO, compute yield
+2013-08-29 00:34:21,169, INFO, c_strike: 17.5 p_strike: 12.5 c_price: 0.2 p_price: 0.2 dividend 0.3874 month_diff 2.5 shares 100
+2013-08-29 00:34:21,170, INFO, revenue: 1284.79, cost: 1684.95, profit: -400.16, term_yield: -0.237490726728, annualized_yield: -0.727869874021
+2013-08-29 00:34:21,171, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,177, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:21,178, INFO, compute yield
+2013-08-29 00:34:21,179, INFO, c_strike: 17.5 p_strike: 5.0 c_price: 0.2 p_price: 0.15 dividend 0.3874 month_diff 2.5 shares 100
+2013-08-29 00:34:21,179, INFO, revenue: 870.29, cost: 1679.95, profit: -809.66, term_yield: -0.481954820084, annualized_yield: -0.957443621914
+2013-08-29 00:34:21,180, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,185, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:21,186, INFO, compute yield
+2013-08-29 00:34:21,187, INFO, c_strike: 17.5 p_strike: 15.0 c_price: 0.2 p_price: 0.3 dividend 0.3874 month_diff 2.5 shares 100
+2013-08-29 00:34:21,192, INFO, revenue: 1534.79, cost: 1694.95, profit: -160.16, term_yield: -0.0944924629045, annualized_yield: -0.37901382169
+2013-08-29 00:34:21,193, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,195, INFO, revenue: 1534.79, cost: 1694.95, profit: -160.16, term_yield: -0.0944924629045, annualized_yield: -0.37901382169
+2013-08-29 00:34:21,195, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,196, INFO, revenue: 1534.79, cost: 1694.95, profit: -160.16, term_yield: -0.0944924629045, annualized_yield: -0.37901382169
+2013-08-29 00:34:21,196, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,197, INFO, revenue: 1534.79, cost: 1694.95, profit: -160.16, term_yield: -0.0944924629045, annualized_yield: -0.37901382169
+2013-08-29 00:34:21,197, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,198, INFO, revenue: 1538.69, cost: 1694.95, profit: -156.26, term_yield: -0.092191510074, annualized_yield: -0.371402930554
+2013-08-29 00:34:21,204, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,205, INFO, revenue: 1705.79, cost: 1694.95, profit: 10.84, term_yield: 0.00639546889289, annualized_yield: 0.0310735101783
+2013-08-29 00:34:21,205, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,205, INFO, revenue: 1784.79, cost: 1694.95, profit: 89.84, term_yield: 0.0530045134075, annualized_yield: 0.281342162496
+2013-08-29 00:34:21,206, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,206, INFO, revenue: 1784.79, cost: 1694.95, profit: 89.84, term_yield: 0.0530045134075, annualized_yield: 0.281342162496
+2013-08-29 00:34:21,212, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,213, INFO, revenue: 1784.79, cost: 1694.95, profit: 89.84, term_yield: 0.0530045134075, annualized_yield: 0.281342162496
+2013-08-29 00:34:21,214, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,214, INFO, revenue: 1784.79, cost: 1694.95, profit: 89.84, term_yield: 0.0530045134075, annualized_yield: 0.281342162496
+2013-08-29 00:34:21,214, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,215, INFO, compute yield
+2013-08-29 00:34:21,216, INFO, c_strike: 20.0 p_strike: 12.5 c_price: 0.0 p_price: 0.2 dividend 0.3874 month_diff 2.5 shares 100
+2013-08-29 00:34:21,216, INFO, revenue: 1284.79, cost: 1704.95, profit: -420.16, term_yield: -0.246435379337, annualized_yield: -0.742854811766
+2013-08-29 00:34:21,217, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,217, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:21,218, INFO, compute yield
+2013-08-29 00:34:21,218, INFO, c_strike: 20.0 p_strike: 17.5 c_price: 0.0 p_price: 1.65 dividend 0.3874 month_diff 2.5 shares 100
+2013-08-29 00:34:21,219, INFO, revenue: 1784.79, cost: 1849.95, profit: -65.16, term_yield: -0.0352225735831, annualized_yield: -0.158119906914
+2013-08-29 00:34:21,219, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,220, INFO, revenue: 1784.79, cost: 1849.95, profit: -65.16, term_yield: -0.0352225735831, annualized_yield: -0.158119906914
+2013-08-29 00:34:21,220, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,221, INFO, revenue: 1784.79, cost: 1849.95, profit: -65.16, term_yield: -0.0352225735831, annualized_yield: -0.158119906914
+2013-08-29 00:34:21,221, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,225, INFO, revenue: 1784.79, cost: 1849.95, profit: -65.16, term_yield: -0.0352225735831, annualized_yield: -0.158119906914
+2013-08-29 00:34:21,226, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,226, INFO, revenue: 1784.79, cost: 1849.95, profit: -65.16, term_yield: -0.0352225735831, annualized_yield: -0.158119906914
+2013-08-29 00:34:21,227, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,227, INFO, revenue: 1784.79, cost: 1849.95, profit: -65.16, term_yield: -0.0352225735831, annualized_yield: -0.158119906914
+2013-08-29 00:34:21,228, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,228, INFO, revenue: 1872.89, cost: 1849.95, profit: 22.94, term_yield: 0.0124003351442, annualized_yield: 0.0609402969424
+2013-08-29 00:34:21,229, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,229, INFO, revenue: 2034.79, cost: 1849.95, profit: 184.84, term_yield: 0.0999162139517, annualized_yield: 0.579523528453
+2013-08-29 00:34:21,229, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,230, INFO, revenue: 2034.79, cost: 1849.95, profit: 184.84, term_yield: 0.0999162139517, annualized_yield: 0.579523528453
+2013-08-29 00:34:21,241, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,241, INFO, revenue: 2034.79, cost: 1849.95, profit: 184.84, term_yield: 0.0999162139517, annualized_yield: 0.579523528453
+2013-08-29 00:34:21,242, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,242, INFO, compute yield
+2013-08-29 00:34:21,242, INFO, c_strike: 20.0 p_strike: 5.0 c_price: 0.0 p_price: 0.15 dividend 0.3874 month_diff 2.5 shares 100
+2013-08-29 00:34:21,243, INFO, revenue: 870.29, cost: 1699.95, profit: -829.66, term_yield: -0.488049648519, annualized_yield: -0.9597937417
+2013-08-29 00:34:21,243, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,244, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:21,244, INFO, compute yield
+2013-08-29 00:34:21,245, INFO, c_strike: 20.0 p_strike: 15.0 c_price: 0.0 p_price: 0.3 dividend 0.3874 month_diff 2.5 shares 100
+2013-08-29 00:34:21,245, INFO, revenue: 1534.79, cost: 1714.95, profit: -180.16, term_yield: -0.105052625441, annualized_yield: -0.413013663757
+2013-08-29 00:34:21,246, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,246, INFO, revenue: 1534.79, cost: 1714.95, profit: -180.16, term_yield: -0.105052625441, annualized_yield: -0.413013663757
+2013-08-29 00:34:21,247, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,247, INFO, revenue: 1534.79, cost: 1714.95, profit: -180.16, term_yield: -0.105052625441, annualized_yield: -0.413013663757
+2013-08-29 00:34:21,248, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,249, INFO, revenue: 1534.79, cost: 1714.95, profit: -180.16, term_yield: -0.105052625441, annualized_yield: -0.413013663757
+2013-08-29 00:34:21,249, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,249, INFO, revenue: 1538.69, cost: 1714.95, profit: -176.26, term_yield: -0.102778506662, annualized_yield: -0.405819479314
+2013-08-29 00:34:21,250, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,257, INFO, revenue: 1705.79, cost: 1714.95, profit: -9.16, term_yield: -0.00534126359369, annualized_yield: -0.0253791738429
+2013-08-29 00:34:21,258, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,259, INFO, revenue: 1872.89, cost: 1714.95, profit: 157.94, term_yield: 0.0920959794746, annualized_yield: 0.526342087496
+2013-08-29 00:34:21,259, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,260, INFO, revenue: 2034.79, cost: 1714.95, profit: 319.84, term_yield: 0.186501064171, annualized_yield: 1.27241179039
+2013-08-29 00:34:21,260, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,261, INFO, revenue: 2034.79, cost: 1714.95, profit: 319.84, term_yield: 0.186501064171, annualized_yield: 1.27241179039
+2013-08-29 00:34:21,261, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,262, INFO, revenue: 2034.79, cost: 1714.95, profit: 319.84, term_yield: 0.186501064171, annualized_yield: 1.27241179039
+2013-08-29 00:34:21,262, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:21,263, INFO, === begin analysis for MFA, price: 7.41, dividend: 0.28
+2013-08-29 00:34:21,263, INFO, matching past: 8/1/2013, now: 8/29/2013, future: 8/8/2013
+2013-08-29 00:34:21,264, INFO, date not match for MFA, pass
+2013-08-29 00:34:21,264, INFO, === begin analysis for PT, price: 3.71, dividend: 0.5421
+2013-08-29 00:34:21,265, INFO, matching past: 0/0/0, now: 8/29/2013, future: 5/22/2012
+2013-08-29 00:34:21,266, INFO, date not match for PT, pass
+2013-08-29 00:34:21,266, INFO, === begin analysis for SDRL, price: 43.73, dividend: 0.91
+2013-08-29 00:34:21,271, INFO, matching past: 8/28/2013, now: 8/29/2013, future: 9/5/2013
+2013-08-29 00:34:21,272, INFO, download options of <SDRL> from http://www.optionpain.altervista.org/csv.php?symbol=SDRL&month=9&year=2013
+2013-08-29 00:34:22,633, INFO, find valid option file SDRL_2013_9.opt
+2013-08-29 00:34:22,636, INFO, options are expired at 9/21/2013
+2013-08-29 00:34:22,637, INFO, dividend within date 2013/8 to 2013/9 is 0.91
+2013-08-29 00:34:22,637, INFO, $2000.0 is not enough to buy 100 shares, pass
+2013-08-29 00:34:22,638, INFO, === begin analysis for NLY, price: 11.54, dividend: 0.4
+2013-08-29 00:34:22,639, INFO, matching past: 6/19/2013, now: 8/29/2013, future: 6/27/2013
+2013-08-29 00:34:22,639, INFO, date not match for NLY, pass
+2013-08-29 00:34:22,640, INFO, === begin analysis for WVT, price: 11.91, dividend: 0.27
+2013-08-29 00:34:22,641, INFO, matching past: 12/3/2012, now: 8/29/2013, future: 12/13/2012
+2013-08-29 00:34:22,641, INFO, date not match for WVT, pass
+2013-08-29 00:34:22,642, INFO, === begin analysis for AGNC, price: 22.95, dividend: 1.05
+2013-08-29 00:34:22,642, INFO, matching past: 6/18/2013, now: 8/29/2013, future: 6/26/2013
+2013-08-29 00:34:22,643, INFO, date not match for AGNC, pass
+2013-08-29 00:34:22,643, INFO, === begin analysis for FTR, price: 4.47, dividend: 0.1
+2013-08-29 00:34:22,644, INFO, matching past: 7/31/2013, now: 8/29/2013, future: 9/5/2013
+2013-08-29 00:34:22,651, INFO, download options of <FTR> from http://www.optionpain.altervista.org/csv.php?symbol=FTR&month=9&year=2013
+2013-08-29 00:34:24,340, INFO, find valid option file FTR_2013_9.opt
+2013-08-29 00:34:24,343, INFO, options are expired at 9/21/2013
+2013-08-29 00:34:24,344, INFO, dividend within date 2013/8 to 2013/9 is 0.1
+2013-08-29 00:34:24,345, INFO, can buy 400 shares with $2000.0
+2013-08-29 00:34:24,346, INFO, loading options file FTR_2013_9.opt
+2013-08-29 00:34:24,347, INFO, begin generating yield table
+2013-08-29 00:34:24,349, INFO, compute yield
+2013-08-29 00:34:24,349, INFO, c_strike: 5.0 p_strike: 4.5 c_price: 0.0 p_price: 0.25 dividend 0.1 month_diff 1.5 shares 400
+2013-08-29 00:34:24,350, INFO, revenue: 1836.05, cost: 1901.95, profit: -65.9, term_yield: -0.0346486500697, annualized_yield: -0.245805665211
+2013-08-29 00:34:24,351, INFO, every cent less converts to 4 dollars
+2013-08-29 00:34:24,361, INFO, revenue: 1836.05, cost: 1901.95, profit: -65.9, term_yield: -0.0346486500697, annualized_yield: -0.245805665211
+2013-08-29 00:34:24,362, INFO, every cent less converts to 4 dollars
+2013-08-29 00:34:24,363, INFO, revenue: 1836.05, cost: 1901.95, profit: -65.9, term_yield: -0.0346486500697, annualized_yield: -0.245805665211
+2013-08-29 00:34:24,364, INFO, every cent less converts to 4 dollars
+2013-08-29 00:34:24,366, INFO, revenue: 1836.05, cost: 1901.95, profit: -65.9, term_yield: -0.0346486500697, annualized_yield: -0.245805665211
+2013-08-29 00:34:24,367, INFO, every cent less converts to 4 dollars
+2013-08-29 00:34:24,368, INFO, revenue: 1836.05, cost: 1901.95, profit: -65.9, term_yield: -0.0346486500697, annualized_yield: -0.245805665211
+2013-08-29 00:34:24,372, INFO, every cent less converts to 4 dollars
+2013-08-29 00:34:24,373, INFO, revenue: 1836.05, cost: 1901.95, profit: -65.9, term_yield: -0.0346486500697, annualized_yield: -0.245805665211
+2013-08-29 00:34:24,374, INFO, every cent less converts to 4 dollars
+2013-08-29 00:34:24,385, INFO, revenue: 2002.85, cost: 1901.95, profit: 100.9, term_yield: 0.0530508162675, annualized_yield: 0.512149161094
+2013-08-29 00:34:24,386, INFO, every cent less converts to 4 dollars
+2013-08-29 00:34:24,387, INFO, revenue: 2036.05, cost: 1901.95, profit: 134.1, term_yield: 0.0705065853466, annualized_yield: 0.72470469663
+2013-08-29 00:34:24,387, INFO, every cent less converts to 4 dollars
+2013-08-29 00:34:24,388, INFO, revenue: 2036.05, cost: 1901.95, profit: 134.1, term_yield: 0.0705065853466, annualized_yield: 0.72470469663
+2013-08-29 00:34:24,388, INFO, every cent less converts to 4 dollars
+2013-08-29 00:34:24,389, INFO, revenue: 2036.05, cost: 1901.95, profit: 134.1, term_yield: 0.0705065853466, annualized_yield: 0.72470469663
+2013-08-29 00:34:24,392, INFO, every cent less converts to 4 dollars
+2013-08-29 00:34:24,394, INFO, === begin analysis for ROYT, price: 17.85, dividend: 0.1699
+2013-08-29 00:34:24,395, INFO, matching past: 8/27/2013, now: 8/29/2013, future: 9/4/2013
+2013-08-29 00:34:24,396, INFO, download options of <ROYT> from http://www.optionpain.altervista.org/csv.php?symbol=ROYT&month=9&year=2013
+2013-08-29 00:34:25,921, INFO, find valid option file ROYT_2013_9.opt
+2013-08-29 00:34:25,923, INFO, options are expired at 9/21/2013
+2013-08-29 00:34:25,924, INFO, dividend within date 2013/8 to 2013/9 is 0.1699
+2013-08-29 00:34:25,925, INFO, can buy 100 shares with $2000.0
+2013-08-29 00:34:25,926, INFO, loading options file ROYT_2013_9.opt
+2013-08-29 00:34:25,927, INFO, begin generating yield table
+2013-08-29 00:34:25,928, INFO, compute yield
+2013-08-29 00:34:25,929, INFO, c_strike: 22.5 p_strike: 12.5 c_price: 0.0 p_price: 0.05 dividend 0.1699 month_diff 1.5 shares 100
+2013-08-29 00:34:25,931, INFO, revenue: 1263.04, cost: 1803.95, profit: -540.91, term_yield: -0.29984755675, annualized_yield: -0.942251478557
+2013-08-29 00:34:25,932, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:25,936, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:25,942, INFO, compute yield
+2013-08-29 00:34:25,944, INFO, c_strike: 22.5 p_strike: 17.5 c_price: 0.0 p_price: 0.35 dividend 0.1699 month_diff 1.5 shares 100
+2013-08-29 00:34:25,946, INFO, revenue: 1763.04, cost: 1833.95, profit: -70.91, term_yield: -0.0386651762589, annualized_yield: -0.270546861659
+2013-08-29 00:34:25,947, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:25,948, INFO, revenue: 1763.04, cost: 1833.95, profit: -70.91, term_yield: -0.0386651762589, annualized_yield: -0.270546861659
+2013-08-29 00:34:25,952, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:25,953, INFO, revenue: 1763.04, cost: 1833.95, profit: -70.91, term_yield: -0.0386651762589, annualized_yield: -0.270546861659
+2013-08-29 00:34:25,953, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:25,954, INFO, revenue: 1763.04, cost: 1833.95, profit: -70.91, term_yield: -0.0386651762589, annualized_yield: -0.270546861659
+2013-08-29 00:34:25,955, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:25,955, INFO, revenue: 1763.04, cost: 1833.95, profit: -70.91, term_yield: -0.0386651762589, annualized_yield: -0.270546861659
+2013-08-29 00:34:25,955, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:25,956, INFO, revenue: 1798.04, cost: 1833.95, profit: -35.91, term_yield: -0.0195806864964, annualized_yield: -0.146320478552
+2013-08-29 00:34:25,964, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:25,965, INFO, revenue: 1976.54, cost: 1833.95, profit: 142.59, term_yield: 0.0777502112926, annualized_yield: 0.820308233033
+2013-08-29 00:34:25,966, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:25,972, INFO, revenue: 2155.04, cost: 1833.95, profit: 321.09, term_yield: 0.175081109081, annualized_yield: 2.63532092203
+2013-08-29 00:34:25,972, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:25,973, INFO, revenue: 2263.04, cost: 1833.95, profit: 429.09, term_yield: 0.233970391777, annualized_yield: 4.37573576944
+2013-08-29 00:34:25,974, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:25,974, INFO, revenue: 2263.04, cost: 1833.95, profit: 429.09, term_yield: 0.233970391777, annualized_yield: 4.37573576944
+2013-08-29 00:34:25,980, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:25,981, INFO, compute yield
+2013-08-29 00:34:25,981, INFO, c_strike: 22.5 p_strike: 20.0 c_price: 0.0 p_price: 2.5 dividend 0.1699 month_diff 1.5 shares 100
+2013-08-29 00:34:25,982, INFO, revenue: 2013.04, cost: 2048.95, profit: -35.91, term_yield: -0.017526049928, annualized_yield: -0.131902806138
+2013-08-29 00:34:25,983, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:25,983, INFO, revenue: 2013.04, cost: 2048.95, profit: -35.91, term_yield: -0.017526049928, annualized_yield: -0.131902806138
+2013-08-29 00:34:25,983, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:25,984, INFO, revenue: 2013.04, cost: 2048.95, profit: -35.91, term_yield: -0.017526049928, annualized_yield: -0.131902806138
+2013-08-29 00:34:25,985, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:25,985, INFO, revenue: 2013.04, cost: 2048.95, profit: -35.91, term_yield: -0.017526049928, annualized_yield: -0.131902806138
+2013-08-29 00:34:25,986, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:25,986, INFO, revenue: 2013.04, cost: 2048.95, profit: -35.91, term_yield: -0.017526049928, annualized_yield: -0.131902806138
+2013-08-29 00:34:25,986, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:25,987, INFO, revenue: 2013.04, cost: 2048.95, profit: -35.91, term_yield: -0.017526049928, annualized_yield: -0.131902806138
+2013-08-29 00:34:25,987, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:25,988, INFO, revenue: 2013.04, cost: 2048.95, profit: -35.91, term_yield: -0.017526049928, annualized_yield: -0.131902806138
+2013-08-29 00:34:25,988, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:25,989, INFO, revenue: 2155.04, cost: 2048.95, profit: 106.09, term_yield: 0.051777739818, annualized_yield: 0.497586098911
+2013-08-29 00:34:25,993, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:25,994, INFO, revenue: 2263.04, cost: 2048.95, profit: 214.09, term_yield: 0.104487664413, annualized_yield: 1.21455748541
+2013-08-29 00:34:25,994, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:25,995, INFO, revenue: 2263.04, cost: 2048.95, profit: 214.09, term_yield: 0.104487664413, annualized_yield: 1.21455748541
+2013-08-29 00:34:25,995, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:25,996, INFO, compute yield
+2013-08-29 00:34:25,996, INFO, c_strike: 22.5 p_strike: 15.0 c_price: 0.0 p_price: 0.15 dividend 0.1699 month_diff 1.5 shares 100
+2013-08-29 00:34:25,997, INFO, revenue: 1513.04, cost: 1813.95, profit: -300.91, term_yield: -0.165886601064, annualized_yield: -0.765684627983
+2013-08-29 00:34:25,997, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:25,997, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:25,998, INFO, compute yield
+2013-08-29 00:34:26,001, INFO, c_strike: 20.0 p_strike: 12.5 c_price: 0.0 p_price: 0.05 dividend 0.1699 month_diff 1.5 shares 100
+2013-08-29 00:34:26,002, INFO, revenue: 1263.04, cost: 1803.95, profit: -540.91, term_yield: -0.29984755675, annualized_yield: -0.942251478557
+2013-08-29 00:34:26,002, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:26,002, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:26,002, INFO, compute yield
+2013-08-29 00:34:26,003, INFO, c_strike: 20.0 p_strike: 17.5 c_price: 0.0 p_price: 0.35 dividend 0.1699 month_diff 1.5 shares 100
+2013-08-29 00:34:26,003, INFO, revenue: 1763.04, cost: 1833.95, profit: -70.91, term_yield: -0.0386651762589, annualized_yield: -0.270546861659
+2013-08-29 00:34:26,003, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:26,003, INFO, revenue: 1763.04, cost: 1833.95, profit: -70.91, term_yield: -0.0386651762589, annualized_yield: -0.270546861659
+2013-08-29 00:34:26,009, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:26,009, INFO, revenue: 1763.04, cost: 1833.95, profit: -70.91, term_yield: -0.0386651762589, annualized_yield: -0.270546861659
+2013-08-29 00:34:26,009, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:26,009, INFO, revenue: 1763.04, cost: 1833.95, profit: -70.91, term_yield: -0.0386651762589, annualized_yield: -0.270546861659
+2013-08-29 00:34:26,013, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:26,014, INFO, revenue: 1763.04, cost: 1833.95, profit: -70.91, term_yield: -0.0386651762589, annualized_yield: -0.270546861659
+2013-08-29 00:34:26,015, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:26,016, INFO, revenue: 1798.04, cost: 1833.95, profit: -35.91, term_yield: -0.0195806864964, annualized_yield: -0.146320478552
+2013-08-29 00:34:26,017, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:26,018, INFO, revenue: 1976.54, cost: 1833.95, profit: 142.59, term_yield: 0.0777502112926, annualized_yield: 0.820308233033
+2013-08-29 00:34:26,024, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:26,025, INFO, revenue: 2013.04, cost: 1833.95, profit: 179.09, term_yield: 0.0976526077592, annualized_yield: 1.10726574819
+2013-08-29 00:34:26,026, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:26,027, INFO, revenue: 2013.04, cost: 1833.95, profit: 179.09, term_yield: 0.0976526077592, annualized_yield: 1.10726574819
+2013-08-29 00:34:26,028, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:26,029, INFO, revenue: 2013.04, cost: 1833.95, profit: 179.09, term_yield: 0.0976526077592, annualized_yield: 1.10726574819
+2013-08-29 00:34:26,029, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:26,030, INFO, compute yield
+2013-08-29 00:34:26,030, INFO, c_strike: 20.0 p_strike: 15.0 c_price: 0.0 p_price: 0.15 dividend 0.1699 month_diff 1.5 shares 100
+2013-08-29 00:34:26,032, INFO, revenue: 1513.04, cost: 1813.95, profit: -300.91, term_yield: -0.165886601064, annualized_yield: -0.765684627983
+2013-08-29 00:34:26,033, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:26,033, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:26,034, INFO, === begin analysis for CSA, price: 4.25, dividend: 0.1
+2013-08-29 00:34:26,041, INFO, matching past: 12/12/2011, now: 8/29/2013, future: 12/22/2011
+2013-08-29 00:34:26,042, INFO, date not match for CSA, pass
+2013-08-29 00:34:26,042, INFO, === begin analysis for HLSS, price: 23.01, dividend: 0.15
+2013-08-29 00:34:26,043, INFO, matching past: 7/18/2013, now: 8/29/2013, future: 9/26/2013
+2013-08-29 00:34:26,044, INFO, download options of <HLSS> from http://www.optionpain.altervista.org/csv.php?symbol=HLSS&month=9&year=2013
+2013-08-29 00:34:27,423, INFO, option HLSS_2013_9.opt expires earlier than ex_div_date 10/26/2013, move to next month
+2013-08-29 00:34:27,426, INFO, download options of <HLSS> from http://www.optionpain.altervista.org/csv.php?symbol=HLSS&month=10&year=2013
+2013-08-29 00:34:28,739, INFO, option HLSS_2013_10.opt expires earlier than ex_div_date 11/26/2013, move to next month
+2013-08-29 00:34:28,742, INFO, download options of <HLSS> from http://www.optionpain.altervista.org/csv.php?symbol=HLSS&month=11&year=2013
+2013-08-29 00:34:30,121, INFO, option file HLSS_2013_11.opt is empty, move to next month
+2013-08-29 00:34:30,123, INFO, no valid option file
+2013-08-29 00:34:30,124, INFO, === begin analysis for VGR, price: 16.31, dividend: 0.4
+2013-08-29 00:34:30,126, INFO, matching past: 5/31/2013, now: 8/29/2013, future: 6/12/2013
+2013-08-29 00:34:30,126, INFO, date not match for VGR, pass
+2013-08-29 00:34:30,127, INFO, === begin analysis for SAN, price: 7.24, dividend: 0.1543
+2013-08-29 00:34:30,128, INFO, matching past: 0/0/0, now: 8/29/2013, future: 7/10/2013
+2013-08-29 00:34:30,128, INFO, date not match for SAN, pass
+2013-08-29 00:34:30,129, INFO, === begin analysis for VOD, price: 29.34, dividend: 1.0426
+2013-08-29 00:34:30,129, INFO, matching past: 0/0/0, now: 8/29/2013, future: 6/12/2013
+2013-08-29 00:34:30,130, INFO, date not match for VOD, pass
+2013-08-29 00:34:30,130, INFO, === begin analysis for AINV, price: 7.89, dividend: 0.2
+2013-08-29 00:34:30,131, INFO, matching past: 8/8/2013, now: 8/29/2013, future: 9/18/2013
+2013-08-29 00:34:30,131, INFO, download options of <AINV> from http://www.optionpain.altervista.org/csv.php?symbol=AINV&month=9&year=2013
+2013-08-29 00:34:31,555, INFO, find valid option file AINV_2013_9.opt
+2013-08-29 00:34:31,557, INFO, options are expired at 9/21/2013
+2013-08-29 00:34:31,558, INFO, dividend within date 2013/8 to 2013/9 is 0.2
+2013-08-29 00:34:31,560, INFO, can buy 200 shares with $2000.0
+2013-08-29 00:34:31,561, INFO, loading options file AINV_2013_9.opt
+2013-08-29 00:34:31,563, INFO, begin generating yield table
+2013-08-29 00:34:31,564, INFO, compute yield
+2013-08-29 00:34:31,565, INFO, c_strike: 8.0 p_strike: 6.0 c_price: 0.05 p_price: 0.05 dividend 0.2 month_diff 1.5 shares 200
+2013-08-29 00:34:31,566, INFO, revenue: 1236.05, cost: 1591.95, profit: -355.9, term_yield: -0.223562297811, annualized_yield: -0.867915174956
+2013-08-29 00:34:31,575, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,576, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:31,577, INFO, compute yield
+2013-08-29 00:34:31,578, INFO, c_strike: 8.0 p_strike: 7.0 c_price: 0.05 p_price: 0.05 dividend 0.2 month_diff 1.5 shares 200
+2013-08-29 00:34:31,579, INFO, revenue: 1436.05, cost: 1591.95, profit: -155.9, term_yield: -0.097930211376, annualized_yield: -0.561548960303
+2013-08-29 00:34:31,579, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,580, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:31,580, INFO, compute yield
+2013-08-29 00:34:31,581, INFO, c_strike: 9.0 p_strike: 6.0 c_price: 0.0 p_price: 0.05 dividend 0.2 month_diff 1.5 shares 200
+2013-08-29 00:34:31,581, INFO, revenue: 1236.05, cost: 1601.95, profit: -365.9, term_yield: -0.228409126377, annualized_yield: -0.874369046098
+2013-08-29 00:34:31,582, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,585, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:31,586, INFO, compute yield
+2013-08-29 00:34:31,586, INFO, c_strike: 9.0 p_strike: 7.0 c_price: 0.0 p_price: 0.05 dividend 0.2 month_diff 1.5 shares 200
+2013-08-29 00:34:31,587, INFO, revenue: 1436.05, cost: 1601.95, profit: -165.9, term_yield: -0.103561284684, annualized_yield: -0.582972363872
+2013-08-29 00:34:31,587, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,587, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:31,587, INFO, compute yield
+2013-08-29 00:34:31,588, INFO, c_strike: 9.0 p_strike: 8.0 c_price: 0.0 p_price: 0.4 dividend 0.2 month_diff 1.5 shares 200
+2013-08-29 00:34:31,588, INFO, revenue: 1636.05, cost: 1671.95, profit: -35.9, term_yield: -0.0214719339693, annualized_yield: -0.159405987048
+2013-08-29 00:34:31,592, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,600, INFO, revenue: 1636.05, cost: 1671.95, profit: -35.9, term_yield: -0.0214719339693, annualized_yield: -0.159405987048
+2013-08-29 00:34:31,601, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,601, INFO, revenue: 1636.05, cost: 1671.95, profit: -35.9, term_yield: -0.0214719339693, annualized_yield: -0.159405987048
+2013-08-29 00:34:31,602, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,602, INFO, revenue: 1636.05, cost: 1671.95, profit: -35.9, term_yield: -0.0214719339693, annualized_yield: -0.159405987048
+2013-08-29 00:34:31,603, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,603, INFO, revenue: 1636.05, cost: 1671.95, profit: -35.9, term_yield: -0.0214719339693, annualized_yield: -0.159405987048
+2013-08-29 00:34:31,604, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,604, INFO, revenue: 1636.05, cost: 1671.95, profit: -35.9, term_yield: -0.0214719339693, annualized_yield: -0.159405987048
+2013-08-29 00:34:31,605, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,605, INFO, revenue: 1771.85, cost: 1671.95, profit: 99.9, term_yield: 0.0597505906277, annualized_yield: 0.590850388229
+2013-08-29 00:34:31,606, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,606, INFO, revenue: 1836.05, cost: 1671.95, profit: 164.1, term_yield: 0.0981488680882, annualized_yield: 1.11489955632
+2013-08-29 00:34:31,607, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,608, INFO, revenue: 1836.05, cost: 1671.95, profit: 164.1, term_yield: 0.0981488680882, annualized_yield: 1.11489955632
+2013-08-29 00:34:31,609, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,610, INFO, revenue: 1836.05, cost: 1671.95, profit: 164.1, term_yield: 0.0981488680882, annualized_yield: 1.11489955632
+2013-08-29 00:34:31,617, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,618, INFO, compute yield
+2013-08-29 00:34:31,619, INFO, c_strike: 10.0 p_strike: 6.0 c_price: 0.0 p_price: 0.05 dividend 0.2 month_diff 1.5 shares 200
+2013-08-29 00:34:31,620, INFO, revenue: 1236.05, cost: 1601.95, profit: -365.9, term_yield: -0.228409126377, annualized_yield: -0.874369046098
+2013-08-29 00:34:31,621, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,622, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:31,623, INFO, compute yield
+2013-08-29 00:34:31,628, INFO, c_strike: 10.0 p_strike: 7.0 c_price: 0.0 p_price: 0.05 dividend 0.2 month_diff 1.5 shares 200
+2013-08-29 00:34:31,629, INFO, revenue: 1436.05, cost: 1601.95, profit: -165.9, term_yield: -0.103561284684, annualized_yield: -0.582972363872
+2013-08-29 00:34:31,637, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,637, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:31,638, INFO, compute yield
+2013-08-29 00:34:31,639, INFO, c_strike: 10.0 p_strike: 8.0 c_price: 0.0 p_price: 0.4 dividend 0.2 month_diff 1.5 shares 200
+2013-08-29 00:34:31,639, INFO, revenue: 1636.05, cost: 1671.95, profit: -35.9, term_yield: -0.0214719339693, annualized_yield: -0.159405987048
+2013-08-29 00:34:31,639, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,640, INFO, revenue: 1636.05, cost: 1671.95, profit: -35.9, term_yield: -0.0214719339693, annualized_yield: -0.159405987048
+2013-08-29 00:34:31,641, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,641, INFO, revenue: 1636.05, cost: 1671.95, profit: -35.9, term_yield: -0.0214719339693, annualized_yield: -0.159405987048
+2013-08-29 00:34:31,642, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,642, INFO, revenue: 1636.05, cost: 1671.95, profit: -35.9, term_yield: -0.0214719339693, annualized_yield: -0.159405987048
+2013-08-29 00:34:31,643, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,643, INFO, revenue: 1636.05, cost: 1671.95, profit: -35.9, term_yield: -0.0214719339693, annualized_yield: -0.159405987048
+2013-08-29 00:34:31,648, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,649, INFO, revenue: 1636.05, cost: 1671.95, profit: -35.9, term_yield: -0.0214719339693, annualized_yield: -0.159405987048
+2013-08-29 00:34:31,649, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,650, INFO, revenue: 1771.85, cost: 1671.95, profit: 99.9, term_yield: 0.0597505906277, annualized_yield: 0.590850388229
+2013-08-29 00:34:31,650, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,651, INFO, revenue: 1929.65, cost: 1671.95, profit: 257.7, term_yield: 0.154131403451, annualized_yield: 2.14805321657
+2013-08-29 00:34:31,651, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,652, INFO, revenue: 2036.05, cost: 1671.95, profit: 364.1, term_yield: 0.217769670146, annualized_yield: 3.83638901731
+2013-08-29 00:34:31,652, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,653, INFO, revenue: 2036.05, cost: 1671.95, profit: 364.1, term_yield: 0.217769670146, annualized_yield: 3.83638901731
+2013-08-29 00:34:31,654, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,654, INFO, compute yield
+2013-08-29 00:34:31,660, INFO, c_strike: 10.0 p_strike: 9.0 c_price: 0.0 p_price: 1.35 dividend 0.2 month_diff 1.5 shares 200
+2013-08-29 00:34:31,662, INFO, revenue: 1836.05, cost: 1861.95, profit: -25.9, term_yield: -0.0139101479632, annualized_yield: -0.106011534163
+2013-08-29 00:34:31,662, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,669, INFO, revenue: 1836.05, cost: 1861.95, profit: -25.9, term_yield: -0.0139101479632, annualized_yield: -0.106011534163
+2013-08-29 00:34:31,670, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,670, INFO, revenue: 1836.05, cost: 1861.95, profit: -25.9, term_yield: -0.0139101479632, annualized_yield: -0.106011534163
+2013-08-29 00:34:31,671, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,671, INFO, revenue: 1836.05, cost: 1861.95, profit: -25.9, term_yield: -0.0139101479632, annualized_yield: -0.106011534163
+2013-08-29 00:34:31,672, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,672, INFO, revenue: 1836.05, cost: 1861.95, profit: -25.9, term_yield: -0.0139101479632, annualized_yield: -0.106011534163
+2013-08-29 00:34:31,673, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,673, INFO, revenue: 1836.05, cost: 1861.95, profit: -25.9, term_yield: -0.0139101479632, annualized_yield: -0.106011534163
+2013-08-29 00:34:31,674, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,674, INFO, revenue: 1836.05, cost: 1861.95, profit: -25.9, term_yield: -0.0139101479632, annualized_yield: -0.106011534163
+2013-08-29 00:34:31,675, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,676, INFO, revenue: 1929.65, cost: 1861.95, profit: 67.7, term_yield: 0.0363597303902, annualized_yield: 0.33071249509
+2013-08-29 00:34:31,677, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,678, INFO, revenue: 2036.05, cost: 1861.95, profit: 174.1, term_yield: 0.0935041220226, annualized_yield: 1.04438834215
+2013-08-29 00:34:31,679, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,684, INFO, revenue: 2036.05, cost: 1861.95, profit: 174.1, term_yield: 0.0935041220226, annualized_yield: 1.04438834215
+2013-08-29 00:34:31,685, INFO, every cent less converts to 2 dollars
+2013-08-29 00:34:31,690, INFO, === begin analysis for LRE, price: 15.12, dividend: 0.485
+2013-08-29 00:34:31,691, INFO, matching past: 7/19/2013, now: 8/29/2013, future: 7/26/2013
+2013-08-29 00:34:31,691, INFO, date not match for LRE, pass
+2013-08-29 00:34:31,691, INFO, === begin analysis for VOC, price: 15.27, dividend: 0.41
+2013-08-29 00:34:31,692, INFO, matching past: 7/18/2013, now: 8/29/2013, future: 7/26/2013
+2013-08-29 00:34:31,692, INFO, date not match for VOC, pass
+2013-08-29 00:34:31,692, INFO, === begin analysis for ANH, price: 4.46, dividend: 0.15
+2013-08-29 00:34:31,693, INFO, matching past: 6/28/2013, now: 8/29/2013, future: 7/3/2013
+2013-08-29 00:34:31,693, INFO, date not match for ANH, pass
+2013-08-29 00:34:31,693, INFO, === begin analysis for RNF, price: 26.48, dividend: 0.85
+2013-08-29 00:34:31,694, INFO, matching past: 7/24/2013, now: 8/29/2013, future: 8/5/2013
+2013-08-29 00:34:31,700, INFO, date not match for RNF, pass
+2013-08-29 00:34:31,701, INFO, === begin analysis for MCHX, price: 6.94, dividend: 0.14
+2013-08-29 00:34:31,707, INFO, matching past: 12/7/2012, now: 8/29/2013, future: 12/14/2012
+2013-08-29 00:34:31,707, INFO, date not match for MCHX, pass
+2013-08-29 00:34:31,707, INFO, === begin analysis for HTS, price: 18.77, dividend: 0.7
+2013-08-29 00:34:31,708, INFO, matching past: 6/18/2013, now: 8/29/2013, future: 6/27/2013
+2013-08-29 00:34:31,708, INFO, date not match for HTS, pass
+2013-08-29 00:34:31,708, INFO, === begin analysis for IVR, price: 15.59, dividend: 0.65
+2013-08-29 00:34:31,708, INFO, matching past: 6/17/2013, now: 8/29/2013, future: 6/25/2013
+2013-08-29 00:34:31,708, INFO, date not match for IVR, pass
+2013-08-29 00:34:31,708, INFO, === begin analysis for ALTV, price: 7.48, dividend: 0.27
+2013-08-29 00:34:31,709, INFO, matching past: 6/11/2013, now: 8/29/2013, future: 6/19/2013
+2013-08-29 00:34:31,709, INFO, date not match for ALTV, pass
+2013-08-29 00:34:31,709, INFO, === begin analysis for STRA, price: 41.1, dividend: 1.0
+2013-08-29 00:34:31,709, INFO, matching past: 11/9/2012, now: 8/29/2013, future: 11/21/2012
+2013-08-29 00:34:31,709, INFO, date not match for STRA, pass
+2013-08-29 00:34:31,709, INFO, === begin analysis for FSC, price: 10.41, dividend: 0.0958
+2013-08-29 00:34:31,710, INFO, matching past: 8/5/2013, now: 8/29/2013, future: 11/13/2013
+2013-08-29 00:34:31,710, INFO, download options of <FSC> from http://www.optionpain.altervista.org/csv.php?symbol=FSC&month=11&year=2013
+2013-08-29 00:34:33,026, INFO, find valid option file FSC_2013_11.opt
+2013-08-29 00:34:33,029, INFO, options are expired at 11/16/2013
+2013-08-29 00:34:33,030, INFO, dividend within date 2013/8 to 2013/11 is 0.0958
+2013-08-29 00:34:33,030, INFO, can buy 100 shares with $2000.0
+2013-08-29 00:34:33,031, INFO, loading options file FSC_2013_11.opt
+2013-08-29 00:34:33,034, INFO, begin generating yield table
+2013-08-29 00:34:33,035, INFO, compute yield
+2013-08-29 00:34:33,036, INFO, c_strike: 12.5 p_strike: 7.5 c_price: 0.0 p_price: 0.15 dividend 0.0958 month_diff 3.5 shares 100
+2013-08-29 00:34:33,037, INFO, revenue: 755.63, cost: 1069.95, profit: -314.32, term_yield: -0.29377073695, annualized_yield: -0.696541313803
+2013-08-29 00:34:33,042, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:33,043, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:33,043, INFO, compute yield
+2013-08-29 00:34:33,044, INFO, c_strike: 12.5 p_strike: 10.0 c_price: 0.0 p_price: 0.35 dividend 0.0958 month_diff 3.5 shares 100
+2013-08-29 00:34:33,046, INFO, revenue: 1005.63, cost: 1089.95, profit: -84.32, term_yield: -0.0773613468508, annualized_yield: -0.241232890213
+2013-08-29 00:34:33,049, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:33,050, INFO, revenue: 1005.63, cost: 1089.95, profit: -84.32, term_yield: -0.0773613468508, annualized_yield: -0.241232890213
+2013-08-29 00:34:33,051, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:33,051, INFO, revenue: 1005.63, cost: 1089.95, profit: -84.32, term_yield: -0.0773613468508, annualized_yield: -0.241232890213
+2013-08-29 00:34:33,051, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:33,052, INFO, revenue: 1005.63, cost: 1089.95, profit: -84.32, term_yield: -0.0773613468508, annualized_yield: -0.241232890213
+2013-08-29 00:34:33,057, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:33,057, INFO, revenue: 1005.63, cost: 1089.95, profit: -84.32, term_yield: -0.0773613468508, annualized_yield: -0.241232890213
+2013-08-29 00:34:33,058, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:33,058, INFO, revenue: 1046.63, cost: 1089.95, profit: -43.32, term_yield: -0.0397449424286, annualized_yield: -0.129815764804
+2013-08-29 00:34:33,059, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:33,060, INFO, revenue: 1150.73, cost: 1089.95, profit: 60.78, term_yield: 0.0557640258727, annualized_yield: 0.204482964646
+2013-08-29 00:34:33,061, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:33,061, INFO, revenue: 1254.83, cost: 1089.95, profit: 164.88, term_yield: 0.151272994174, annualized_yield: 0.620892568175
+2013-08-29 00:34:33,062, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:33,062, INFO, revenue: 1255.63, cost: 1089.95, profit: 165.68, term_yield: 0.152006972797, annualized_yield: 0.624438323047
+2013-08-29 00:34:33,063, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:33,069, INFO, revenue: 1255.63, cost: 1089.95, profit: 165.68, term_yield: 0.152006972797, annualized_yield: 0.624438323047
+2013-08-29 00:34:33,070, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:33,071, INFO, === begin analysis for DOM, price: 5.38, dividend: 0.2014
+2013-08-29 00:34:33,072, INFO, matching past: 8/19/2013, now: 8/29/2013, future: 8/27/2013
+2013-08-29 00:34:33,072, INFO, date not match for DOM, pass
+2013-08-29 00:34:33,073, INFO, === begin analysis for SCCO, price: 27.63, dividend: 0.12
+2013-08-29 00:34:33,073, INFO, matching past: 7/18/2013, now: 8/29/2013, future: 8/5/2013
+2013-08-29 00:34:33,080, INFO, date not match for SCCO, pass
+2013-08-29 00:34:33,081, INFO, === begin analysis for PER, price: 14.85, dividend: 0.585
+2013-08-29 00:34:33,081, INFO, matching past: 7/25/2013, now: 8/29/2013, future: 8/12/2013
+2013-08-29 00:34:33,082, INFO, date not match for PER, pass
+2013-08-29 00:34:33,082, INFO, === begin analysis for STON, price: 23.2, dividend: 0.6
+2013-08-29 00:34:33,083, INFO, matching past: 7/23/2013, now: 8/29/2013, future: 8/1/2013
+2013-08-29 00:34:33,084, INFO, date not match for STON, pass
+2013-08-29 00:34:33,084, INFO, === begin analysis for TICC, price: 9.62, dividend: 0.29
+2013-08-29 00:34:33,085, INFO, matching past: 8/6/2013, now: 8/29/2013, future: 9/12/2013
+2013-08-29 00:34:33,085, INFO, download options of <TICC> from http://www.optionpain.altervista.org/csv.php?symbol=TICC&month=9&year=2013
+2013-08-29 00:34:34,457, INFO, find valid option file TICC_2013_9.opt
+2013-08-29 00:34:34,460, INFO, options are expired at 9/21/2013
+2013-08-29 00:34:34,461, INFO, dividend within date 2013/8 to 2013/9 is 0.29
+2013-08-29 00:34:34,462, INFO, can buy 200 shares with $2000.0
+2013-08-29 00:34:34,463, INFO, loading options file TICC_2013_9.opt
+2013-08-29 00:34:34,464, INFO, begin generating yield table
+2013-08-29 00:34:34,465, INFO, === begin analysis for UMH, price: 9.69, dividend: 0.18
+2013-08-29 00:34:34,466, INFO, matching past: 7/1/2013, now: 8/29/2013, future: 8/13/2013
+2013-08-29 00:34:34,467, INFO, date not match for UMH, pass
+2013-08-29 00:34:34,468, INFO, === begin analysis for PVR, price: 23.08, dividend: 0.55
+2013-08-29 00:34:34,474, INFO, matching past: 7/24/2013, now: 8/29/2013, future: 8/5/2013
+2013-08-29 00:34:34,474, INFO, date not match for PVR, pass
+2013-08-29 00:34:34,475, INFO, === begin analysis for VLCCF, price: 8.28, dividend: 0.175
+2013-08-29 00:34:34,481, INFO, matching past: 8/14/2013, now: 8/29/2013, future: 8/26/2013
+2013-08-29 00:34:34,482, INFO, date not match for VLCCF, pass
+2013-08-29 00:34:34,483, INFO, === begin analysis for HTGC, price: 14.52, dividend: 0.28
+2013-08-29 00:34:34,489, INFO, matching past: 8/1/2013, now: 8/29/2013, future: 8/9/2013
+2013-08-29 00:34:34,490, INFO, date not match for HTGC, pass
+2013-08-29 00:34:34,490, INFO, === begin analysis for STWD, price: 24.91, dividend: 0.46
+2013-08-29 00:34:34,490, INFO, matching past: 8/6/2013, now: 8/29/2013, future: 9/26/2013
+2013-08-29 00:34:34,491, INFO, download options of <STWD> from http://www.optionpain.altervista.org/csv.php?symbol=STWD&month=9&year=2013
+2013-08-29 00:34:35,851, INFO, option STWD_2013_9.opt expires earlier than ex_div_date 10/26/2013, move to next month
+2013-08-29 00:34:35,854, INFO, download options of <STWD> from http://www.optionpain.altervista.org/csv.php?symbol=STWD&month=10&year=2013
+2013-08-29 00:34:37,166, INFO, option STWD_2013_10.opt expires earlier than ex_div_date 11/26/2013, move to next month
+2013-08-29 00:34:37,170, INFO, download options of <STWD> from http://www.optionpain.altervista.org/csv.php?symbol=STWD&month=11&year=2013
+2013-08-29 00:34:38,561, INFO, option file STWD_2013_11.opt is empty, move to next month
+2013-08-29 00:34:38,565, INFO, no valid option file
+2013-08-29 00:34:38,567, INFO, === begin analysis for QCCO, price: 2.6, dividend: 0.05
+2013-08-29 00:34:38,569, INFO, matching past: 8/8/2013, now: 8/29/2013, future: 8/20/2013
+2013-08-29 00:34:38,570, INFO, date not match for QCCO, pass
+2013-08-29 00:34:38,570, INFO, === begin analysis for TNK, price: 2.68, dividend: 0.03
+2013-08-29 00:34:38,571, INFO, matching past: 7/8/2013, now: 8/29/2013, future: 7/17/2013
+2013-08-29 00:34:38,572, INFO, date not match for TNK, pass
+2013-08-29 00:34:38,573, INFO, === begin analysis for NS, price: 43.33, dividend: 1.095
+2013-08-29 00:34:38,573, INFO, matching past: 7/25/2013, now: 8/29/2013, future: 8/1/2013
+2013-08-29 00:34:38,574, INFO, date not match for NS, pass
+2013-08-29 00:34:38,579, INFO, === begin analysis for TEU, price: 4.18, dividend: 0.12
+2013-08-29 00:34:38,580, INFO, matching past: 8/6/2013, now: 8/29/2013, future: 9/6/2013
+2013-08-29 00:34:38,581, INFO, download options of <TEU> from http://www.optionpain.altervista.org/csv.php?symbol=TEU&month=9&year=2013
+2013-08-29 00:34:39,923, INFO, find valid option file TEU_2013_9.opt
+2013-08-29 00:34:39,927, INFO, options are expired at 9/21/2013
+2013-08-29 00:34:39,928, INFO, dividend within date 2013/8 to 2013/9 is 0.12
+2013-08-29 00:34:39,929, INFO, can buy 400 shares with $2000.0
+2013-08-29 00:34:39,930, INFO, loading options file TEU_2013_9.opt
+2013-08-29 00:34:39,931, INFO, begin generating yield table
+2013-08-29 00:34:39,933, INFO, === begin analysis for WHZ, price: 12.91, dividend: 0.7394
+2013-08-29 00:34:39,934, INFO, matching past: 8/7/2013, now: 8/29/2013, future: 8/15/2013
+2013-08-29 00:34:39,935, INFO, date not match for WHZ, pass
+2013-08-29 00:34:39,944, INFO, === begin analysis for SRC, price: 8.71, dividend: 0.3125
+2013-08-29 00:34:39,945, INFO, matching past: 6/17/2013, now: 8/29/2013, future: 6/26/2013
+2013-08-29 00:34:39,946, INFO, date not match for SRC, pass
+2013-08-29 00:34:39,947, INFO, === begin analysis for TAC, price: 13.15, dividend: 0.29
+2013-08-29 00:34:39,948, INFO, matching past: 7/23/2013, now: 8/29/2013, future: 8/28/2013
+2013-08-29 00:34:39,949, INFO, date not match for TAC, pass
+2013-08-29 00:34:39,949, INFO, === begin analysis for MEMP, price: 20.67, dividend: 0.5125
+2013-08-29 00:34:39,950, INFO, matching past: 7/19/2013, now: 8/29/2013, future: 7/30/2013
+2013-08-29 00:34:39,950, INFO, date not match for MEMP, pass
+2013-08-29 00:34:39,954, INFO, === begin analysis for PDH, price: 12.2, dividend: 0.3
+2013-08-29 00:34:39,955, INFO, matching past: 7/24/2013, now: 8/29/2013, future: 8/1/2013
+2013-08-29 00:34:39,956, INFO, date not match for PDH, pass
+2013-08-29 00:34:39,956, INFO, === begin analysis for MTGE, price: 20.19, dividend: 0.8
+2013-08-29 00:34:39,956, INFO, matching past: 6/18/2013, now: 8/29/2013, future: 6/26/2013
+2013-08-29 00:34:39,957, INFO, date not match for MTGE, pass
+2013-08-29 00:34:39,957, INFO, === begin analysis for TCAP, price: 29.08, dividend: 0.54
+2013-08-29 00:34:39,964, INFO, matching past: 8/28/2013, now: 8/29/2013, future: 9/9/2013
+2013-08-29 00:34:39,965, INFO, download options of <TCAP> from http://www.optionpain.altervista.org/csv.php?symbol=TCAP&month=9&year=2013
+2013-08-29 00:34:41,318, INFO, find valid option file TCAP_2013_9.opt
+2013-08-29 00:34:41,320, INFO, options are expired at 9/21/2013
+2013-08-29 00:34:41,321, INFO, dividend within date 2013/8 to 2013/9 is 0.54
+2013-08-29 00:34:41,322, INFO, $2000.0 is not enough to buy 100 shares, pass
+2013-08-29 00:34:41,323, INFO, === begin analysis for SBS, price: 8.38, dividend: 0.8586
+2013-08-29 00:34:41,324, INFO, matching past: 0/0/0, now: 8/29/2013, future: 4/1/2013
+2013-08-29 00:34:41,325, INFO, date not match for SBS, pass
+2013-08-29 00:34:41,326, INFO, === begin analysis for WIN, price: 8.1, dividend: 0.25
+2013-08-29 00:34:41,327, INFO, matching past: 8/7/2013, now: 8/29/2013, future: 9/26/2013
+2013-08-29 00:34:41,328, INFO, download options of <WIN> from http://www.optionpain.altervista.org/csv.php?symbol=WIN&month=9&year=2013
+2013-08-29 00:34:42,802, INFO, option WIN_2013_9.opt expires earlier than ex_div_date 10/26/2013, move to next month
+2013-08-29 00:34:42,804, INFO, download options of <WIN> from http://www.optionpain.altervista.org/csv.php?symbol=WIN&month=10&year=2013
+2013-08-29 00:34:44,276, INFO, option WIN_2013_10.opt expires earlier than ex_div_date 11/26/2013, move to next month
+2013-08-29 00:34:44,282, INFO, download options of <WIN> from http://www.optionpain.altervista.org/csv.php?symbol=WIN&month=11&year=2013
+2013-08-29 00:34:45,916, INFO, option WIN_2013_11.opt expires earlier than ex_div_date 12/26/2013, move to next month
+2013-08-29 00:34:45,919, INFO, no valid option file
+2013-08-29 00:34:45,920, INFO, === begin analysis for OZM, price: 10.57, dividend: 0.14
+2013-08-29 00:34:45,922, INFO, matching past: 8/2/2013, now: 8/29/2013, future: 8/8/2013
+2013-08-29 00:34:45,923, INFO, date not match for OZM, pass
+2013-08-29 00:34:45,923, INFO, === begin analysis for NTI, price: 21.19, dividend: 0.68
+2013-08-29 00:34:45,924, INFO, matching past: 8/12/2013, now: 8/29/2013, future: 8/20/2013
+2013-08-29 00:34:45,924, INFO, date not match for NTI, pass
+2013-08-29 00:34:45,925, INFO, === begin analysis for CODI, price: 17.25, dividend: 0.36
+2013-08-29 00:34:45,925, INFO, matching past: 7/10/2013, now: 8/29/2013, future: 7/19/2013
+2013-08-29 00:34:45,926, INFO, date not match for CODI, pass
+2013-08-29 00:34:45,926, INFO, === begin analysis for NMM, price: 14.15, dividend: 0.4425
+2013-08-29 00:34:45,928, INFO, matching past: 7/22/2013, now: 8/29/2013, future: 8/6/2013
+2013-08-29 00:34:45,934, INFO, date not match for NMM, pass
+2013-08-29 00:34:45,935, INFO, === begin analysis for EVEP, price: 37.45, dividend: 0.769
+2013-08-29 00:34:45,935, INFO, matching past: 7/29/2013, now: 8/29/2013, future: 8/6/2013
+2013-08-29 00:34:45,936, INFO, date not match for EVEP, pass
+2013-08-29 00:34:45,937, INFO, === begin analysis for CPLP, price: 8.92, dividend: 0.2325
+2013-08-29 00:34:45,937, INFO, matching past: 7/22/2013, now: 8/29/2013, future: 8/5/2013
+2013-08-29 00:34:45,938, INFO, date not match for CPLP, pass
+2013-08-29 00:34:45,938, INFO, === begin analysis for PSEC, price: 11.2, dividend: 0.1104
+2013-08-29 00:34:45,939, INFO, matching past: 8/21/2013, now: 8/29/2013, future: 2/26/2014
+2013-08-29 00:34:45,940, INFO, download options of <PSEC> from http://www.optionpain.altervista.org/csv.php?symbol=PSEC&month=2&year=2014
+2013-08-29 00:34:47,876, INFO, option PSEC_2014_2.opt expires earlier than ex_div_date 3/26/2014, move to next month
+2013-08-29 00:34:47,878, INFO, download options of <PSEC> from http://www.optionpain.altervista.org/csv.php?symbol=PSEC&month=3&year=2014
+2013-08-29 00:34:49,352, INFO, option PSEC_2014_3.opt expires earlier than ex_div_date 4/26/2014, move to next month
+2013-08-29 00:34:49,355, INFO, download options of <PSEC> from http://www.optionpain.altervista.org/csv.php?symbol=PSEC&month=4&year=2014
+2013-08-29 00:34:51,618, INFO, option PSEC_2014_4.opt expires earlier than ex_div_date 5/26/2014, move to next month
+2013-08-29 00:34:51,621, INFO, no valid option file
+2013-08-29 00:34:51,622, INFO, === begin analysis for CAW, price: 3.46, dividend: 0.07
+2013-08-29 00:34:51,623, INFO, matching past: 7/18/2013, now: 8/29/2013, future: 7/31/2013
+2013-08-29 00:34:51,623, INFO, date not match for CAW, pass
+2013-08-29 00:34:51,624, INFO, === begin analysis for BPT, price: 86.52, dividend: 2.1429
+2013-08-29 00:34:51,625, INFO, matching past: 7/3/2013, now: 8/29/2013, future: 7/11/2013
+2013-08-29 00:34:51,625, INFO, date not match for BPT, pass
+2013-08-29 00:34:51,626, INFO, === begin analysis for DX, price: 8.02, dividend: 0.29
+2013-08-29 00:34:51,626, INFO, matching past: 6/13/2013, now: 8/29/2013, future: 6/26/2013
+2013-08-29 00:34:51,627, INFO, date not match for DX, pass
+2013-08-29 00:34:51,628, INFO, === begin analysis for ARCC, price: 17.66, dividend: 0.38
+2013-08-29 00:34:51,628, INFO, matching past: 8/6/2013, now: 8/29/2013, future: 9/12/2013
+2013-08-29 00:34:51,629, INFO, download options of <ARCC> from http://www.optionpain.altervista.org/csv.php?symbol=ARCC&month=9&year=2013
+2013-08-29 00:34:53,124, INFO, find valid option file ARCC_2013_9.opt
+2013-08-29 00:34:53,126, INFO, options are expired at 9/21/2013
+2013-08-29 00:34:53,127, INFO, dividend within date 2013/8 to 2013/9 is 0.38
+2013-08-29 00:34:53,128, INFO, can buy 100 shares with $2000.0
+2013-08-29 00:34:53,129, INFO, loading options file ARCC_2013_9.opt
+2013-08-29 00:34:53,132, INFO, begin generating yield table
+2013-08-29 00:34:53,133, INFO, compute yield
+2013-08-29 00:34:53,134, INFO, c_strike: 18.0 p_strike: 11.0 c_price: 0.0 p_price: 0.15 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,136, INFO, revenue: 1134.05, cost: 1794.95, profit: -660.9, term_yield: -0.3681996713, annualized_yield: -0.974611398432
+2013-08-29 00:34:53,146, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,146, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:53,148, INFO, compute yield
+2013-08-29 00:34:53,149, INFO, c_strike: 18.0 p_strike: 12.0 c_price: 0.0 p_price: 0.15 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,150, INFO, revenue: 1234.05, cost: 1794.95, profit: -560.9, term_yield: -0.312487813031, annualized_yield: -0.950083605585
+2013-08-29 00:34:53,150, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,151, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:53,151, INFO, compute yield
+2013-08-29 00:34:53,160, INFO, c_strike: 18.0 p_strike: 13.0 c_price: 0.0 p_price: 0.25 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,161, INFO, revenue: 1334.05, cost: 1804.95, profit: -470.9, term_yield: -0.260893653564, annualized_yield: -0.910945585763
+2013-08-29 00:34:53,161, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,161, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:53,161, INFO, compute yield
+2013-08-29 00:34:53,162, INFO, c_strike: 18.0 p_strike: 14.0 c_price: 0.0 p_price: 0.2 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,162, INFO, revenue: 1434.05, cost: 1799.95, profit: -365.9, term_yield: -0.20328342454, annualized_yield: -0.83765802653
+2013-08-29 00:34:53,162, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,162, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:53,163, INFO, compute yield
+2013-08-29 00:34:53,163, INFO, c_strike: 18.0 p_strike: 15.0 c_price: 0.0 p_price: 0.1 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,163, INFO, revenue: 1534.05, cost: 1789.95, profit: -255.9, term_yield: -0.142964887287, annualized_yield: -0.708935712367
+2013-08-29 00:34:53,163, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,164, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:53,164, INFO, compute yield
+2013-08-29 00:34:53,165, INFO, c_strike: 18.0 p_strike: 16.0 c_price: 0.0 p_price: 0.1 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,166, INFO, revenue: 1634.05, cost: 1789.95, profit: -155.9, term_yield: -0.0870974049554, annualized_yield: -0.517613069315
+2013-08-29 00:34:53,171, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,173, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:53,174, INFO, compute yield
+2013-08-29 00:34:53,174, INFO, c_strike: 18.0 p_strike: 17.0 c_price: 0.0 p_price: 0.2 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,175, INFO, revenue: 1734.05, cost: 1799.95, profit: -65.9, term_yield: -0.0366121281147, annualized_yield: -0.257990616642
+2013-08-29 00:34:53,176, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,177, INFO, revenue: 1734.05, cost: 1799.95, profit: -65.9, term_yield: -0.0366121281147, annualized_yield: -0.257990616642
+2013-08-29 00:34:53,178, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,179, INFO, revenue: 1734.05, cost: 1799.95, profit: -65.9, term_yield: -0.0366121281147, annualized_yield: -0.257990616642
+2013-08-29 00:34:53,180, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,181, INFO, revenue: 1734.05, cost: 1799.95, profit: -65.9, term_yield: -0.0366121281147, annualized_yield: -0.257990616642
+2013-08-29 00:34:53,185, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,186, INFO, revenue: 1734.05, cost: 1799.95, profit: -65.9, term_yield: -0.0366121281147, annualized_yield: -0.257990616642
+2013-08-29 00:34:53,187, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,189, INFO, revenue: 1800.05, cost: 1799.95, profit: 0.0999999999999, term_yield: 5.55570988082e-05, annualized_yield: 0.000444543224625
+2013-08-29 00:34:53,190, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,191, INFO, revenue: 1834.05, cost: 1799.95, profit: 34.1, term_yield: 0.0189449706936, annualized_yield: 0.161999230607
+2013-08-29 00:34:53,201, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,202, INFO, revenue: 1834.05, cost: 1799.95, profit: 34.1, term_yield: 0.0189449706936, annualized_yield: 0.161999230607
+2013-08-29 00:34:53,202, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,203, INFO, revenue: 1834.05, cost: 1799.95, profit: 34.1, term_yield: 0.0189449706936, annualized_yield: 0.161999230607
+2013-08-29 00:34:53,203, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,204, INFO, revenue: 1834.05, cost: 1799.95, profit: 34.1, term_yield: 0.0189449706936, annualized_yield: 0.161999230607
+2013-08-29 00:34:53,204, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,208, INFO, compute yield
+2013-08-29 00:34:53,213, INFO, c_strike: 19.0 p_strike: 11.0 c_price: 0.0 p_price: 0.15 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,214, INFO, revenue: 1134.05, cost: 1794.95, profit: -660.9, term_yield: -0.3681996713, annualized_yield: -0.974611398432
+2013-08-29 00:34:53,214, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,214, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:53,214, INFO, compute yield
+2013-08-29 00:34:53,215, INFO, c_strike: 19.0 p_strike: 12.0 c_price: 0.0 p_price: 0.15 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,215, INFO, revenue: 1234.05, cost: 1794.95, profit: -560.9, term_yield: -0.312487813031, annualized_yield: -0.950083605585
+2013-08-29 00:34:53,216, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,216, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:53,217, INFO, compute yield
+2013-08-29 00:34:53,217, INFO, c_strike: 19.0 p_strike: 13.0 c_price: 0.0 p_price: 0.25 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,218, INFO, revenue: 1334.05, cost: 1804.95, profit: -470.9, term_yield: -0.260893653564, annualized_yield: -0.910945585763
+2013-08-29 00:34:53,222, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,222, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:53,223, INFO, compute yield
+2013-08-29 00:34:53,223, INFO, c_strike: 19.0 p_strike: 14.0 c_price: 0.0 p_price: 0.2 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,224, INFO, revenue: 1434.05, cost: 1799.95, profit: -365.9, term_yield: -0.20328342454, annualized_yield: -0.83765802653
+2013-08-29 00:34:53,224, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,225, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:53,229, INFO, compute yield
+2013-08-29 00:34:53,232, INFO, c_strike: 19.0 p_strike: 15.0 c_price: 0.0 p_price: 0.1 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,233, INFO, revenue: 1534.05, cost: 1789.95, profit: -255.9, term_yield: -0.142964887287, annualized_yield: -0.708935712367
+2013-08-29 00:34:53,233, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,233, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:53,235, INFO, compute yield
+2013-08-29 00:34:53,235, INFO, c_strike: 19.0 p_strike: 16.0 c_price: 0.0 p_price: 0.1 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,236, INFO, revenue: 1634.05, cost: 1789.95, profit: -155.9, term_yield: -0.0870974049554, annualized_yield: -0.517613069315
+2013-08-29 00:34:53,236, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,240, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:53,242, INFO, compute yield
+2013-08-29 00:34:53,242, INFO, c_strike: 19.0 p_strike: 17.0 c_price: 0.0 p_price: 0.2 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,243, INFO, revenue: 1734.05, cost: 1799.95, profit: -65.9, term_yield: -0.0366121281147, annualized_yield: -0.257990616642
+2013-08-29 00:34:53,243, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,244, INFO, revenue: 1734.05, cost: 1799.95, profit: -65.9, term_yield: -0.0366121281147, annualized_yield: -0.257990616642
+2013-08-29 00:34:53,244, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,245, INFO, revenue: 1734.05, cost: 1799.95, profit: -65.9, term_yield: -0.0366121281147, annualized_yield: -0.257990616642
+2013-08-29 00:34:53,245, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,246, INFO, revenue: 1734.05, cost: 1799.95, profit: -65.9, term_yield: -0.0366121281147, annualized_yield: -0.257990616642
+2013-08-29 00:34:53,246, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,253, INFO, revenue: 1734.05, cost: 1799.95, profit: -65.9, term_yield: -0.0366121281147, annualized_yield: -0.257990616642
+2013-08-29 00:34:53,254, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,255, INFO, revenue: 1800.05, cost: 1799.95, profit: 0.0999999999999, term_yield: 5.55570988082e-05, annualized_yield: 0.000444543224625
+2013-08-29 00:34:53,259, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,260, INFO, revenue: 1934.05, cost: 1799.95, profit: 134.1, term_yield: 0.0745020695019, annualized_yield: 0.776879800193
+2013-08-29 00:34:53,260, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,260, INFO, revenue: 1934.05, cost: 1799.95, profit: 134.1, term_yield: 0.0745020695019, annualized_yield: 0.776879800193
+2013-08-29 00:34:53,261, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,261, INFO, revenue: 1934.05, cost: 1799.95, profit: 134.1, term_yield: 0.0745020695019, annualized_yield: 0.776879800193
+2013-08-29 00:34:53,261, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,261, INFO, revenue: 1934.05, cost: 1799.95, profit: 134.1, term_yield: 0.0745020695019, annualized_yield: 0.776879800193
+2013-08-29 00:34:53,261, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,262, INFO, compute yield
+2013-08-29 00:34:53,262, INFO, c_strike: 19.0 p_strike: 18.0 c_price: 0.0 p_price: 0.9 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,262, INFO, revenue: 1834.05, cost: 1869.95, profit: -35.9, term_yield: -0.0191983742881, annualized_yield: -0.143653718448
+2013-08-29 00:34:53,263, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,263, INFO, revenue: 1834.05, cost: 1869.95, profit: -35.9, term_yield: -0.0191983742881, annualized_yield: -0.143653718448
+2013-08-29 00:34:53,263, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,263, INFO, revenue: 1834.05, cost: 1869.95, profit: -35.9, term_yield: -0.0191983742881, annualized_yield: -0.143653718448
+2013-08-29 00:34:53,264, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,264, INFO, revenue: 1834.05, cost: 1869.95, profit: -35.9, term_yield: -0.0191983742881, annualized_yield: -0.143653718448
+2013-08-29 00:34:53,264, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,264, INFO, revenue: 1834.05, cost: 1869.95, profit: -35.9, term_yield: -0.0191983742881, annualized_yield: -0.143653718448
+2013-08-29 00:34:53,267, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,267, INFO, revenue: 1834.05, cost: 1869.95, profit: -35.9, term_yield: -0.0191983742881, annualized_yield: -0.143653718448
+2013-08-29 00:34:53,267, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,268, INFO, revenue: 1934.05, cost: 1869.95, profit: 64.1, term_yield: 0.0342789914169, annualized_yield: 0.309488310818
+2013-08-29 00:34:53,268, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,268, INFO, revenue: 1934.05, cost: 1869.95, profit: 64.1, term_yield: 0.0342789914169, annualized_yield: 0.309488310818
+2013-08-29 00:34:53,271, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,273, INFO, revenue: 1934.05, cost: 1869.95, profit: 64.1, term_yield: 0.0342789914169, annualized_yield: 0.309488310818
+2013-08-29 00:34:53,273, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,274, INFO, revenue: 1934.05, cost: 1869.95, profit: 64.1, term_yield: 0.0342789914169, annualized_yield: 0.309488310818
+2013-08-29 00:34:53,274, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,281, INFO, compute yield
+2013-08-29 00:34:53,282, INFO, c_strike: 20.0 p_strike: 11.0 c_price: 0.0 p_price: 0.15 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,282, INFO, revenue: 1134.05, cost: 1794.95, profit: -660.9, term_yield: -0.3681996713, annualized_yield: -0.974611398432
+2013-08-29 00:34:53,283, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,284, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:53,284, INFO, compute yield
+2013-08-29 00:34:53,285, INFO, c_strike: 20.0 p_strike: 12.0 c_price: 0.0 p_price: 0.15 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,293, INFO, revenue: 1234.05, cost: 1794.95, profit: -560.9, term_yield: -0.312487813031, annualized_yield: -0.950083605585
+2013-08-29 00:34:53,294, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,294, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:53,294, INFO, compute yield
+2013-08-29 00:34:53,294, INFO, c_strike: 20.0 p_strike: 13.0 c_price: 0.0 p_price: 0.25 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,295, INFO, revenue: 1334.05, cost: 1804.95, profit: -470.9, term_yield: -0.260893653564, annualized_yield: -0.910945585763
+2013-08-29 00:34:53,295, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,295, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:53,296, INFO, compute yield
+2013-08-29 00:34:53,305, INFO, c_strike: 20.0 p_strike: 14.0 c_price: 0.0 p_price: 0.2 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,306, INFO, revenue: 1434.05, cost: 1799.95, profit: -365.9, term_yield: -0.20328342454, annualized_yield: -0.83765802653
+2013-08-29 00:34:53,307, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,307, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:53,308, INFO, compute yield
+2013-08-29 00:34:53,309, INFO, c_strike: 20.0 p_strike: 15.0 c_price: 0.0 p_price: 0.1 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,309, INFO, revenue: 1534.05, cost: 1789.95, profit: -255.9, term_yield: -0.142964887287, annualized_yield: -0.708935712367
+2013-08-29 00:34:53,310, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,310, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:53,310, INFO, compute yield
+2013-08-29 00:34:53,311, INFO, c_strike: 20.0 p_strike: 16.0 c_price: 0.0 p_price: 0.1 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,311, INFO, revenue: 1634.05, cost: 1789.95, profit: -155.9, term_yield: -0.0870974049554, annualized_yield: -0.517613069315
+2013-08-29 00:34:53,312, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,313, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:53,313, INFO, compute yield
+2013-08-29 00:34:53,314, INFO, c_strike: 20.0 p_strike: 17.0 c_price: 0.0 p_price: 0.2 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,314, INFO, revenue: 1734.05, cost: 1799.95, profit: -65.9, term_yield: -0.0366121281147, annualized_yield: -0.257990616642
+2013-08-29 00:34:53,318, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,318, INFO, revenue: 1734.05, cost: 1799.95, profit: -65.9, term_yield: -0.0366121281147, annualized_yield: -0.257990616642
+2013-08-29 00:34:53,319, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,320, INFO, revenue: 1734.05, cost: 1799.95, profit: -65.9, term_yield: -0.0366121281147, annualized_yield: -0.257990616642
+2013-08-29 00:34:53,323, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,323, INFO, revenue: 1734.05, cost: 1799.95, profit: -65.9, term_yield: -0.0366121281147, annualized_yield: -0.257990616642
+2013-08-29 00:34:53,324, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,329, INFO, revenue: 1734.05, cost: 1799.95, profit: -65.9, term_yield: -0.0366121281147, annualized_yield: -0.257990616642
+2013-08-29 00:34:53,329, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,330, INFO, revenue: 1800.05, cost: 1799.95, profit: 0.0999999999999, term_yield: 5.55570988082e-05, annualized_yield: 0.000444543224625
+2013-08-29 00:34:53,330, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,330, INFO, revenue: 1976.65, cost: 1799.95, profit: 176.7, term_yield: 0.0981693935943, annualized_yield: 1.1152158138
+2013-08-29 00:34:53,331, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,331, INFO, revenue: 2034.05, cost: 1799.95, profit: 234.1, term_yield: 0.13005916831, annualized_yield: 1.65955799454
+2013-08-29 00:34:53,331, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,331, INFO, revenue: 2034.05, cost: 1799.95, profit: 234.1, term_yield: 0.13005916831, annualized_yield: 1.65955799454
+2013-08-29 00:34:53,332, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,332, INFO, revenue: 2034.05, cost: 1799.95, profit: 234.1, term_yield: 0.13005916831, annualized_yield: 1.65955799454
+2013-08-29 00:34:53,333, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,333, INFO, compute yield
+2013-08-29 00:34:53,334, INFO, c_strike: 20.0 p_strike: 18.0 c_price: 0.0 p_price: 0.9 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,334, INFO, revenue: 1834.05, cost: 1869.95, profit: -35.9, term_yield: -0.0191983742881, annualized_yield: -0.143653718448
+2013-08-29 00:34:53,334, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,340, INFO, revenue: 1834.05, cost: 1869.95, profit: -35.9, term_yield: -0.0191983742881, annualized_yield: -0.143653718448
+2013-08-29 00:34:53,341, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,341, INFO, revenue: 1834.05, cost: 1869.95, profit: -35.9, term_yield: -0.0191983742881, annualized_yield: -0.143653718448
+2013-08-29 00:34:53,343, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,344, INFO, revenue: 1834.05, cost: 1869.95, profit: -35.9, term_yield: -0.0191983742881, annualized_yield: -0.143653718448
+2013-08-29 00:34:53,344, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,344, INFO, revenue: 1834.05, cost: 1869.95, profit: -35.9, term_yield: -0.0191983742881, annualized_yield: -0.143653718448
+2013-08-29 00:34:53,345, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,345, INFO, revenue: 1834.05, cost: 1869.95, profit: -35.9, term_yield: -0.0191983742881, annualized_yield: -0.143653718448
+2013-08-29 00:34:53,345, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,345, INFO, revenue: 1976.65, cost: 1869.95, profit: 106.7, term_yield: 0.0570603492072, annualized_yield: 0.558828223905
+2013-08-29 00:34:53,353, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,354, INFO, revenue: 2034.05, cost: 1869.95, profit: 164.1, term_yield: 0.0877563571218, annualized_yield: 0.959986322886
+2013-08-29 00:34:53,354, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,355, INFO, revenue: 2034.05, cost: 1869.95, profit: 164.1, term_yield: 0.0877563571218, annualized_yield: 0.959986322886
+2013-08-29 00:34:53,355, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,356, INFO, revenue: 2034.05, cost: 1869.95, profit: 164.1, term_yield: 0.0877563571218, annualized_yield: 0.959986322886
+2013-08-29 00:34:53,356, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,356, INFO, compute yield
+2013-08-29 00:34:53,357, INFO, c_strike: 20.0 p_strike: 19.0 c_price: 0.0 p_price: 1.9 dividend 0.38 month_diff 1.5 shares 100
+2013-08-29 00:34:53,357, INFO, revenue: 1934.05, cost: 1969.95, profit: -35.9, term_yield: -0.0182238127871, annualized_yield: -0.13682281398
+2013-08-29 00:34:53,358, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,358, INFO, revenue: 1934.05, cost: 1969.95, profit: -35.9, term_yield: -0.0182238127871, annualized_yield: -0.13682281398
+2013-08-29 00:34:53,358, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,358, INFO, revenue: 1934.05, cost: 1969.95, profit: -35.9, term_yield: -0.0182238127871, annualized_yield: -0.13682281398
+2013-08-29 00:34:53,359, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,359, INFO, revenue: 1934.05, cost: 1969.95, profit: -35.9, term_yield: -0.0182238127871, annualized_yield: -0.13682281398
+2013-08-29 00:34:53,359, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,359, INFO, revenue: 1934.05, cost: 1969.95, profit: -35.9, term_yield: -0.0182238127871, annualized_yield: -0.13682281398
+2013-08-29 00:34:53,360, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,360, INFO, revenue: 1934.05, cost: 1969.95, profit: -35.9, term_yield: -0.0182238127871, annualized_yield: -0.13682281398
+2013-08-29 00:34:53,360, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,361, INFO, revenue: 1976.65, cost: 1969.95, profit: 6.7, term_yield: 0.0034011015508, annualized_yield: 0.0275349147317
+2013-08-29 00:34:53,361, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,361, INFO, revenue: 2034.05, cost: 1969.95, profit: 64.1, term_yield: 0.0325388969263, annualized_yield: 0.291966842964
+2013-08-29 00:34:53,361, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,361, INFO, revenue: 2034.05, cost: 1969.95, profit: 64.1, term_yield: 0.0325388969263, annualized_yield: 0.291966842964
+2013-08-29 00:34:53,368, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,369, INFO, revenue: 2034.05, cost: 1969.95, profit: 64.1, term_yield: 0.0325388969263, annualized_yield: 0.291966842964
+2013-08-29 00:34:53,369, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:53,369, INFO, === begin analysis for MSB, price: 21.39, dividend: 0.46
+2013-08-29 00:34:53,370, INFO, matching past: 7/16/2013, now: 8/29/2013, future: 7/26/2013
+2013-08-29 00:34:53,370, INFO, date not match for MSB, pass
+2013-08-29 00:34:53,370, INFO, === begin analysis for CYS, price: 7.81, dividend: 0.34
+2013-08-29 00:34:53,371, INFO, matching past: 6/10/2013, now: 8/29/2013, future: 6/21/2013
+2013-08-29 00:34:53,371, INFO, date not match for CYS, pass
+2013-08-29 00:34:53,371, INFO, === begin analysis for QRE, price: 16.78, dividend: 0.4875
+2013-08-29 00:34:53,372, INFO, matching past: 7/24/2013, now: 8/29/2013, future: 8/5/2013
+2013-08-29 00:34:53,372, INFO, date not match for QRE, pass
+2013-08-29 00:34:53,372, INFO, === begin analysis for PGH, price: 5.48, dividend: 0.04
+2013-08-29 00:34:53,373, INFO, matching past: 8/12/2013, now: 8/29/2013, future: 8/20/2013
+2013-08-29 00:34:53,373, INFO, date not match for PGH, pass
+2013-08-29 00:34:53,373, INFO, === begin analysis for MCEP, price: 23.45, dividend: 0.515
+2013-08-29 00:34:53,374, INFO, matching past: 7/25/2013, now: 8/29/2013, future: 8/5/2013
+2013-08-29 00:34:53,374, INFO, date not match for MCEP, pass
+2013-08-29 00:34:53,374, INFO, === begin analysis for NTLS, price: 16.53, dividend: 0.42
+2013-08-29 00:34:53,375, INFO, matching past: 7/25/2013, now: 8/29/2013, future: 9/11/2013
+2013-08-29 00:34:53,375, INFO, download options of <NTLS> from http://www.optionpain.altervista.org/csv.php?symbol=NTLS&month=9&year=2013
+2013-08-29 00:34:54,804, INFO, find valid option file NTLS_2013_9.opt
+2013-08-29 00:34:54,806, INFO, options are expired at 9/21/2013
+2013-08-29 00:34:54,807, INFO, dividend within date 2013/8 to 2013/9 is 0.42
+2013-08-29 00:34:54,807, INFO, can buy 100 shares with $2000.0
+2013-08-29 00:34:54,808, INFO, loading options file NTLS_2013_9.opt
+2013-08-29 00:34:54,810, INFO, begin generating yield table
+2013-08-29 00:34:54,811, INFO, compute yield
+2013-08-29 00:34:54,812, INFO, c_strike: 17.5 p_strike: 12.5 c_price: 0.35 p_price: 0.2 dividend 0.42 month_diff 1.5 shares 100
+2013-08-29 00:34:54,813, INFO, revenue: 1288.05, cost: 1651.95, profit: -363.9, term_yield: -0.220285117588, annualized_yield: -0.863388710922
+2013-08-29 00:34:54,814, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,822, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:54,823, INFO, compute yield
+2013-08-29 00:34:54,825, INFO, c_strike: 17.5 p_strike: 10.0 c_price: 0.35 p_price: 0.15 dividend 0.42 month_diff 1.5 shares 100
+2013-08-29 00:34:54,825, INFO, revenue: 1038.05, cost: 1646.95, profit: -608.9, term_yield: -0.369713713227, annualized_yield: -0.975094064114
+2013-08-29 00:34:54,826, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,827, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:54,828, INFO, compute yield
+2013-08-29 00:34:54,829, INFO, c_strike: 17.5 p_strike: 15.0 c_price: 0.35 p_price: 0.65 dividend 0.42 month_diff 1.5 shares 100
+2013-08-29 00:34:54,829, INFO, revenue: 1538.05, cost: 1696.95, profit: -158.9, term_yield: -0.0936385868765, annualized_yield: -0.544580876738
+2013-08-29 00:34:54,830, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,839, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:54,840, INFO, compute yield
+2013-08-29 00:34:54,841, INFO, c_strike: 20.0 p_strike: 12.5 c_price: 0.0 p_price: 0.2 dividend 0.42 month_diff 1.5 shares 100
+2013-08-29 00:34:54,841, INFO, revenue: 1288.05, cost: 1686.95, profit: -398.9, term_yield: -0.236462254364, annualized_yield: -0.884483481655
+2013-08-29 00:34:54,844, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,845, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:54,846, INFO, compute yield
+2013-08-29 00:34:54,846, INFO, c_strike: 20.0 p_strike: 17.5 c_price: 0.0 p_price: 2.05 dividend 0.42 month_diff 1.5 shares 100
+2013-08-29 00:34:54,847, INFO, revenue: 1788.05, cost: 1871.95, profit: -83.9, term_yield: -0.0448195731724, annualized_yield: -0.307079650266
+2013-08-29 00:34:54,847, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,847, INFO, revenue: 1788.05, cost: 1871.95, profit: -83.9, term_yield: -0.0448195731724, annualized_yield: -0.307079650266
+2013-08-29 00:34:54,848, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,849, INFO, revenue: 1788.05, cost: 1871.95, profit: -83.9, term_yield: -0.0448195731724, annualized_yield: -0.307079650266
+2013-08-29 00:34:54,849, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,850, INFO, revenue: 1788.05, cost: 1871.95, profit: -83.9, term_yield: -0.0448195731724, annualized_yield: -0.307079650266
+2013-08-29 00:34:54,851, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,856, INFO, revenue: 1788.05, cost: 1871.95, profit: -83.9, term_yield: -0.0448195731724, annualized_yield: -0.307079650266
+2013-08-29 00:34:54,857, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,857, INFO, revenue: 1788.05, cost: 1871.95, profit: -83.9, term_yield: -0.0448195731724, annualized_yield: -0.307079650266
+2013-08-29 00:34:54,858, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,858, INFO, revenue: 1856.35, cost: 1871.95, profit: -15.6, term_yield: -0.00833355591763, annualized_yield: -0.064755973655
+2013-08-29 00:34:54,859, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,859, INFO, revenue: 2021.65, cost: 1871.95, profit: 149.7, term_yield: 0.0799700846711, annualized_yield: 0.85052009311
+2013-08-29 00:34:54,860, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,861, INFO, revenue: 2038.05, cost: 1871.95, profit: 166.1, term_yield: 0.0887310024306, annualized_yield: 0.974079868596
+2013-08-29 00:34:54,861, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,861, INFO, revenue: 2038.05, cost: 1871.95, profit: 166.1, term_yield: 0.0887310024306, annualized_yield: 0.974079868596
+2013-08-29 00:34:54,862, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,863, INFO, compute yield
+2013-08-29 00:34:54,868, INFO, c_strike: 20.0 p_strike: 10.0 c_price: 0.0 p_price: 0.15 dividend 0.42 month_diff 1.5 shares 100
+2013-08-29 00:34:54,869, INFO, revenue: 1038.05, cost: 1681.95, profit: -643.9, term_yield: -0.382829453908, annualized_yield: -0.978950512198
+2013-08-29 00:34:54,870, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,870, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:54,871, INFO, compute yield
+2013-08-29 00:34:54,871, INFO, c_strike: 20.0 p_strike: 15.0 c_price: 0.0 p_price: 0.65 dividend 0.42 month_diff 1.5 shares 100
+2013-08-29 00:34:54,872, INFO, revenue: 1538.05, cost: 1731.95, profit: -193.9, term_yield: -0.111954733104, annualized_yield: -0.613205017939
+2013-08-29 00:34:54,872, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,873, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:54,874, INFO, compute yield
+2013-08-29 00:34:54,874, INFO, c_strike: 22.5 p_strike: 12.5 c_price: 0.0 p_price: 0.2 dividend 0.42 month_diff 1.5 shares 100
+2013-08-29 00:34:54,875, INFO, revenue: 1288.05, cost: 1686.95, profit: -398.9, term_yield: -0.236462254364, annualized_yield: -0.884483481655
+2013-08-29 00:34:54,880, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,881, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:54,885, INFO, compute yield
+2013-08-29 00:34:54,885, INFO, c_strike: 22.5 p_strike: 17.5 c_price: 0.0 p_price: 2.05 dividend 0.42 month_diff 1.5 shares 100
+2013-08-29 00:34:54,886, INFO, revenue: 1788.05, cost: 1871.95, profit: -83.9, term_yield: -0.0448195731724, annualized_yield: -0.307079650266
+2013-08-29 00:34:54,886, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,886, INFO, revenue: 1788.05, cost: 1871.95, profit: -83.9, term_yield: -0.0448195731724, annualized_yield: -0.307079650266
+2013-08-29 00:34:54,887, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,887, INFO, revenue: 1788.05, cost: 1871.95, profit: -83.9, term_yield: -0.0448195731724, annualized_yield: -0.307079650266
+2013-08-29 00:34:54,888, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,889, INFO, revenue: 1788.05, cost: 1871.95, profit: -83.9, term_yield: -0.0448195731724, annualized_yield: -0.307079650266
+2013-08-29 00:34:54,889, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,890, INFO, revenue: 1788.05, cost: 1871.95, profit: -83.9, term_yield: -0.0448195731724, annualized_yield: -0.307079650266
+2013-08-29 00:34:54,890, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,891, INFO, revenue: 1788.05, cost: 1871.95, profit: -83.9, term_yield: -0.0448195731724, annualized_yield: -0.307079650266
+2013-08-29 00:34:54,897, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,898, INFO, revenue: 1856.35, cost: 1871.95, profit: -15.6, term_yield: -0.00833355591763, annualized_yield: -0.064755973655
+2013-08-29 00:34:54,898, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,899, INFO, revenue: 2021.65, cost: 1871.95, profit: 149.7, term_yield: 0.0799700846711, annualized_yield: 0.85052009311
+2013-08-29 00:34:54,899, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,900, INFO, revenue: 2186.95, cost: 1871.95, profit: 315.0, term_yield: 0.16827372526, annualized_yield: 2.47021893678
+2013-08-29 00:34:54,902, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,902, INFO, revenue: 2288.05, cost: 1871.95, profit: 416.1, term_yield: 0.222281578034, annualized_yield: 3.98161464818
+2013-08-29 00:34:54,903, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,903, INFO, compute yield
+2013-08-29 00:34:54,905, INFO, c_strike: 22.5 p_strike: 10.0 c_price: 0.0 p_price: 0.15 dividend 0.42 month_diff 1.5 shares 100
+2013-08-29 00:34:54,909, INFO, revenue: 1038.05, cost: 1681.95, profit: -643.9, term_yield: -0.382829453908, annualized_yield: -0.978950512198
+2013-08-29 00:34:54,916, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,917, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:54,917, INFO, compute yield
+2013-08-29 00:34:54,918, INFO, c_strike: 22.5 p_strike: 15.0 c_price: 0.0 p_price: 0.65 dividend 0.42 month_diff 1.5 shares 100
+2013-08-29 00:34:54,919, INFO, revenue: 1538.05, cost: 1731.95, profit: -193.9, term_yield: -0.111954733104, annualized_yield: -0.613205017939
+2013-08-29 00:34:54,920, INFO, every cent less converts to 1 dollars
+2013-08-29 00:34:54,921, INFO, loss greater than max loss -0.45
+2013-08-29 00:34:54,922, INFO, === begin analysis for NSH, price: 24.11, dividend: 0.545
+2013-08-29 00:34:54,923, INFO, matching past: 7/26/2013, now: 8/29/2013, future: 8/1/2013
+2013-08-29 00:34:54,928, INFO, date not match for NSH, pass
+2013-08-29 00:34:54,929, INFO, === begin analysis for GOOD, price: 17.84, dividend: 0.125
+2013-08-29 00:34:54,930, INFO, matching past: 7/9/2013, now: 8/29/2013, future: 9/16/2013
+2013-08-29 00:34:54,931, INFO, download options of <GOOD> from http://www.optionpain.altervista.org/csv.php?symbol=GOOD&month=9&year=2013
+2013-08-29 00:34:56,188, INFO, find valid option file GOOD_2013_9.opt
+2013-08-29 00:34:56,190, INFO, options are expired at 9/21/2013
+2013-08-29 00:34:56,191, INFO, dividend within date 2013/8 to 2013/9 is 0.125
+2013-08-29 00:34:56,192, INFO, can buy 100 shares with $2000.0
+2013-08-29 00:34:56,193, INFO, loading options file GOOD_2013_9.opt
+2013-08-29 00:34:56,195, INFO, begin generating yield table
+2013-08-29 00:34:56,196, INFO, === begin analysis for MTR, price: 23.2, dividend: 0.1064
+2013-08-29 00:34:56,198, INFO, matching past: 7/18/2013, now: 8/29/2013, future: 8/28/2013
+2013-08-29 00:34:56,208, INFO, date not match for MTR, pass
+2013-08-29 00:34:56,209, INFO, === begin analysis for HGT, price: 8.48, dividend: 0.0824
+2013-08-29 00:34:56,209, INFO, matching past: 8/20/2013, now: 8/29/2013, future: 8/28/2013
+2013-08-29 00:34:56,210, INFO, date not match for HGT, pass
+2013-08-29 00:34:56,210, INFO, === begin analysis for ABR, price: 6.87, dividend: 0.13
+2013-08-29 00:34:56,212, INFO, matching past: 8/2/2013, now: 8/29/2013, future: 8/12/2013
+2013-08-29 00:34:56,213, INFO, date not match for ABR, pass
+2013-08-29 00:34:56,224, INFO, === begin analysis for CMLP, price: 25.93, dividend: 0.51
+2013-08-29 00:34:56,225, INFO, matching past: 7/18/2013, now: 8/29/2013, future: 7/30/2013
+2013-08-29 00:34:56,226, INFO, date not match for CMLP, pass
+2013-08-29 00:34:56,226, INFO, === begin analysis for AMTG, price: 15.34, dividend: 0.7
+2013-08-29 00:34:56,227, INFO, matching past: 6/17/2013, now: 8/29/2013, future: 6/26/2013
+2013-08-29 00:34:56,227, INFO, date not match for AMTG, pass
+2013-08-29 00:34:56,228, INFO, === begin analysis for GOV, price: 23.76, dividend: 0.43
+2013-08-29 00:34:56,231, INFO, matching past: 7/10/2013, now: 8/29/2013, future: 7/24/2013
+2013-08-29 00:34:56,232, INFO, date not match for GOV, pass
+2013-08-29 00:34:56,236, INFO, === begin analysis for TNH, price: 210.24, dividend: 4.02
+2013-08-29 00:34:56,237, INFO, matching past: 8/6/2013, now: 8/29/2013, future: 8/14/2013
+2013-08-29 00:34:56,238, INFO, date not match for TNH, pass
+2013-08-29 00:34:56,239, INFO, === begin analysis for GLAD, price: 8.22, dividend: 0.07
+2013-08-29 00:34:56,240, INFO, matching past: 7/9/2013, now: 8/29/2013, future: 8/19/2013
+2013-08-29 00:34:56,240, INFO, date not match for GLAD, pass
+2013-08-29 00:34:56,241, INFO, === begin analysis for ARP, price: 21.01, dividend: 0.54
+2013-08-29 00:34:56,241, INFO, matching past: 7/24/2013, now: 8/29/2013, future: 8/2/2013
+2013-08-29 00:34:56,248, INFO, date not match for ARP, pass
+2013-08-29 00:34:56,249, INFO, === begin analysis for RSO, price: 5.82, dividend: 0.2
+2013-08-29 00:34:56,250, INFO, matching past: 6/14/2013, now: 8/29/2013, future: 6/26/2013
+2013-08-29 00:34:56,251, INFO, date not match for RSO, pass
+2013-08-29 00:34:56,252, INFO, === begin analysis for SDR, price: 14.15, dividend: 0.683
+2013-08-29 00:34:56,252, INFO, matching past: 7/25/2013, now: 8/29/2013, future: 8/12/2013
+2013-08-29 00:34:56,253, INFO, date not match for SDR, pass
+2013-08-29 00:34:56,253, INFO, === begin analysis for NRF, price: 8.66, dividend: 0.2
+2013-08-29 00:34:56,254, INFO, matching past: 7/31/2013, now: 8/29/2013, future: 8/8/2013
+2013-08-29 00:34:56,254, INFO, date not match for NRF, pass
+2013-08-29 00:34:56,255, INFO, === begin analysis for ARI, price: 15.12, dividend: 0.4
+2013-08-29 00:34:56,256, INFO, matching past: 7/31/2013, now: 8/29/2013, future: 9/26/2013
+2013-08-29 00:34:56,257, INFO, download options of <ARI> from http://www.optionpain.altervista.org/csv.php?symbol=ARI&month=9&year=2013
+2013-08-29 00:34:57,590, INFO, option ARI_2013_9.opt expires earlier than ex_div_date 10/26/2013, move to next month
+2013-08-29 00:34:57,594, INFO, download options of <ARI> from http://www.optionpain.altervista.org/csv.php?symbol=ARI&month=10&year=2013
+2013-08-29 00:34:58,954, INFO, option ARI_2013_10.opt expires earlier than ex_div_date 11/26/2013, move to next month
+2013-08-29 00:34:58,956, INFO, download options of <ARI> from http://www.optionpain.altervista.org/csv.php?symbol=ARI&month=11&year=2013
+2013-08-29 00:35:00,361, INFO, option ARI_2013_11.opt expires earlier than ex_div_date 12/26/2013, move to next month
+2013-08-29 00:35:00,365, INFO, no valid option file
+2013-08-29 00:35:00,366, INFO, === begin analysis for LGP, price: 27.02, dividend: 0.4775
+2013-08-29 00:35:00,370, INFO, matching past: 8/8/2013, now: 8/29/2013, future: 8/21/2013
+2013-08-29 00:35:00,371, INFO, date not match for LGP, pass
+2013-08-29 00:35:00,372, INFO, === begin analysis for NRP, price: 20.29, dividend: 0.55
+2013-08-29 00:35:00,373, INFO, matching past: 7/23/2013, now: 8/29/2013, future: 8/1/2013
+2013-08-29 00:35:00,373, INFO, date not match for NRP, pass
+2013-08-29 00:35:00,374, INFO, === begin analysis for NRT, price: 24.55, dividend: 0.64
+2013-08-29 00:35:00,374, INFO, matching past: 4/29/2013, now: 8/29/2013, future: 5/15/2013
+2013-08-29 00:35:00,381, INFO, date not match for NRT, pass

@@ -15,6 +15,7 @@ import sys
 sys.path.append('../../')
 import time, os, ptConst, math, numpy, datetime, urllib2, random
 
+MONTH = {'Jan':1, 'Feb':2, 'Mar':3, 'Apr':4, 'May':5, 'Jun':6, 'Jul':7, 'Aug':8, 'Sep':9, 'Oct':10, 'Nov':11, 'Dec':12}
 SYMBOL_LIST = 'symbols.data'
 RANGE = 0.5 # stock price at expiration will be stock_price * (1 - range ) to stock_price * (1 + range)
 SAMPLE_SIZE = 10
@@ -79,16 +80,17 @@ class StockMap:
 			data = line.split()
 			for symbol in data:
 				ptConst.logging.info('adding ' + symbol + ' to stock map')
-				self.LoadDividendDataStreetInsider(symbol)
+				self.LoadDividendDataDividendInvestor(symbol)
+				#self.LoadDividendDataStreetInsider(symbol)
 
 	def Print(self):
 		for symbol in self.stock_map.keys():
 			print 'symbol: ', symbol
 			self.stock_map[symbol].Print()
 
-	def LoadDividendDataStreetInsider(self, symbol):
-		time.sleep(random.randint(30, 60))
-		link = 'http://www.streetinsider.com/dividend_history.php?q=' + symbol
+	def LoadDividendDataDividendInvestor(self, symbol):
+		time.sleep(random.randint(2, 5))
+		link = 'http://www.dividendinvestor.com/dividendhistory.php?symbol=' + symbol
 		filename = symbol + '.div'
 		data = urllib2.urlopen(link).read()
 		f = open(filename, 'w')
@@ -101,6 +103,48 @@ class StockMap:
 		f = open(filename, 'r')
 		while True:
 			line = f.readline()
+			if line == '': break
+			if 'Dividend Declaration Date: </td>' in line:
+				line = f.readline()
+				decl_date_str = f.readline().strip().split()[0]
+				decl_date = GetDateFromString(decl_date_str)
+			if 'Dividend Ex Date: </td>' in line:
+				line = f.readline()
+				ex_date_str = f.readline().strip().split()[0]
+				ex_date = GetDateFromString(ex_date_str)
+			if 'Dividend Amount Current:</td>' in line:
+				line = f.readline()
+				line = f.readline()
+				dividend = self.LoadProperty(line, '$', '</b>').strip()
+			if 'Latest Close Price: </td>' in line:
+				line = f.readline()
+				price = f.readline().strip().split()[0]
+
+
+		ptConst.logging.info('parameters loaded: price = ' + price + ', dividend = ' \
+				+ dividend + ', decl_date = ' + decl_date + ', ex_date = ' + ex_date)
+		self.stock_map[symbol] = Stock(price, dividend, ex_date, decl_date)
+	#	os.system('rm ' + filename)
+	
+
+
+	def LoadDividendDataStreetInsider(self, symbol):
+		link = 'http://www.streetinsider.com/dividend_history.php?q=' + symbol
+		filename = symbol + '.div'
+		#data = urllib2.urlopen(link).read()
+		#f = open(filename, 'w')
+    		#f.write(data)
+		#f.close()
+		os.system('wget ' + link + ' -O ' + filename)
+		time.sleep(random.randint(2, 5))
+		price = '0.0'
+		dividend = '0.0'
+		ex_date = '0/0/0'
+		decl_date = '0/0/0'
+		f = open(filename, 'r')
+		while True:
+			line = f.readline()
+			if line == '': break
 			if '<strong>Price:</strong>' in line:
 				price = self.LoadProperty(line, '<strong>Price:</strong> ', '&nbsp; |')
 			if '<tr class="LiteHover">' in line:
@@ -118,7 +162,7 @@ class StockMap:
 				+ dividend + ', decl_date = ' + decl_date + ', ex_date = ' + ex_date)
 		self.stock_map[symbol] = Stock(price, dividend, ex_date, decl_date)
 	#	os.system('rm ' + filename)
-	
+		f.close()	
 
 	def LoadDividendDataNasdaq(self, symbol):
 		ex_date_mark = 'quotes_content_left_dividendhistoryGrid_exdate_0">'
@@ -153,6 +197,13 @@ class StockMap:
 		end = line[begin:].find(end_mark)
 		return line[begin:][:end]
 
+def GetDateFromString(date_str):
+	date = date_str.split('-')
+	if date[0] not in MONTH.keys():
+		return '0/0/0'
+	if date[1] == '': return '0/0/0'
+	if date[2] == '': return '0/0/0'
+	return str(MONTH[date[0]]) + '/' + date[1] + '/' + date[2]
 
 def IsEmptyOptionFile(opt, symbol):
 	f = open(opt, 'r')
