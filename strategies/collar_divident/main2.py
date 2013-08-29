@@ -18,7 +18,7 @@ import time, os, ptConst, math, numpy, datetime, urllib2, random
 MONTH = {'Jan':1, 'Feb':2, 'Mar':3, 'Apr':4, 'May':5, 'Jun':6, 'Jul':7, 'Aug':8, 'Sep':9, 'Oct':10, 'Nov':11, 'Dec':12}
 SYMBOL_LIST = 'symbols.data'
 RANGE = 0.5 # stock price at expiration will be stock_price * (1 - range ) to stock_price * (1 + range)
-SAMPLE_SIZE = 10
+SAMPLE_SIZE = 50
 MAX_LOSS = -0.45
 CASH = 2000.0
 STOCK_TRADING_FEE = 3.95
@@ -304,7 +304,10 @@ def ComputeYield(c_strike, c_price, p_strike, p_price, price, dividend, months, 
 	p_to_yield = dict()
 	for p in GetPriceSamples(price, RANGE, SAMPLE_SIZE):
 		if p >= c_strike:
-			revenue = (c_strike + dividend) * c_num * 100 - STOCK_TRADING_FEE 
+			if c_price < 0.01 # no need to sell cover call
+				revenue = (p + dividend) * c_num * 100 - STOCK_TRADING_FEE 
+			else:
+				revenue = (c_strike + dividend) * c_num * 100 - STOCK_TRADING_FEE 
 		elif p < c_strike and p > p_strike:
 			revenue = (p + dividend) * c_num * 100 - STOCK_TRADING_FEE
 		else:
@@ -316,7 +319,6 @@ def ComputeYield(c_strike, c_price, p_strike, p_price, price, dividend, months, 
 		ptConst.logging.info('revenue: ' + str(revenue) + ', cost: ' + str(cost) \
 				+ ', profit: ' + str(profit) + ', term_yield: ' + str(term_yield) \
 				+ ', annualized_yield: ' + str(annualized_yield))
-		ptConst.logging.info('every cent less converts to ' + str(c_num) + ' dollars')
 		if annualized_yield < MAX_LOSS:
 			ptConst.logging.info('loss greater than max loss ' + str(MAX_LOSS))
 			return None 
@@ -405,6 +407,7 @@ for symbol in div_data.stock_map.keys():
 		print '$' + str(CASH) + ' is not enough to buy 100 shares, pass'
 		continue
 	ptConst.logging.info('can buy ' + str(shares * 100) + ' shares with $' + str(CASH))
+	ptConst.logging.info('every cent less converts to ' + str(shares) + ' dollars')
 	print 'can buy ' + str(shares * 100) + ' with $' + str(CASH)
 
 	call, put = LoadOptionFile(opt, symbol)	
@@ -419,10 +422,12 @@ for symbol in div_data.stock_map.keys():
 					yield_table = ComputeYield(c_strike, call[c_strike], p_strike, put[p_strike], price, dividend, month_diff, shares)
 					if yield_table is None:
 						print 'exceeds max loss drop'
-					else:					
-						for p in sorted(yield_table.keys()):
-							print 'future price: ' + str(p) \
-									+ ', profit: ' + str(yield_table[p][0]) \
-									+ ', term yield: ' + str(yield_table[p][1]) \
-									+ ', annualized yield: ' + str(yield_table[p][2])
+					else:	
+						table = sorted(yield_table.keys())				
+						for p in table:
+							if yield_table[p][0] > 0:
+								print 'break even price: ' + str(p)
+						print ' max loss: ' + str(yield_table[table[0]][0]) \
+								+ ', term yield: ' + str(yield_table[table[0]][1]) \
+								+ ', annualized yield: ' + str(yield_table[table[0]][2])
 
