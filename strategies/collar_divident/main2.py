@@ -80,8 +80,8 @@ class StockMap:
 			data = line.split()
 			for symbol in data:
 				ptConst.logging.info('adding ' + symbol + ' to stock map')
-				self.LoadDividendDataDividendInvestor(symbol)
-				#self.LoadDividendDataStreetInsider(symbol)
+				#self.LoadDividendDataDividendInvestor(symbol)
+				self.LoadDividendDataStreetInsider(symbol)
 
 	def Print(self):
 		for symbol in self.stock_map.keys():
@@ -131,12 +131,12 @@ class StockMap:
 	def LoadDividendDataStreetInsider(self, symbol):
 		link = 'http://www.streetinsider.com/dividend_history.php?q=' + symbol
 		filename = symbol + '.div'
-		#data = urllib2.urlopen(link).read()
-		#f = open(filename, 'w')
-    		#f.write(data)
-		#f.close()
-		os.system('wget ' + link + ' -O ' + filename)
-		time.sleep(random.randint(2, 5))
+		data = urllib2.urlopen(link).read()
+		f = open(filename, 'w')
+    		f.write(data)
+		f.close()
+		#os.system('wget ' + link + ' -O ' + filename)
+		time.sleep(random.randint(1, 3))
 		price = '0.0'
 		dividend = '0.0'
 		ex_date = '0/0/0'
@@ -147,16 +147,20 @@ class StockMap:
 			if line == '': break
 			if '<strong>Price:</strong>' in line:
 				price = self.LoadProperty(line, '<strong>Price:</strong> ', '&nbsp; |')
+				if 'N/A' in price: price = '0.0'
 			if '<tr class="LiteHover">' in line:
 				line = f.readline()
 				ex_date = self.LoadProperty(line, '<td>', '<')
+				if 'N/A' in ex_date: ex_date = '0/0/0'
 				line = f.readline()
 				dividend = self.LoadProperty(line, '<td>', '<')[1:]
+				if 'N/A' in dividend: dividend = '0.0'
 				f.readline()
 				f.readline()
 				f.readline()
 				line = f.readline()
 				decl_date = self.LoadProperty(line, '<td>', '<')
+				if 'N/A' in decl_date: decl_date = '0/0/0'
 				break
 		ptConst.logging.info('parameters loaded: price = ' + price + ', dividend = ' \
 				+ dividend + ', decl_date = ' + decl_date + ', ex_date = ' + ex_date)
@@ -304,7 +308,7 @@ def ComputeYield(c_strike, c_price, p_strike, p_price, price, dividend, months, 
 	p_to_yield = dict()
 	for p in GetPriceSamples(price, RANGE, SAMPLE_SIZE):
 		if p >= c_strike:
-			if c_price < 0.01 # no need to sell cover call
+			if c_price < 0.01: # no need to sell cover call
 				revenue = (p + dividend) * c_num * 100 - STOCK_TRADING_FEE 
 			else:
 				revenue = (c_strike + dividend) * c_num * 100 - STOCK_TRADING_FEE 
@@ -427,6 +431,7 @@ for symbol in div_data.stock_map.keys():
 						for p in table:
 							if yield_table[p][0] > 0:
 								print 'break even price: ' + str(p)
+								break
 						print ' max loss: ' + str(yield_table[table[0]][0]) \
 								+ ', term yield: ' + str(yield_table[table[0]][1]) \
 								+ ', annualized yield: ' + str(yield_table[table[0]][2])
