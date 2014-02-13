@@ -1,13 +1,8 @@
 #!/usr/bin/python
 
-# compute max gain, max loss and other property of an investment on a stock, when a collar is applied.
-# used for hedge stock volatility, but only to persue dividend
-# criterion:
-# 1. suppose declaration day is d0, today is d1, ex day is d2, option expiring day is d3
-# 2. d1 needs to be within d0 and d2, so a dividend is guareentined to be obtained
-# 3. d3 needs to be after d2, so the dividend eating period is fully protected by the collar
-# 4. select the options that d3 is mostly closed to d2, so options premium is the least
-
+# obtain the call/put price for a high dividend stock/bdc/reit
+# if out-the-money call price is high, then buy the stock and sell the call
+# if out-the-money put price is high, then sell the put and take the premium or get the stock if being put 
 
 #! /usr/bin/python
 
@@ -17,14 +12,17 @@ import time, os, ptConst, math, numpy, datetime, urllib2, random
 
 MONTH = {'Jan':1, 'Feb':2, 'Mar':3, 'Apr':4, 'May':5, 'Jun':6, 'Jul':7, 'Aug':8, 'Sep':9, 'Oct':10, 'Nov':11, 'Dec':12}
 SYMBOL_LIST = 'symbols.data'
-RANGE = 0.5 # stock price at expiration will be stock_price * (1 - range ) to stock_price * (1 + range)
-SAMPLE_SIZE = 50
-MAX_LOSS = -0.45
 CASH = 2000.0
 STOCK_TRADING_FEE = 3.95
 
 class Date:
 	valid = True
+	def __init__(self): # init to today
+		today = str(datetime.date.today())
+		self.year = int(today.split('-')[0])
+		self.month = int(today.split('-')[1])
+		self.day = int(today.split('-')[2])
+
 	def __init__(self, date_str): # mm/dd/yyyy
 		if '-' in date_str:
 			date_str = '0/0/0'
@@ -34,6 +32,7 @@ class Date:
 		self.day = int(date[1])
 		if date_str == '0/0/0':
 			self.valid = False	
+
 	def GetString(self):
 		return str(self.month) + '/' + str(self.day) + '/' + str(self.year)
 	
@@ -148,6 +147,7 @@ class StockMap:
 			if '<strong>Price:</strong>' in line:
 				price = self.LoadProperty(line, '<strong>Price:</strong> ', '&nbsp; |')
 				if 'N/A' in price: price = '0.0'
+				if price == '': price = '0.0'
 			if '<tr class="LiteHover">' in line:
 				line = f.readline()
 				ex_date = self.LoadProperty(line, '<td>', '<')
@@ -255,9 +255,11 @@ def OptionExpireLaterThanDate(opt, date):
 	exp_date = GetOptionExpireDate(opt)
 	return not (exp_date < date or exp_date == date)
 
-def DownloadBestOption(symbol, date):
-	tmp_date = date
-	for i in range(3): # take the options expiring at most 3 month later than the ex_div_date
+def DownloadOptionAfterMonth(symbol, month):
+	tmp_date = Date()
+	for i in range(month): 
+		tmp_date.MoveToNextMonth()
+	for i in range(3): # take the options expiring at most 3 month later 
 		opt = DownloadOption(symbol, tmp_date.month, tmp_date.year)
 		if IsEmptyOptionFile(opt, symbol):
 		#	print 'empty option file:', opt
@@ -265,24 +267,11 @@ def DownloadBestOption(symbol, date):
 			tmp_date.MoveToNextMonth()
 			ptConst.logging.info('option file ' + opt + ' is empty, move to next month')
 			continue
-		if OptionExpireLaterThanDate(opt, date):
-			ptConst.logging.info('find valid option file ' + opt) 
-			return opt
-		else:
-			print 'options expires earlier than ex_div_date:', date.GetString()  
-			os.system('rm ' + opt)
-			tmp_date.MoveToNextMonth()
-			ptConst.logging.info('option ' + opt + ' expires earlier than ex_div_date ' + date.GetString() + ', move to next month') 
+		ptConst.logging.info('find valid option file ' + opt) 
+		return opt
 	
 	ptConst.logging.info('no valid option file') 
 	return ''
-			
-
-def GetPriceSamples(price, rg, num):
-	min = price * (1 - rg)
-	max = price * (1 + rg)
-	step = (max - min) / num
-	return numpy.arange(min, max, step)
 
 def GetShares(p):
 	# return max hundreds of shares with CASH
@@ -297,38 +286,6 @@ def GetFee(contracts_num):
 		return STOCK_TRADING_FEE + (5 * 2) 
 	else: 
 		return STOCK_TRADING_FEE + (8.5 + 0.15 * contracts_num) * 2
-
-def ComputeYield(c_strike, c_price, p_strike, p_price, price, dividend, months, c_num):
-	ptConst.logging.info('compute yield') 
-	ptConst.logging.info('c_strike: ' + str(c_strike) + ' p_strike: ' + str(p_strike) \
-			+ ' c_price: ' + str(c_price) + ' p_price: ' + str(p_price) \
-			+ ' dividend ' + str(dividend) + ' month_diff ' + str(months) \
-			+ ' shares ' + str(c_num * 100))
-	cost = (price - c_price + p_price) * c_num * 100 + GetFee(c_num) 
-	p_to_yield = dict()
-	for p in GetPriceSamples(price, RANGE, SAMPLE_SIZE):
-		if p >= c_strike:
-			if c_price < 0.01: # no need to sell cover call
-				revenue = (p + dividend) * c_num * 100 - STOCK_TRADING_FEE 
-			else:
-				revenue = (c_strike + dividend) * c_num * 100 - STOCK_TRADING_FEE 
-		elif p < c_strike and p > p_strike:
-			revenue = (p + dividend) * c_num * 100 - STOCK_TRADING_FEE
-		else:
-			revenue = (p_strike + dividend) * c_num * 100 - STOCK_TRADING_FEE
-		
-		profit = revenue - cost	
-		term_yield = profit / cost
-		annualized_yield = math.pow((1 + term_yield), 12.0 / months) - 1
-		ptConst.logging.info('revenue: ' + str(revenue) + ', cost: ' + str(cost) \
-				+ ', profit: ' + str(profit) + ', term_yield: ' + str(term_yield) \
-				+ ', annualized_yield: ' + str(annualized_yield))
-		if annualized_yield < MAX_LOSS:
-			ptConst.logging.info('loss greater than max loss ' + str(MAX_LOSS))
-			return None 
-		p_to_yield[p] = (profit, term_yield, annualized_yield)		
-	return p_to_yield
-
 
 def DownloadOption(symbol, month, year):
 
@@ -355,24 +312,36 @@ def GetMonthDiff(later_month, later_year, earlier_month, earlier_year):
 		earlier_month, earlier_year = GetNextMonth(earlier_month, earlier_year)
 		diff += 1
 	return diff + 0.5
+	
+def GetTightestOTMOptions(call, put, price):
+	c_diff = 100
+	c = 0
+	p_diff = 100
+	p = 0
+	for strike in call.keys():
+		c_price = call[strike]
+		if c_price - price > 0 and c_price - price < c_diff:
+			c_diff = c_price - price	
+			c = c_price
+	for strike in put.keys():
+		p_price = put[strike]
+		if p_price - price < 0 and price - p_price < p_diff:
+			p_diff = price - p_price	
+			p = p_price
+	return c, p
 
-def DateMatch(past, future):
-	today = str(datetime.date.today()).split('-')
-	day = today[2]
-	month = today[1]
-	year = today[0]
-	now = Date(month + '/' + day + '/' + year)
-	ptConst.logging.info('matching past: ' + past.GetString() + ', now: ' + now.GetString() + ', future: ' + future.GetString()) 
-	return past < now and now < future
 
-if len(sys.argv) != 1:
-	print 'USAGE: ./main.py'
+if len(sys.argv) != 3:
+	print 'USAGE: ' + sys.argv[0] + ' div_min option_price_min'
 	sys.exit()
 
-ptConst.logging.info('===== Start a new run of Divident-Collar-Analysis =====')
+ptConst.logging.info('===== Start a new run of Dividend-Option-Analysis =====')
 
 os.system('rm -f *.opt')
 os.system('rm -f *.div')
+
+div_min = float(sys.argv[1])
+option_min = float(sys.argv[2])
 
 div_data = StockMap()
 
@@ -385,54 +354,25 @@ for symbol in div_data.stock_map.keys():
 	print 'stock:', symbol, 'current stock price:', price
 	stock = div_data.stock_map[symbol]
 	stock.Print()
-	if not DateMatch(stock.decl_date, stock.ex_date):
-		ptConst.logging.info('date not match for ' + symbol + ', pass') 
-		print 'date not match, pass'
+	if dividend / price < div_min:
+		ptConst.logging.info('dividend is ' + str(dividend/price) + ', too small, pass')
 		continue
-	opt = DownloadBestOption(symbol, stock.ex_date)
+	today = Date()
+	opt = DownloadOptionAfterMonth(symbol, 3)
 	if opt == '':
 		print 'no appropriate options for', symbol, 'pass'	
 		continue
 
 	opt_month = int(opt.split('_')[2][:-4])
 	opt_year = int(opt.split('_')[1])	
-	now_month = int(str(datetime.date.today()).split('-')[1])
-	now_year = int(str(datetime.date.today()).split('-')[0])
-	month_diff = GetMonthDiff(opt_month, opt_year, now_month, now_year)
-	print 'options are expired at', GetOptionExpireDate(opt).GetString(), 'which is', month_diff, 'months later'
-	print 'dividend within date ' + str(now_year) + '/' + str(now_month) + ' to ' + str(opt_year) + '/' + str(opt_month) + ' is ' + str(dividend)
+	month_diff = GetMonthDiff(opt_month, opt_year, today.month, today.year)
 	ptConst.logging.info('options are expired at ' + GetOptionExpireDate(opt).GetString())
 	ptConst.logging.info('dividend within date ' + str(now_year) + '/' + str(now_month) \
 			+ ' to ' + str(opt_year) + '/' + str(opt_month) + ' is ' + str(dividend))
 	
-	shares = GetShares(price)
-	if shares == 0:
-		ptConst.logging.info('$' + str(CASH) + ' is not enough to buy 100 shares, pass')
-		print '$' + str(CASH) + ' is not enough to buy 100 shares, pass'
-		continue
-	ptConst.logging.info('can buy ' + str(shares * 100) + ' shares with $' + str(CASH))
-	ptConst.logging.info('every cent less converts to ' + str(shares) + ' dollars')
-	print 'can buy ' + str(shares * 100) + ' with $' + str(CASH)
-
 	call, put = LoadOptionFile(opt, symbol)	
-
-	print '===== YIELD TABLE ====='
-	ptConst.logging.info('begin generating yield table')
-	for c_strike in call.keys():
-		if c_strike > price:
-			for p_strike in put.keys():
-				if p_strike < c_strike:
-					print '----- c_strike:', c_strike, 'p_strike:', p_strike, 'c_price:', call[c_strike], 'p_price:', put[p_strike]
-					yield_table = ComputeYield(c_strike, call[c_strike], p_strike, put[p_strike], price, dividend, month_diff, shares)
-					if yield_table is None:
-						print 'exceeds max loss drop'
-					else:	
-						table = sorted(yield_table.keys())				
-						for p in table:
-							if yield_table[p][0] > 0:
-								print 'break even price: ' + str(p)
-								break
-						print ' max loss: ' + str(yield_table[table[0]][0]) \
-								+ ', term yield: ' + str(yield_table[table[0]][1]) \
-								+ ', annualized yield: ' + str(yield_table[table[0]][2])
+	match_call, match_put = GetTightestOTMOptions(call, put, price)
+	ptConst.logging.info('call price:' + str(match_call) + ' put price:' + str(match_put))
+	if match_call > option_min or match_put > option_min:
+		ptConst.logging.info('==== find a candidate: ' + symbol)
 
