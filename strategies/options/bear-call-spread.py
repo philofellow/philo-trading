@@ -23,7 +23,7 @@ call_price_low = float(sys.argv[3])
 call_strike_high = float(sys.argv[4])
 call_price_high = float(sys.argv[5])
 
-range = 0.20 
+range = 0.40 
 
 credit = call_price_low - call_price_high
 
@@ -35,6 +35,6 @@ for p in GetPriceSamples(stock_price, range, 20):
 	if p > call_strike_high:
 		call_profit = credit - (p - call_strike_low) + (p - call_strike_high)
 	
-	print 'future price: %0.2f' % p, 'call profit: %0.2f' % (call_profit * 100)
+	print 'future price: %0.2f' % p, 'bear call spread profit: %0.2f' % (call_profit * 100)
 
 
