@@ -44,16 +44,16 @@ house_value_inc_m = house_price * inflation / 12
 profit_m = cash_flow + principle_pay_m + house_value_inc_m
 return_y = profit_m * 12 / init_inv 
 
-print ('rent per month: %.1f' % rent_m)
-print ('fixed cost per month: %.1f (hoa %.1f, insurance %.1f, mortgage pay %.1f, tax %.1f)' % \
-	(hoa_m, insurance_y / 12, mortgage_pay_m, tax_m, fixed_cost_m))
-print ('variable cost per month: %.1f (maintainess %.1f, vacancy %.1f, management %.1f)' % \
-	(rent_m * maintain, rent_m * vacancy / 52.0, agent_fee, vari_cost_m))
-print ('total cost per month: %.1f' % cost_m)
-print ('cashflow per month: %.1f' % cash_flow)
-print ('principle payment per month: %.1f' % principle_pay_m)
-print ('house value increase per month: %.1f' % house_value_inc_m)
-print ('profit per month: %.1f' % profit_m)
+print ('= rent per month: %.1f' % rent_m)
+print ('= total cost per month: %.1f' % cost_m)
+print ('=== fixed cost per month: %.1f (hoa %.1f, insurance %.1f, mortgage pay %.1f, tax %.1f)' % \
+	(fixed_cost_m, hoa_m, insurance_y / 12, mortgage_pay_m, tax_m))
+print ('=== variable cost per month: %.1f (maintainess %.1f, vacancy(%d weeks) %.1f, management %.1f)' % \
+	(vari_cost_m, rent_m * maintain, vacancy, rent_m * vacancy / 52.0, agent_fee))
+print ('= cashflow per month: %.1f' % cash_flow)
+print ('= principle payment per month: %.1f' % principle_pay_m)
+print ('= house value increase per month: %.1f' % house_value_inc_m)
+print ('+++ profit per month: %.1f' % profit_m)
 print ('initial investment: %.1f' % init_inv)
 print ('cash return annually: %.1f%%' % (cash_return_y * 100))
 print ('total return annually: %.1f%%' % (return_y * 100))
