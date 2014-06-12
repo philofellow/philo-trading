@@ -7,16 +7,16 @@ if len(sys.argv) != 1:
 	sys.exit()
 
 rent_m = 1250.0 # rent per month
-vacancy = 4.0 # weeks of vacancy per year
-hoa_m = 270.0 # hoa fee per month
-insurance_y = 400.0 # all property insurance per year
+vacancy = 2.0 # weeks of vacancy per year
+hoa_m = 280.0 # hoa fee per month
+insurance_y = 287.0 # all property insurance per year
 house_price = 115000.0 # property price
 downpay = 0.25 # down payment
 upfront_cost = 3000.0 + 3000.0 # closing + refurnish
 int_y = 0.0475 # yearly mortgage interest 
 period_y = 30.0 # loan period in years
-tax_rate = 0.01 # property tax rate
-inflation = 0.03 # property value increase yearly
+tax_rate = 0.012 # property tax rate
+inflation = 0.05 # property value increase yearly
 maintain = 0.1 # maintainess cost in percent of rent
 #agent_fee = rent_m / 12.0 # if use agent to manage
 agent_fee = 0.0 
