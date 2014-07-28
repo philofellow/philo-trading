@@ -16,7 +16,7 @@ upfront_cost = 3000.0 + 4000.0 # closing + refurnish
 int_y = 0.0475 # yearly mortgage interest 
 period_y = 30.0 # loan period in years
 prop_tax_rate = 0.012 # property tax rate
-inflation = 0.03 # property value increase yearly
+inflation = 0.035 # property value increase yearly
 maintain = 0.1 # maintainess cost in percent of rent
 #agent_fee = rent_m / 12.0 # if use agent to manage
 agent_fee = 0.0 
@@ -29,6 +29,11 @@ loan = house_price * (1 - downpay)
 
 mortgage_pay_m = loan * (int_m / (1 - math.pow((1 + int_m), -period_m)))
 tax_m = house_price * prop_tax_rate / 12
+
+GOI = rent_m * (1 - vacancy/52) * 12
+OE = hoa_m * 12 + insurance_y + agent_fee * 12 + rent_m * maintain * 12 + tax_m * 12
+NOI = GOI - OE
+cap_rate = NOI / house_price
 
 equity_start = house_price * downpay
 init_inv = equity_start + upfront_cost # initial investment 
@@ -63,6 +68,8 @@ print ('= principle payment per month: %.1f' % principle_pay_m)
 print ('= house value increase per month: %.1f' % house_value_inc_m)
 print ('+++ profit per month: %.1f, per year: %.1f' % (profit_m, profit_m * 12))
 print ('initial investment: %.1f' % init_inv)
-print ('cash return annually: %.1f%%' % (cash_return_y * 100))
-print ('total return annually: %.1f%%' % (return_y * 100))
+print ('cash on cash return: %.1f%%' % (cash_return_y * 100))
+print ('ROE(including init cost): %.1f%%' % (return_y * 100))
+print ('GOI: %.1f, OE: %.1f, NOI: %.1f' % (GOI, OE, NOI))
+print ('cap rate: %.1f%%' % (cap_rate * 100))
 
