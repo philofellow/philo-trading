@@ -7,7 +7,7 @@ then
 	echo $(date +'%Y/%m/%d %H:%M') $price
 fi
 
-for i in "mcc" "psec" "ta" "alsk" "ntwk" "edmc" "pnnt" 
+for i in "mcc" "psec" "ta" "alsk" "ntwk" "edmc" "pnnt" "gov"
 do
 	p=`printf "curl -s 'http://download.finance.yahoo.com/d/quotes.csv?s=$i&f=nsl1p2'"`
 	price=`eval $p`;
