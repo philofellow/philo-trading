@@ -7,6 +7,7 @@ class Report:
   def __init__(self, transactions):
       self.report = 'Summary:\n'  
       # overall result
+      self.report += transactions[-1].date + ' - ' + transactions[0].date + ': '
       self.report += stats.Stats(transactions).toString() + '\n'
 
       # daily result

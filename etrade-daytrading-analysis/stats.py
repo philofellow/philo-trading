@@ -5,21 +5,21 @@ import const, transaction
 class Stats:
     
   def __init__(self, transactions):
-    self.totalNum = len(transactions)
-    self.totalWinNum = 0
-    self.totalLossNum = 0
+    self.trades = len(transactions)
+    self.win = 0
+    self.loss = 0
     self.gain = 0
     for t in transactions:
       self.gain += t.gain
       if t.gain < 0:
-        self.totalLossNum += 1
+        self.loss += 1
       else:
-        self.totalWinNum += 1
-    self.winPercent = float(self.totalWinNum) / self.totalNum
+        self.win += 1
+    self.winPercent = float(self.win) / self.trades
 
   def toString(self):
-    return 'totalNum: ' + str(self.totalNum) \
-      + ', totalWinNum: ' + str(self.totalWinNum) \
-      + ', totalLossNum: ' + str(self.totalLossNum) \
-      + ', winPercent: ' + str(self.winPercent) \
+    return 'Trades: ' + str(self.trades) \
+      + ', Win: ' + str(self.win) \
+      + ', Loss: ' + str(self.loss) \
+      + ', winPercent: ' + str(round(self.winPercent, 3)*100) + '%' \
       + ', gain: ' + str(self.gain)
