@@ -2,4 +2,4 @@
 data is not usable as it adjusts transactions for tax purposes. transaction or
 order data is hard to use as well because it misses information.
 
-2. ``` ./run.py gain-loss-6-17-2022.csv```
+2. ` ./run.py gain-loss-6-17-2022.csv`
