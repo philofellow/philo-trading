@@ -10,6 +10,7 @@ class Report:
       self.report += stats.Stats(transactions).toString() + '\n'
 
       # daily result
+      self.report += '\nDaily Results:\n'  
       dailyRes = dict()
       for t in transactions:
         tx = transactions[t]

@@ -4,25 +4,23 @@ import const
 
 class Transaction:
     
-  def __init__(self, symbol, line):
+  def __init__(self, data):
     self.ok = False
-    data = line.split(',')
-    if data[2] != data[5]: 
+    print data
+    if data[2] != data[6]: 
       # purchasing date is different then selling date, skip
       print('skip date mismatch')
       return
     self.ok = True 
-    cost = data[3]
-    sellPrice = data[6]
     # todo cut to 3 digits as splitted transaction could differ sligtly,
     # possibly on the 4th digit
-    self.tId = cost + '-' + sellPrice
-    self.symbol = symbol 
-    self.volume = int(data[1])
+    self.symbol = data[0] 
+    self.volume = int(data[1].replace('"', '').replace(',', ''))
     self.date = data[2]
     self.cost = float(data[3])
-    self.sellPrice = float(data[6])
-    self.gain = float(data[8])
+    self.sellPrice = float(data[7])
+    self.gain = float(data[9])
+    self.tId = str(self.cost) + '-' + str(self.sellPrice)
 
   def __nonzero__(self):
     return self.ok
@@ -34,5 +32,5 @@ class Transaction:
       + ', volume: ' + str(self.volume) \
       + ', cost: ' + str(self.cost) \
       + ', sellPrice: ' + str(self.sellPrice) \
-      + ', gain: ' + str(self.gain) \
+      + ', gain: ' + str(self.gain) 
 
