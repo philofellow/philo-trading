@@ -10,12 +10,6 @@ if len(sys.argv) != 2:
   print('wrong parameters!')
   sys.exit(0)
 
-def summary(transactions):
-  res = dict() 
-  for t in transactions:
-      if t.date not in res:
-         res[t.date] = dict()
-
 # consider 12.34-13.45 and 12.35-13.44 the same tId as it could be the single
 # order that is splitted
 def getPossibleSameOrderTIds(tId):
@@ -35,14 +29,15 @@ def getPossibleSameOrderTIds(tId):
   res.append(str(buy - 0.01) + '-' + str(sell - 0.01))
   return res
 
-def getExistingTId(tIds, transactions):
+def getExistingTransaction(tIds, transactions):
   for tId in tIds:
-    if tId in transactions:
-      return tId
+    for t in transactions:
+      if tId == t.tId:
+        return t
   return 'NA'
 
 def processFile(csvFile):
-  transactions = dict()
+  transactions = [] 
   toRead = False 
   with open(csvFile) as f:
     reader = csv.reader(f)
@@ -56,28 +51,27 @@ def processFile(csvFile):
       # transaction line
       txa = transaction.Transaction(row)
       if not txa:
-        print('not a day trading transaction')
+        print('not a day trading transaction ', row)
         continue
-      existingTId = getExistingTId(getPossibleSameOrderTIds(txa.tId), transactions)
-      if existingTId != 'NA':
-        print('find an existing transaction that belongs to the same order')
+      existingTransaction = getExistingTransaction(getPossibleSameOrderTIds(txa.tId), transactions)
+      if existingTransaction != 'NA':
+        print('find an existing transaction that belongs to the same order ', 
+                existingTransaction.symbol, existingTransaction.date, existingTransaction.tId)
         # same transaction executed separately
-        transactions[existingTId].volume += txa.volume
-        transactions[existingTId].gain += txa.gain 
+        existingTransaction.volume += txa.volume
+        existingTransaction.gain += txa.gain 
       else:
-        transactions[txa.tId] = txa
+        transactions.append(txa)
   return transactions
           
 transactions = processFile(sys.argv[1])
+transactions.sort(key=lambda x: x.date, reverse=True)
+
 print('==== Transactions ====')
 for t in transactions:
-  print(transactions[t].toString())
+  print(t.toString())
 
 print('==== Report ====')
 rp = report.Report(transactions)
 print(rp.report)
-
-
-
-
 

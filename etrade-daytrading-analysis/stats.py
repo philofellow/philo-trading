@@ -10,8 +10,8 @@ class Stats:
     self.totalLossNum = 0
     self.gain = 0
     for t in transactions:
-      self.gain += transactions[t].gain
-      if transactions[t].gain < 0:
+      self.gain += t.gain
+      if t.gain < 0:
         self.totalLossNum += 1
       else:
         self.totalWinNum += 1

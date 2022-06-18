@@ -13,10 +13,9 @@ class Report:
       self.report += '\nDaily Results:\n'  
       dailyRes = dict()
       for t in transactions:
-        tx = transactions[t]
-        if tx.date not in dailyRes:
-          dailyRes[tx.date] = dict()
-        dailyRes[tx.date][tx.tId] = tx
+        if t.date not in dailyRes:
+          dailyRes[t.date] = [] 
+        dailyRes[t.date].append(t)
 
       for d in sorted(dailyRes):
         self.report += d + ': '

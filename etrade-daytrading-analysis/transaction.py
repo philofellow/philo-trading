@@ -6,10 +6,8 @@ class Transaction:
     
   def __init__(self, data):
     self.ok = False
-    print data
     if data[2] != data[6]: 
       # purchasing date is different then selling date, skip
-      print('skip date mismatch')
       return
     self.ok = True 
     # todo cut to 3 digits as splitted transaction could differ sligtly,
