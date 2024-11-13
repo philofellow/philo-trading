@@ -3,9 +3,11 @@ import pandas as pd
 
 # usage: python main.py > res
 
-data_file = "sp500.data"
-#data_file = "russell2000.data"
-topn = 50
+#data_file = "sp500.data"
+data_file = "russell2000.data"
+topn = 100
+low = 0.8
+high = 0.93
 
 # Step 1: Get stock list from local data file
 def parse_data(datafile):
@@ -76,8 +78,8 @@ def get_put_options(stock_ticker):
         puts = options_chain.puts
 
         # Filter puts with strike prices 10-20% below current price
-        min_strike = current_price * 0.8
-        max_strike = current_price * 0.9
+        min_strike = current_price * low 
+        max_strike = current_price * high 
         filtered_puts = puts[(puts["strike"] >= min_strike) & (puts["strike"] <= max_strike)]
 
         for _, put in filtered_puts.iterrows():
@@ -91,16 +93,16 @@ def get_put_options(stock_ticker):
 
             option_data.append({
                 "Ticker": stock_ticker,
+                "Price": current_price,
                 "Expiration": exp_date,
-                "Strike Price": put["strike"],
+                "StrikePrice": put["strike"],
                 "Bid": put["bid"],
                 "Ask": put["ask"],
-                "Average Price": avg_price,
-                "Current Price": current_price,
+                "Avg": avg_price,
                 "Metric": metric,
-                "Max Contracts": max_contracts,
-                "Potential Profit": profit,
-                "Earnings Date": earnings_date
+                "ContractsToSell": max_contracts,
+                "PotentialProfit": profit,
+                "EarningsDate": earnings_date
             })
     return pd.DataFrame(option_data)
 
@@ -112,7 +114,7 @@ def get_stars(metric):
 # Step 4: Calculate and display the metric for each option
 def main():
     # Display results in a nicely formatted output
-    pd.set_option("display.float_format", "{:.4f}".format)  # Set decimal precision
+    #pd.set_option("display.float_format", "{:.4f}".format)  # Set decimal precision
     # Set the display option to show more columns
     pd.set_option('display.max_rows', None)  # No row limit
     pd.set_option('display.max_columns', None)  # Show all columns
@@ -129,8 +131,17 @@ def main():
 
     # Concatenate all dataframes into one for easy viewing
     final_df = pd.concat(all_options_data, ignore_index=True)
-    final_df['Star'] = final_df['Metric'].apply(get_stars)
- 
+    final_df['Rank'] = final_df['Metric'].apply(get_stars)
+
+    final_df['Price'] = final_df['Price'].round(2)
+    final_df['StrikePrice'] = final_df['StrikePrice'].round(2)
+    final_df['Bid'] = final_df['Bid'].round(2)
+    final_df['Ask'] = final_df['Ask'].round(2)
+    final_df['Avg'] = final_df['Avg'].round(3)
+    final_df['Metric'] = final_df['Metric'].round(4)
+    final_df['ContractsToSell'] = final_df['ContractsToSell'].round(0).astype(int)
+    final_df['PotentialProfit'] = final_df['PotentialProfit'].round(2)
+
     print("\nOption Data with Computed Metric:")
     print(final_df)
 
