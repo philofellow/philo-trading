@@ -57,11 +57,23 @@ def calculate_weekly_volatility(stock_symbols, topn):
 def get_put_options(stock_ticker):
     print(f"\nCalculating put selling metrics for {stock_ticker}")
     stock = yf.Ticker(stock_ticker)
+    price = -1
+    
+    # Get the current trading price or the previous close price
     try:
-        current_price = stock.history(period="5d")["Close"].iloc[-1]
-    except (IndexError):
-        print(f"\n{stock_ticker} does not have valid price")
-        return None
+        stock_info = stock.info
+        # Check if the market is currently open
+        current_price = stock_info.get("currentPrice", None)
+        previous_close = stock_info.get("regularMarketPreviousClose", None)
+
+        if current_price:
+            price = current_price
+        elif previous_close:
+            price = previous_close 
+        else:
+            print("Price data is unavailable.")
+    except Exception as e:
+        print(f"An error occurred when getting {stock_ticker} price: {e}")
 
     # Get the next earnings date
     try:
@@ -82,27 +94,27 @@ def get_put_options(stock_ticker):
         puts = options_chain.puts
 
         # Filter puts with strike prices 10-20% below current price
-        min_strike = current_price * low 
-        max_strike = current_price * high 
+        min_strike = price * low 
+        max_strike = price * high 
         filtered_puts = puts[(puts["strike"] >= min_strike) & (puts["strike"] <= max_strike)]
 
         for _, put in filtered_puts.iterrows():
             # Calculate the average of bid and ask prices
-            avg_price = (put["bid"] + put["ask"]) / 2
-            metric = (current_price - put["strike"]) * avg_price / (current_price * current_price)
+            put_price = (put["bid"] + put["ask"]) / 2
+            metric = (price - put["strike"]) * put_price / (price * price)
 
             # Calculate maximum contracts based on $10,000 exposure risk
             max_contracts = 10000 // (put["strike"] * 100) if put["strike"] > 0 else 0
-            profit = max_contracts * 100 * avg_price  # Potential profit from selling puts
+            profit = max_contracts * 100 * put_price  # Potential profit from selling puts
 
             option_data.append({
                 "Ticker": stock_ticker,
-                "Price": current_price,
+                "Price": price,
                 "Expiration": exp_date,
                 "StrikePrice": put["strike"],
                 "Bid": put["bid"],
                 "Ask": put["ask"],
-                "Avg": avg_price,
+                "Avg": put_price,
                 "Metric": metric,
                 "ContractsToSell": max_contracts,
                 "PotentialProfit": profit,
