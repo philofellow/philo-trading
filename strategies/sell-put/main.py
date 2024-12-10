@@ -7,6 +7,7 @@ import pandas as pd
 
 #data_file = "sp500.data"
 data_file = "russell2000.data"
+#data_file = "custom.data"
 topn = 100
 low = 0.8
 high = 0.93
@@ -145,9 +146,12 @@ def main():
 
     for stock_ticker in top_stocks:
         time.sleep(5)  # Delay to avoid rate limiting
-        option_data = get_put_options(stock_ticker)
-        if option_data is not None and not option_data.empty:
-            all_options_data.append(option_data)
+        try:
+          option_data = get_put_options(stock_ticker)
+          if option_data is not None and not option_data.empty:
+              all_options_data.append(option_data)
+        except Exception as e:
+          print(f"An error occurred when getting put option data for {stock_ticker}: {e}")
 
     # Concatenate all dataframes into one for easy viewing
     final_df = pd.concat(all_options_data, ignore_index=True)
