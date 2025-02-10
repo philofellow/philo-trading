@@ -6,11 +6,12 @@ import pandas as pd
 # usage: python main.py > res
 
 #data_file = "sp500.data"
-data_file = "russell2000.data"
+#data_file = "russell2000.data"
+data_file = "russell3000.data"
 #data_file = "custom.data"
-topn = 100
-low = 0.8
-high = 0.93
+topn = 200
+low = 0.7
+high = 0.95
 
 # Step 1: Get stock list from local data file
 def parse_data(datafile):
@@ -18,6 +19,7 @@ def parse_data(datafile):
     symbols = []
     for line in f:
         line = line.strip()
+        print(line)
         if line[0] == '#':
             continue
         s = line.split()[0].strip()
@@ -85,8 +87,8 @@ def get_put_options(stock_ticker):
         print(f"\n{stock_ticker} does not have valid earnings date")
         earnings_date = "N/A"
 
-    # Filter options that expire in 1 week and 2 weeks from now
-    exp_dates = stock.options[:2]  # Assumes options expiration dates are sorted chronologically
+    # Filter options that expire in 1 to 4 weeks from now
+    exp_dates = stock.options[:4]  # Assumes options expiration dates are sorted chronologically
     if len(exp_dates) < 2:
         return None  # Skip if there aren't enough expiration dates
 
