@@ -29,38 +29,27 @@ def parse_data(datafile):
     return symbols
         
 # Step 2: Calculate the weekly volatility for each stock
-def calculate_weekly_volatility(stock_symbols, topn, batch_size=300):
+def calculate_weekly_volatility(stock_symbols, topn):
+    print(f"START")
     volatility_data = []
-    
-    # Split stock symbols into batches
-    for i in range(0, len(stock_symbols), batch_size):
-        batch = stock_symbols[i:i + batch_size]
-        print(f"Fetching data for batch {i // batch_size + 1} ({len(batch)} stocks)...")
+    i = 1
+    for symbol in stock_symbols:
+        print(f"processing {i} stock {symbol}")
+        i += 1
+        time.sleep(2)
+        stock = yf.Ticker(symbol)
+        hist = stock.history(period="5d")  # Fetching past week data
 
-        time.sleep(30)  # Sleep for 5 seconds between requests
-        # Download historical data for all symbols in the batch
-        hist = yf.download(batch, period="5d", group_by="ticker", progress=False)
+        if len(hist) < 2:
+            continue  # Skip stocks with insufficient data
 
-        for symbol in batch:
-            print(f"Processing stock {symbol}...")
+        # Calculate daily returns and weekly volatility
+        daily_returns = hist['Close'].pct_change().dropna()
+        volatility = daily_returns.std()  # Standard deviation as a measure of volatility
+        print(f"daily returns {daily_returns}")
+        print(f"volatility {volatility}")
 
-            # Handle cases where data is missing
-            if symbol not in hist or hist[symbol].empty:
-                print(f"Skipping {symbol}: No data found.")
-                continue  
-
-            stock_hist = hist[symbol]
-
-            if len(stock_hist) < 2:
-                print(f"Skipping {symbol}: Insufficient data.")
-                continue  
-
-            # Calculate daily returns and volatility
-            daily_returns = stock_hist['Close'].pct_change().dropna()
-            volatility = daily_returns.std()  # Standard deviation as volatility
-            
-            print(f"Volatility for {symbol}: {volatility}")
-            volatility_data.append((symbol, volatility))
+        volatility_data.append((symbol, volatility))
 
     # Convert to DataFrame and sort by volatility
     vol_df = pd.DataFrame(volatility_data, columns=["Ticker", "Volatility"]).sort_values(by="Volatility", ascending=False)
@@ -68,7 +57,7 @@ def calculate_weekly_volatility(stock_symbols, topn, batch_size=300):
 
     print(f"\nTop {topn} Most Volatile Stocks (Past Week):")
     print(topn_stocks)
-
+    
     return topn_stocks["Ticker"].tolist()
 
 # Step 3: Get the price of the put options for the selected stocks
