@@ -95,7 +95,8 @@ def get_put_options(stock_ticker):
 
     # Get the next earnings date
     try:
-        earnings_date = stock.earnings_dates.index[3].strftime("%Y%m%d") if len(stock.earnings_dates) >= 4 else "N/A"
+       #  earnings_date = stock.earnings_dates.index[3].strftime("%Y%m%d") if len(stock.earnings_dates) >= 4 else "N/A"
+       earnings_date = stock.calendar['Earnings Date'][0])
     except (KeyError, TypeError):
         print(f"\n{stock_ticker} does not have valid earnings date")
         earnings_date = "N/A"
