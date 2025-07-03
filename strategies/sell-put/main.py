@@ -135,7 +135,6 @@ def get_put_options(stock_ticker):
                 "Ask": put["ask"],
                 "Avg": put_price,
                 "Metric": metric,
-                "ContractsToSell": max_contracts,
                 "PotentialProfit": profit,
                 "EarningsDate": earnings_date
             })
@@ -172,14 +171,12 @@ def main():
     # Concatenate all dataframes into one for easy viewing
     final_df = pd.concat(all_options_data, ignore_index=True)
     final_df['Rank'] = final_df['Metric'].apply(get_stars)
-
     final_df['Price'] = final_df['Price'].round(2)
     final_df['StrikePrice'] = final_df['StrikePrice'].round(2)
     final_df['Bid'] = final_df['Bid'].round(2)
     final_df['Ask'] = final_df['Ask'].round(2)
     final_df['Avg'] = final_df['Avg'].round(3)
     final_df['Metric'] = final_df['Metric'].round(4)
-    final_df['ContractsToSell'] = final_df['ContractsToSell'].round(0).astype(int)
     final_df['PotentialProfit'] = final_df['PotentialProfit'].round(2)
 
     print("\nOption Data with Computed Metric:")
