@@ -29,7 +29,7 @@ def parse_financial_number(s):
     s = s.strip().replace("$", "").replace(",", "").upper()
     if not s:
         raise ValueError("Empty string")
-    
+
     multiplier = 1.0
     if s.endswith("T"):
         multiplier = 1e12
@@ -43,7 +43,7 @@ def parse_financial_number(s):
     elif s.endswith("K"):
         multiplier = 1e3
         s = s[:-1]
-        
+
     return float(s) * multiplier
 
 def get_user_float(prompt_text, default=None, is_percent=False):
@@ -52,12 +52,12 @@ def get_user_float(prompt_text, default=None, is_percent=False):
             default_str = f" [{default:.2f}%]" if is_percent else f" [{format_currency(default)}]"
         else:
             default_str = ""
-            
+
         user_in = input(f"{Color.CYAN}{prompt_text}{default_str}: {Color.RESET}").strip()
-        
+
         if not user_in and default is not None:
             return (float(default) / 100.0) if is_percent else float(default)
-            
+
         try:
             if is_percent:
                 val = float(user_in.replace("%", "").replace(",", ""))
@@ -90,7 +90,7 @@ def main():
 
     print(f"\n{Color.YELLOW}Fetching financial data from Yahoo Finance for {symbol}...{Color.RESET}")
     ticker = yf.Ticker(symbol)
-    
+
     try:
         info = ticker.info
     except Exception as e:
@@ -101,7 +101,59 @@ def main():
     total_cash = info.get('totalCash') or 0.0
     total_debt = info.get('totalDebt') or 0.0
     shares_outstanding = info.get('sharesOutstanding') or 0.0
-    fcf_baseline = info.get('freeCashflow') or 0.0
+
+    # =========================================================
+    # Calculate TTM Free Cash Flow from latest 4 quarters
+    # =========================================================
+
+    try:
+        quarterly_cf = ticker.quarterly_cashflow
+
+        if quarterly_cf.empty:
+            raise ValueError("Quarterly cash-flow statement is empty.")
+
+        # Newest quarters first
+        quarterly_cf = quarterly_cf.sort_index(axis=1, ascending=False)
+
+        ocf_row = "Operating Cash Flow"
+        capex_row = "Capital Expenditure"
+
+        if ocf_row not in quarterly_cf.index:
+            raise ValueError(
+                f"Could not find '{ocf_row}' in Yahoo cash-flow data."
+            )
+
+        if capex_row not in quarterly_cf.index:
+            raise ValueError(
+                f"Could not find '{capex_row}' in Yahoo cash-flow data."
+            )
+
+        # Latest 4 quarters
+        latest_quarters = quarterly_cf.columns[:4]
+
+        if len(latest_quarters) < 4:
+            raise ValueError(
+                f"Yahoo only returned {len(latest_quarters)} quarters; "
+                "4 quarters are required for TTM FCF."
+            )
+
+        ocf_values = quarterly_cf.loc[ocf_row, latest_quarters]
+        capex_values = quarterly_cf.loc[capex_row, latest_quarters]
+
+        ttm_ocf = ocf_values.sum()
+        ttm_capex = capex_values.sum()
+
+        # Yahoo reports CapEx as a negative cash outflow.
+        # Therefore FCF = OCF + CapEx.
+        fcf_baseline = ttm_ocf + ttm_capex
+
+    except Exception as e:
+        print(
+            f"{Color.RED}"
+            f"Error calculating TTM FCF: {e}"
+            f"{Color.RESET}"
+        )
+        sys.exit(1)
 
     if not current_price or not shares_outstanding:
         print(f"{Color.RED}Could not retrieve essential price or share data for '{symbol}'. Verify symbol.{Color.RESET}")
@@ -109,14 +161,56 @@ def main():
 
     print(f"\n{Color.BOLD}{Color.GREEN}--- Yahoo Finance Data Retrieved ---{Color.RESET}")
     print(f" Current Share Price : {Color.BOLD}${current_price:,.2f}{Color.RESET}")
-    print(f" Baseline FCF (TTM)  : {format_currency(fcf_baseline)}")
+    print(f" TTM Operating CF    : {format_currency(ttm_ocf)}")
+    print(f" TTM Capital Expend. : {format_currency(ttm_capex)}")
+    print(f" TTM Free Cash Flow  : {format_currency(fcf_baseline)}")
     print(f" Total Cash          : {format_currency(total_cash)}")
     print(f" Total Debt          : {format_currency(total_debt)}")
     print(f" Shares Outstanding  : {shares_outstanding:,.0f}")
     print(f"{Color.GREEN}------------------------------------{Color.RESET}\n")
 
+    # =========================================================
+    # Show the four quarterly FCF calculations
+    # =========================================================
+
+    print(f"{Color.BOLD}{Color.GREEN}--- TTM Free Cash Flow Calculation ---{Color.RESET}")
+
+    print(
+        f"{'Quarter':<18} | "
+        f"{'Operating CF':<18} | "
+        f"{'CapEx':<18} | "
+        f"{'FCF':<18}"
+    )
+
+    print("-" * 78)
+
+    for quarter in latest_quarters:
+        quarter_ocf = float(ocf_values[quarter])
+        quarter_capex = float(capex_values[quarter])
+        quarter_fcf = quarter_ocf + quarter_capex
+
+        print(
+            f"{str(quarter):<18} | "
+            f"{format_currency(quarter_ocf):<18} | "
+            f"{format_currency(quarter_capex):<18} | "
+            f"{format_currency(quarter_fcf):<18}"
+        )
+
+    print("-" * 78)
+
+    print(
+        f"{Color.BOLD}"
+        f"TTM Free Cash Flow: "
+        f"{Color.YELLOW}{format_currency(fcf_baseline)}"
+        f"{Color.RESET}\n"
+    )
+
+    # =========================================================
+    # DCF Assumptions
+    # =========================================================
+
     print(f"{Color.BOLD}{Color.MAGENTA}--- Input DCF Assumptions (Shorthand allowed, e.g., 123M, 1.5B) ---{Color.RESET}")
-    
+
     base_fcf = get_user_float("Starting Free Cash Flow ($)", default=fcf_baseline)
     years = get_user_int("Projection Horizon (Years)", default=5)
     growth_rate = get_user_float("Annual Growth Rate for Next X Years (%)", default=10.0, is_percent=True)
@@ -182,6 +276,7 @@ def main():
         print(f" Status                       : {Color.GREEN}{Color.BOLD}UNDERVALUED{Color.RESET}")
     else:
         print(f" Status                       : {Color.RED}{Color.BOLD}OVERVALUED{Color.RESET}")
+
     print(f"{Color.MAGENTA}============================================{Color.RESET}\n")
 
 
